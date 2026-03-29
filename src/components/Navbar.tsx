@@ -9,10 +9,10 @@ const navLinks = [
   { label: "Project Showcase", href: "/projects" },
   { label: "Publications", href: "/publications" },
   { label: "Lab Locations", href: "/locations" },
+  { label: "Contact", href: "/contact" },
   { label: "Gallery", href: "/gallery" },
   { label: "People", href: "/people" },
   { label: "Partner Organizations", href: "/partners" },
-  { label: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {
@@ -55,12 +55,6 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/apply"
-              className="ml-2 px-4 py-2 text-sm font-semibold text-white bg-gradient-to-r from-purple-600 to-violet-700 rounded-md hover:from-purple-500 hover:to-violet-600 transition-all duration-150 shadow-md shadow-purple-700/30"
-            >
-              Apply
-            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -91,13 +85,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/apply"
-            onClick={() => setMenuOpen(false)}
-            className="block mt-2 px-3 py-2 text-sm font-semibold text-center text-white bg-gradient-to-r from-purple-600 to-violet-700 rounded-md"
-          >
-            Apply
-          </Link>
         </div>
       )}
     </header>
