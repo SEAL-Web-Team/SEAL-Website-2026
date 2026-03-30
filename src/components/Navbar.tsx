@@ -13,6 +13,7 @@ const navLinks = [
   { label: "Gallery", href: "/gallery" },
   { label: "People", href: "/people" },
   { label: "Partner Organizations", href: "/partners" },
+  { label: "Apply", href: "/apply" },
 ];
 
 export default function Navbar() {
