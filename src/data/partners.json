@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Industrial Assessment Center",
+    "description": "The University of Washington's Industrial Assessment Center is comprised of experienced UW faculty, staff, and students — one of 28 universities nationwide involved in the IAC program. The team offers free energy and waste assessments to qualifying facilities in Washington state, providing feedback and recommendations on both environmental and economic aspects. Companies benefit from increased savings and energy efficiency, while students become the next generation of energy-savvy engineers.",
+    "image": "https://lamarr.ece.uw.edu/energy/iac/images/news-4.JPG",
+    "website": "https://lamarr.ece.uw.edu/energy/iac/index.html"
+  },
+  {
+    "name": "Novosselov Research Group",
+    "description": "The Novosselov Research Group (NRG) conducts basic and applied research in fluid dynamics and energy. Their multidisciplinary work spans sampling and analysis of particulate matter, particle surface interaction in the boundary layer, ionized flow near surfaces, combustion aerosol synthesis and deposition, model-based combustion control, and chemical kinetics in supercritical water reactors. NRG's research is united by applying first principles to solve practical problems in aerosol science and energy conversion.",
+    "image": "https://www.engr.washington.edu/files/about/bldgs/imgs/nanoresearch_510.jpg",
+    "website": "https://depts.washington.edu/nrglab/"
+  }
+]
