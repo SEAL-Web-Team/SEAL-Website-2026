@@ -13,15 +13,17 @@ export default function PartnersPage() {
           {partners.map((p) => (
             <div
               key={p.name}
-              className="group relative flex flex-col rounded-2xl bg-white/[0.03] border border-white/[0.06] hover:border-white/[0.12] hover:bg-white/[0.05] transition-all duration-200 overflow-hidden"
+              className="group relative flex flex-col rounded-2xl bg-white/[0.03] border border-white/[0.06] transition-all duration-200 overflow-hidden"
             >
               {p.image && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={p.image}
-                  alt={p.name}
-                  className="w-full h-52 object-cover opacity-70 group-hover:opacity-90 transition-opacity duration-200"
-                />
+                <div className="overflow-hidden h-52">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={p.image}
+                    alt={p.name}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
               )}
               <div className="flex flex-col flex-1 p-8">
                 <h2 className="text-white text-xl font-semibold mb-4">{p.name}</h2>
