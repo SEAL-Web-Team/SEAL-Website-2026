@@ -6,7 +6,6 @@ export default function PartnersPage() {
       <div className="max-w-6xl mx-auto">
 
         <div className="mb-16">
-          <p className="text-sm uppercase tracking-widest text-purple-400 mb-4">Collaborations</p>
           <h1 className="text-5xl font-bold text-white">Partner Organizations</h1>
         </div>
 
