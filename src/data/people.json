@@ -1,5 +1,5 @@
 [
-  { "name": "Alexander Mamishev",       "image": "https://avatars.slack-edge.com/2016-09-13/79321426352_182972ad4e5224cc32ba_512.jpg",     "roles": ["7.1. SEAL Clan Lead", "8.1. Lab Director"] },
+  { "name": "Alexander Mamishev",       "image": "https://avatars.slack-edge.com/2016-09-13/79321426352_182972ad4e5224cc32ba_512.jpg",     "roles": ["8.1. Lab Director"] },
   { "name": "Aaron Zielinski",          "image": "https://avatars.slack-edge.com/2021-05-27/2098139575143_4632af59f22a575ac271_512.png",    "roles": ["7.1. Biz/Tech Group Lead", "8.1. Lab Exec Lead"] },
   { "name": "Max Stafford",             "image": "https://avatars.slack-edge.com/2022-12-13/4512629762418_e14dd42f6fc3f1cf193a_512.png",    "roles": ["1.1. ITAC Group Lead", "7.3. Lab Improvement Team Lead", "1.9. Startup Team Member"] },
   { "name": "Konner Franklin",          "image": "https://avatars.slack-edge.com/2024-04-15/6955190453446_3c3192c27a912b7d89e0_512.jpg",    "roles": ["1.2. Ohm Assessment Team Lead", "1.6. ITAC Team Member"] },
