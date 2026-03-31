@@ -85,7 +85,7 @@ export default function HomePage() {
 
         <div className="relative text-center px-6 max-w-4xl w-full">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/UW.svg" alt="University of Washington" className="h-15 mx-auto mb-6 brightness-0 invert" />
+          <img src="/UW.svg" alt="University of Washington" className="h-20 mx-auto mb-6 brightness-0 invert" />
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-[1.05] tracking-tight mb-6">
             Sensors, Energy, and<br className="hidden sm:block" /> Automation Laboratory
           </h1>
