@@ -1,0 +1,68 @@
+{
+  "mapImage": "https://www.uwseal.org/wp-content/uploads/2024/04/uwsealmapfinal-1024x704.jpeg",
+  "locations": [
+    {
+      "name": "SEAL Underground",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc1.png",
+      "description": "Specialized for advanced chemical and electronics work, equipped with chemical hoods and soldering stations.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Shared Commons",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc2.png",
+      "description": "Serves as a dynamic space for group meetings and breakouts, with the capability to accommodate larger gatherings in an adjacent atrium.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Main Office",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc3.png",
+      "description": "Designed for small group meetings and administrative activities, facilitating collaboration and organizational tasks.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Electronics",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc4.png",
+      "description": "Dedicated to electronics projects, featuring specialized equipment for the embedded team's innovative research and development.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Offices",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc5.png",
+      "description": "Offers a quiet office environment for students to engage in scholarly work, research, and collaboration.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Robotics Lab",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc6.png",
+      "description": "Equipped for student projects and soldering, supporting undergraduate and graduate research in robotics and related fields.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Nano",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc7.png",
+      "description": "Designed for benchtop experiments and collaborative research, focusing on nanotechnology and joint ventures with the NRG.",
+      "link": null,
+      "linkLabel": null
+    },
+    {
+      "name": "SEAL Avionics",
+      "image": "https://www.uwseal.org/wp-content/uploads/2023/11/fuzz_tunnel.jpeg",
+      "description": "Features a wind tunnel and essential equipment for avionics research, pushing the boundaries of aerospace engineering.",
+      "link": "https://www.dropbox.com/s/b7tmv4k7bzf1unf/UW%20SEAL%20Wind%20Tunnel%20One%20Pager.pdf?e=2&dl=0",
+      "linkLabel": "Wind Tunnel"
+    },
+    {
+      "name": "Sister Lab — NRG MEB",
+      "image": "https://www.uwseal.org/wp-content/uploads/2024/04/sealloc9.png",
+      "description": "Specializes in polyfluoroalkyl substances (PFAS) destruction research, promoting environmental sustainability and interdisciplinary collaboration.",
+      "link": "https://www.aa.washington.edu/AERL/KWT",
+      "linkLabel": "NRG Lab"
+    }
+  ]
+}
