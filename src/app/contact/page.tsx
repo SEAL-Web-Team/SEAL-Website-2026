@@ -5,13 +5,13 @@ export default function ContactPage() {
 
         <div className="mb-20">
           <h1 className="text-5xl font-bold text-white">Contact</h1>
+          <p className="text-slate-400 text-lg mt-4">Reach out to the lab director or send mail to our campus address.</p>
         </div>
 
         <div className="grid lg:grid-cols-[2fr_1fr] gap-6">
 
           {/* Director card */}
-          <div className="relative rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden flex">
-            <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-purple-500 to-transparent z-10" />
+          <div className="rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden flex">
             <div className="w-72 aspect-square shrink-0 overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -22,11 +22,11 @@ export default function ContactPage() {
             </div>
             <div className="flex flex-col gap-6 p-7 w-full">
               <div>
-                <p className="text-sm uppercase tracking-widest text-purple-400 mb-3">Lab Director</p>
+                <p className="text-sm uppercase tracking-widest text-slate-500 mb-3">Lab Director</p>
                 <p className="text-white text-3xl font-semibold leading-tight">Alexander Mamishev</p>
-                <p className="text-slate-300 text-lg mt-3">
-                  University of Washington Department of Electrical &amp; Computer Engineering                  
-                  </p>
+                <p className="text-slate-400 text-lg mt-3">
+                  University of Washington Department of Electrical &amp; Computer Engineering
+                </p>
               </div>
               <div>
                 {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -36,9 +36,8 @@ export default function ContactPage() {
           </div>
 
           {/* Address card */}
-          <div className="relative rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden p-7">
-            <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-sky-400 to-transparent" />
-            <p className="text-sm uppercase tracking-widest text-sky-400 mb-3">Mailing Address</p>
+          <div className="rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden p-7">
+            <p className="text-sm uppercase tracking-widest text-slate-500 mb-3">Mailing Address</p>
             <p className="text-white text-3xl font-semibold leading-tight">University of Washington</p>
             <address className="not-italic text-slate-300 text-lg leading-9 mt-3">
               185 Stevens Way<br />

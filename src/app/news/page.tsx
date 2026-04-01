@@ -20,9 +20,7 @@ function Modal({ item, onClose }: { item: NewsItem; onClose: () => void }) {
         className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-2xl bg-[#0e0a14] border border-white/[0.08] shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-purple-500 to-transparent z-10 rounded-t-2xl" />
-
-        {/* Close button — floating top-right corner */}
+        {/* Close button */}
         <button
           onClick={onClose}
           className="absolute top-4 right-4 z-20 text-slate-400 hover:text-white bg-black/40 hover:bg-black/60 border border-white/10 rounded-full w-8 h-8 flex items-center justify-center transition-all text-base leading-none"
@@ -39,7 +37,7 @@ function Modal({ item, onClose }: { item: NewsItem; onClose: () => void }) {
         )}
 
         <div className="p-8">
-          <p className="text-xs uppercase tracking-widest text-purple-400 mb-2">{item.date}</p>
+          <p className="text-xs uppercase tracking-widest text-slate-500 mb-2">{item.date}</p>
           <h2 className="text-white text-2xl font-semibold leading-snug mb-2">{item.title}</h2>
           {item.people.length > 0 && (
             <p className="text-sm text-slate-400 mb-6">{item.people.join(", ")}</p>
@@ -81,6 +79,7 @@ export default function NewsPage() {
 
         <div className="mb-16">
           <h1 className="text-5xl font-bold text-white">News &amp; Awards</h1>
+          <p className="text-slate-400 text-lg mt-4">Latest highlights, recognitions, and milestones from the SEAL Lab community.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -88,10 +87,8 @@ export default function NewsPage() {
             <button
               key={item.id}
               onClick={() => setSelected(item)}
-              className="group relative rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden flex flex-col text-left hover:border-white/[0.12] hover:bg-white/[0.05] transition-all duration-200 cursor-pointer"
+              className="group rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden flex flex-col text-left hover:border-white/[0.12] hover:bg-white/[0.05] transition-all duration-200 cursor-pointer"
             >
-              <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-purple-500 to-transparent z-10" />
-
               {/* Fixed-height image box */}
               <div className="h-48 bg-black/20 flex items-center justify-center shrink-0">
                 {item.image ? (
@@ -104,7 +101,7 @@ export default function NewsPage() {
 
               {/* Card content */}
               <div className="flex flex-col flex-1 p-6">
-                <p className="text-xs uppercase tracking-widest text-purple-400 mb-2 shrink-0">{item.date}</p>
+                <p className="text-xs uppercase tracking-widest text-slate-500 mb-2 shrink-0">{item.date}</p>
                 <h2 className="text-white text-sm font-semibold leading-snug mb-3 line-clamp-3 flex-1">
                   {item.title}
                 </h2>

@@ -8,7 +8,7 @@ export default function LocationsPage() {
         <div className="mb-16">
           <h1 className="text-5xl font-bold text-white">Lab Locations</h1>
           <p className="text-slate-400 text-lg mt-4">
-            SEAL Lab operates across multiple dedicated spaces in the University of Washington campus, each tailored to specific research needs.
+            SEAL Lab operates across multiple dedicated spaces on the University of Washington campus, each tailored to specific research needs.
           </p>
         </div>
 

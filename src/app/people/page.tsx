@@ -17,13 +17,13 @@ const ROLE_TEAM: Record<string, string> = {
 const TEAM_ORDER = ["Lab Exec", "ITAC", "Embedded", "Plasma", "Sudoku", "Teaching", "Biz/Tech"];
 
 const TEAM_COLORS: Record<string, { label: string; bar: string }> = {
-  "Lab Exec":  { label: "text-purple-400",  bar: "bg-purple-400" },
-  "ITAC":      { label: "text-amber-400",   bar: "bg-amber-400" },
-  "Embedded":  { label: "text-cyan-400",    bar: "bg-cyan-400" },
-  "Plasma":    { label: "text-violet-400",  bar: "bg-violet-400" },
-  "Sudoku":    { label: "text-pink-400",    bar: "bg-pink-400" },
-  "Teaching":  { label: "text-sky-400",     bar: "bg-sky-400" },
-  "Biz/Tech":  { label: "text-emerald-400", bar: "bg-emerald-400" },
+  "Lab Exec":  { label: "text-slate-400", bar: "bg-white/20" },
+  "ITAC":      { label: "text-slate-400", bar: "bg-white/20" },
+  "Embedded":  { label: "text-slate-400", bar: "bg-white/20" },
+  "Plasma":    { label: "text-slate-400", bar: "bg-white/20" },
+  "Sudoku":    { label: "text-slate-400", bar: "bg-white/20" },
+  "Teaching":  { label: "text-slate-400", bar: "bg-white/20" },
+  "Biz/Tech":  { label: "text-slate-400", bar: "bg-white/20" },
 };
 
 function roleToTeam(role: string): string | null {
@@ -103,6 +103,7 @@ export default function PeoplePage() {
 
         <div className="mb-20">
           <h1 className="text-5xl font-bold text-white">People</h1>
+          <p className="text-slate-400 text-lg mt-4">The researchers, engineers, and students driving SEAL Lab forward.</p>
         </div>
 
         {/* ── Lab Leadership ── */}
