@@ -1,0 +1,266 @@
+[
+  {
+    "id": 9859,
+    "title": "UW ITAC Students Earn PNW BTAC Certificates of Achievement",
+    "date": "February 2026",
+    "image": "https://www.uwseal.org/wp-content/uploads/2026/02/BTAC-Certificates.png",
+    "people": ["Konner Franklin", "Paul Chen", "Dante Breuder", "Riley Wicklander"],
+    "body": "The University of Washington Industrial Training and Assessment Center (UW-ITAC) is proud to announce that four of its students — Konner Franklin, Paul Chen, Dante Breuder, and Riley Wicklander — have been awarded Certificates of Achievement from the Pacific Northwest Building Training and Assessment Center (PNW BTAC) for their exceptional participation in the program.\n\nThe PNW BTAC, funded by the U.S. Department of Energy through the Bipartisan Infrastructure Law, aims to train the next generation of students in best practices for building performance and energy efficiency in commercial and institutional buildings, particularly in traditionally underserved communities. The PNW BTAC is led by the University of Washington Integrated Design Lab (UW IDL) and the University of Washington Industrial Training & Assessment Center (UW ITAC), with core training partners including South Seattle College's Sustainable Building Science Technology Program and Northwest Indian College's Physics and Engineering Program. The center leverages partnerships with Pacific Northwest National Laboratory (PNNL), Washington State Department of Commerce, and the City of Seattle Office of Sustainability and Environment, and provides services to Washington, Oregon, and California.\n\nThe UW-ITAC has a strong track record of training students in energy assessment work. Established in 2007 under the direction of Alexander Mamishev, the UW-ITAC provides free energy, productivity, and waste assessments to small and medium-sized industrial facilities through funding provided by the U.S. Department of Energy. Since its founding, the center has trained 83 students, conducted 127 assessments, and delivered over 608 recommendations resulting in an estimated $24.47 million in cost savings and 1.24 Tbtu in energy savings for manufacturers across the Pacific Northwest.\n\nCongratulations to Konner, Paul, Dante, and Riley for this well-deserved recognition of their dedication to building energy efficiency and workforce development in the Pacific Northwest.",
+    "links": [
+      { "label": "PNW BTAC", "url": "https://idl.be.uw.edu/pacific-northwest-building-training-and-assessment-center-btac/" },
+      { "label": "UW-ITAC", "url": "https://itac.university/center/university-of-washington" }
+    ]
+  },
+  {
+    "id": 9857,
+    "title": "International Union of Radio Science National Radio Science Meeting (USNC-URSI) 2026",
+    "date": "January 2026",
+    "image": "https://www.uwseal.org/wp-content/uploads/2026/01/IMG_3023.jpg",
+    "people": ["Xueyicheng Xu", "Zheng Liu", "Mingcheng Yang", "Taniish Agarwal", "Maxwell Mamishev", "Harris Nakajima", "Max Stafford", "Gokul Nathan", "Sep Makhsous", "Alexander Mamishev"],
+    "body": "On January 9, 2025, the SEAL Ionosphere Research Team presented \"Influence of Meteor-Induced Ionospheric Disturbances on HF Radio Signal Propagation\" at the U.S. National Committee for the International Union of Radio Science (USNC-URSI) National Radio Science Meeting in Boulder, Colorado.\n\nThis annual meeting, hosted by USNC-URSI and held in Boulder almost every year since 1974, is widely regarded as a flagship forum for radio science, including ionospheric research and radio-wave propagation.\n\nThe presentation reported new findings on meteor/fireball-driven ionospheric disturbances and their measurable impact on the integrity of HF radio propagation, addressing a key reliability challenge for HF communications under transient geospace conditions.\n\nOur work introduced the world's first event-level, database-driven method for attributing propagation-integrity changes to individual transient ionospheric disturbances. Instead of relying on broad time-window correlations, the approach supports event-resolved attribution by linking discrete transient disturbances to observable propagation impacts.",
+    "links": []
+  },
+  {
+    "id": 9853,
+    "title": "Second Prize in Global IEEE Communications Society Student Competition 2025",
+    "date": "November 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2026/01/ComSoc-Student-Competition-2025-.png",
+    "people": ["Maxwell Mamishev", "Zheng Liu", "Xueyicheng Xu", "Harris Nakajima", "Max Stafford"],
+    "body": "We are proud to announce that our ionosphere sensing team has won Second Prize in the 2025 IEEE Communications Society (ComSoc) Student Competition, with the project: \"CommUnity: Real-Time Ionospheric Disturbance Detection for Communications Resilience.\"\n\nThis competition attracts student-led innovation from around the world, and our project was recognized with Second Prize among 148 submissions worldwide, representing a significant distinction in a highly competitive international field.\n\nCommUnity strengthens communications resilience by enabling real-time detection of ionospheric disturbances that can degrade or disrupt radio-frequency links and critical communications. The project advances practical monitoring and detection capabilities that support more robust communication systems under variable geospace conditions.\n\nWe congratulate the full project team on this outstanding achievement and on representing UW SEAL Lab on the global stage.",
+    "links": []
+  },
+  {
+    "id": 9855,
+    "title": "IEEE MIT Undergraduate Research Technology Conference (Cambridge, Massachusetts)",
+    "date": "October 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2026/01/Image_20260110081859_10_87.jpg",
+    "people": ["Maxwell Mamishev", "Zheng Liu"],
+    "body": "In October 2025, Maxwell Mamishev and Zheng Liu published and presented \"Nimbusort: Advanced Detection of Ionospheric Disturbances Using EM Signatures\" at the IEEE MIT Undergraduate Research Technology Conference, hosted at MIT in Cambridge, Massachusetts.\n\nThe IEEE MIT Undergraduate Research Technology Conference is an internationally renowned venue \"for undergraduates and by undergraduates,\" staffed by MIT students in collaboration with IEEE, and built around student technical presentations.\n\nThe ionosphere plays a decisive role in shaping radio-wave propagation and, by extension, the integrity of RF systems that depend on stable propagation paths. However, detecting transient ionospheric events in real operational environments remains difficult because event signatures can be short-lived, embedded in high-interference backgrounds, and frequently exhibit overlapping time-frequency characteristics across different sources, making reliable differentiation and attribution a persistent technical obstacle.\n\nOur paper introduces Nimbusort, a scalable framework for automatically differentiating ionospheric disturbance events using electromagnetic signatures. The work develops a family of short-time Fourier transform (STFT) spectrogram analysis algorithms and applies them to 24 TB of field data, enabling systematic comparisons of spectral morphology and temporal dynamics across multiple event types, including meteors/meteorites, Falcon rocket launches, and space debris re-entries. By establishing a structured baseline of discriminative features and a comprehensive feature table derived from observed signals, Nimbusort lays the groundwork for automated, data-driven ionospheric transient detection that can support both scientific interpretation and operational anomaly detection at scale.",
+    "links": []
+  },
+  {
+    "id": 9703,
+    "title": "Grainger Foundation Power Engineering Endowed Scholarship",
+    "date": "May 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/05/IMG_0969.jpg",
+    "people": ["Rhiannon Garnier"],
+    "body": "Rhiannon Garnier has been awarded the Grainger Foundation Power Engineering Scholarship for her interest and impact in the power engineering industry. She will use this scholarship to fund her studies in electrical engineering and continue to engage in projects that drive positive change in the energy sector.",
+    "links": []
+  },
+  {
+    "id": 9701,
+    "title": "2025 Florence DiStefano Hudson SWE Scholarship",
+    "date": "May 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/05/202505.jpg",
+    "people": ["Caitlin DeShazo-Couchot"],
+    "body": "Caitlin DeShazo-Couchot has been selected by the Society of Women Engineers to receive the Florence DiStefano Hudson scholarship for the 2025 academic year. Caitlin will use this scholarship to further her studies in electrical engineering in the upcoming year with a devotion to uplifting all perspectives, particularly womxn and nonbinary individuals, in research and academia.",
+    "links": []
+  },
+  {
+    "id": 9643,
+    "title": "2025 Foreign Language and Area Studies (FLAS) Fellowship",
+    "date": "March 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/03/Screenshot-2025-03-14-184736-4.png",
+    "people": ["Caitlin DeShazo-Couchot"],
+    "body": "Caitlin DeShazo-Couchot has been offered the Foreign Language and Area Studies (FLAS) Fellowship by the UW Canada Studies Center! They will use this fellowship to advance their knowledge of French and the Canada-U.S. relationship as it pertains to their graduate coursework.\n\nFLAS Fellowships support undergraduate, graduate and professional students in acquiring modern foreign languages and area or international studies competencies. The Canadian Studies Center is particularly interested in areas of study and research that have policy relevance for the Canada-U.S. relationship or that address Canada's role in the world. These include environmental management, urban planning, issues emerging in the Arctic region, Indigenous self-determination in Canada, civil engineering, human security and capacity, public health, and the promotion of nations within a nation.",
+    "links": []
+  },
+  {
+    "id": 9467,
+    "title": "SEAL to Host the AEE Student Chapter at UW",
+    "date": "January 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/01/unnamed.jpg",
+    "people": ["Max Stafford"],
+    "body": "The University of Washington's Sensors Energy Automation Laboratory is proud to announce its role as host for the newly established Association of Energy Engineers (AEE) Student Chapter at UW. Led by President Max Stafford, the chapter aims to provide a wealth of opportunities for students interested in energy efficiency and sustainable engineering.\n\nThe AEE Student Chapter will offer additional training programs, access to exclusive scholarships, and a platform for engaging seminars featuring industry professionals. Students will also have the chance to work on impactful projects that address real-world challenges in energy efficiency.\n\n\"Our mission is to equip students with the skills and resources needed to excel in the energy efficiency field,\" said Stafford. \"By fostering collaboration and hands-on learning, the chapter will help bridge the gap between academia and industry.\"\n\nOpen to students from diverse academic backgrounds, the chapter emphasizes preparing the next generation of energy professionals to tackle global energy challenges.",
+    "links": [
+      { "label": "AEE Chapter on Huskylink", "url": "https://huskylink.washington.edu/organization/aeeuw" }
+    ]
+  },
+  {
+    "id": 9605,
+    "title": "Runner-Up Awards at IEEE Rising Stars 2025 Conference",
+    "date": "January 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/03/Rising-Stars-20250105-DSC03823.jpg",
+    "people": ["Zheng Liu", "Nicklaus Thompson", "Maxwell Mamishev", "Daikun Wu"],
+    "body": "Congratulations to SEAL Lab Associate Zheng Liu, Nicklaus Thompson, Maxwell Mamishev, and Daikun Wu, who were honored with the Runner-Up Award in the Intermediate category at the IEEE Rising Stars 2025 Conference in Las Vegas, held from January 3–5.\n\nTheir project presentation and demonstration, titled \"Real-Time Fast Fourier Transform Applications in Ionospheric Detection,\" showcased a groundbreaking approach to signal processing that captured the attention of judges and attendees alike. By harnessing the power of real-time FFT algorithms, their research offers significant potential for improving the accuracy and speed of ionospheric measurements — critical for applications in telecommunications, satellite navigation, and atmospheric science.\n\nThis recognition highlights the innovative spirit of the SEAL Lab and reflects the team's commitment to advancing cutting-edge research.",
+    "links": []
+  },
+  {
+    "id": 9480,
+    "title": "UW Bothell School of Business MBA Scholarship",
+    "date": "January 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/02/Screenshot_103-1.png",
+    "people": ["Harris Nakajima"],
+    "body": "Harris Nakajima has been awarded the UW Bothell School of Business MBA Scholarship for Winter 2025 in recognition of academic excellence and financial need.\n\nThe scholarship is awarded to students who have demonstrated strong academic performance, a commitment to professional growth, and a clear vision for their future contributions to business and leadership. Through this support, Harris will continue to develop the knowledge and leadership skills necessary to drive impactful change in business and industry.",
+    "links": []
+  },
+  {
+    "id": 9471,
+    "title": "IEEE Rising Stars 2025 Conference",
+    "date": "January 2025",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/01/IMG362.jpg",
+    "people": ["Zheng Liu", "Nicklaus Thompson", "Maxwell Mamishev", "Daikun Wu"],
+    "body": "From January 3–5, SEAL Lab members Zheng Liu, Nicklaus Thompson, Maxwell Mamishev, and Daikun Wu participated in the IEEE Rising Stars 2025 Conference held in Las Vegas, Nevada. This prestigious event brings together young professionals and innovators in engineering and technology. Attendees included IEEE President & CEO Kathleen A. Kramer, former IEEE President Tom Coughlin, IEEE USA President Timothy Lee, and regional directors and industry leaders from across the globe.\n\nAt the conference, the team presented \"Real-Time Fast Fourier Transform Applications in Ionospheric Detection.\" The presentation introduced an innovative approach to real-time modeling of the ionospheric D-region using very low-frequency (VLF) sensing technology. This breakthrough aims to enable a cost-effective method for exploring the ionosphere, a region that remains challenging to study with existing technologies.\n\nThe event provided an invaluable platform to exchange ideas, learn from prominent industry leaders, and highlight the cutting-edge research conducted at SEAL Lab.",
+    "links": []
+  },
+  {
+    "id": 9603,
+    "title": "Buerk Center for Entrepreneurship",
+    "date": "December 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2025/03/T282LTWJC-U05FSJ0GD0Q-203fc4c26a6c-512.png",
+    "people": ["SEAL LLM Team"],
+    "body": "Sudoku and Embedded received $1,200 in funding from the Buerk Center for Entrepreneurship to compete in the Holloman Health Challenge. Their project, RadGuard, is an offline device equipped with a large language model. It is meant to assist the military and first responders while dealing with radioactive materials and situations involving radiation by giving analysis such as threat level and optimal routes to safety.\n\nAttached is an image of Steffan Bergens (lead engineer) and a prototype for the tablet that RadGuard will run on.",
+    "links": []
+  },
+  {
+    "id": 9246,
+    "title": "Presented Paper at Annual Conference of the IEEE Industrial Electronics Society (IECON)",
+    "date": "November 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/11/Screenshot_553.png",
+    "people": ["Harris Nakajima"],
+    "body": "Harris Nakajima attended the Annual Conference of the IEEE Industrial Electronics Society (IECON) for the paper \"Design and Fabrication of Wearable Sensors for the Measurement of Ammonia Concentration in Air.\"\n\nIn addition to his successful presentation, Harris was awarded the Graduate and Professional Student Senate (GPSS) Travel Grant, Clean Energy Institute Trainee Travel Grant, and ECE Student DEI Conference Travel Awards, allowing him to travel to Chicago at no cost.",
+    "links": []
+  },
+  {
+    "id": 9243,
+    "title": "IEEE-EMBS International Conference on Body Sensor Networks (IEEE BSN 2024)",
+    "date": "October 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/11/IMG.jpg",
+    "people": ["Zheng Liu", "Xueyicheng Xu", "Alexander Mamishev"],
+    "body": "From October 15–17, 2024, Zheng Liu, Xueyicheng Xu, and Prof. Alexander Mamishev participated as authors in the prestigious IEEE-EMBS International Conference on Body Sensor Networks (IEEE BSN 2024) held in Chicago, Illinois. Recognized as a premier event in digital health sensors and systems, IEEE BSN 2024 provided a cross-disciplinary platform that united experts and leaders from academia, industry, healthcare, and non-profit organizations.\n\nAt the conference, the team presented their paper \"Sensor Fusion for Non-Intrusive Adaptive Distancing of Visually Impaired Users.\" This work introduces an innovative motion obstacle avoidance system to assist visually impaired individuals in navigating their environment. By leveraging sensor fusion technology, the system enhances obstacle detection and helps prevent potential injuries more efficiently and conveniently.\n\nThe conference featured a highly selective single-track program, highlighting groundbreaking research on devices and sensors, hardware and software systems, predictive models, and data analytics for advancing healthcare and medical technology.",
+    "links": []
+  },
+  {
+    "id": 9318,
+    "title": "Industrial Training Assessment Center Lead Meeting",
+    "date": "September 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/LSM-2024-Group-Photo-1.jpg",
+    "people": ["Maxwell Stafford"],
+    "body": "On September 23rd and 24th, the University of Washington Industrial Training Assessment Center (UW ITAC) traveled to Nashville, Tennessee to attend the ITAC Center Lead Meeting at the Association of Energy Engineer's conference. The UW ITAC representatives were Maxwell Stafford and Nathan Holterhoff, the UW ITAC Center Leads.\n\nThis event was focused on creating and releasing additional resources for manufacturers to implement energy efficient projects within their own facilities. All of the ITAC Center Leads discussed the similarities and differences between each of the centers and how to optimize their individual program in terms of student opportunities and energy savings for manufacturers.\n\nImage: All of the ITAC Center Leads from across the USA.",
+    "links": []
+  },
+  {
+    "id": 9321,
+    "title": "IAC Leadership Participates in 2024 IAC Directors Meeting in San Diego",
+    "date": "September 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/meeting.jpg",
+    "people": ["Prof. Alexander Mamishev", "Prof. Rania Hussein"],
+    "body": "Many exciting changes to the program were announced.",
+    "links": [
+      { "label": "Interactive Photo", "url": "https://caes.rutgers.edu/blog-post/iac-directors-meeting-2024/" }
+    ]
+  },
+  {
+    "id": 9254,
+    "title": "Admission to Berkeley",
+    "date": "June 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/11/Screenshot-2024-11-18-213349.jpg",
+    "people": ["Cynthia Yu"],
+    "body": "Congratulations to Cynthia Yu, who got accepted to the graduate program at the School of Public Health at UC Berkeley!",
+    "links": []
+  },
+  {
+    "id": 9257,
+    "title": "Admission to Stanford University",
+    "date": "June 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/11/Screenshot-2024-11-18-213716.jpg",
+    "people": ["Archie Deng"],
+    "body": "Congratulations to our alumna Archie Deng, who is going to continue her graduate studies at Stanford University!",
+    "links": []
+  },
+  {
+    "id": 9339,
+    "title": "ASHRAE Puget Sound Chapter Scholarship Award Winner",
+    "date": "May 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/Max-Stafford-Headshot-300x300-1.jpg",
+    "people": ["Maxwell Stafford"],
+    "body": "Maxwell Stafford, Center Lead of the University of Washington Industrial Assessment Center, has received the 2024 ASHRAE Puget Sound Chapter Scholarship.\n\nThe scholarship was awarded to students who exemplified excellence across multiple facets — outstanding academic performance, thoughtful essay responses showcasing innovative ideas and a genuine passion for advancing the HVAC&R industry, and active involvement in ASHRAE demonstrating leadership and community dedication.\n\nMaxwell Stafford is dedicated to HVAC through his energy-saving recommendations with manufacturers as part of the Industrial Assessment Center. He has also worked to reinstate the University of Washington ASHRAE Student Chapter within the Mechanical Engineering Department.",
+    "links": [
+      { "label": "More information", "url": "https://pugetsoundashrae.org/2024-ashrae-puget-sound-chapter-scholarship-and-harry-clayton-sutch-scholarship-recipients/" }
+    ]
+  },
+  {
+    "id": 9330,
+    "title": "Husky Sustainability Award Winner",
+    "date": "May 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/maxstafford.jpg",
+    "people": ["Maxwell Stafford"],
+    "body": "The Husky Sustainability Awards recognize individuals and groups across all University of Washington campuses who lead the way for sustainability. This is the 15th year awards have been given by the UW Environmental Stewardship Committee.\n\nMax Stafford, the Center Lead for the University of Washington Industrial Assessment Center, received the Husky Sustainability Award for 2024. As a lead, he has been managing and mentoring a team of 20 undergraduate associates in conducting detailed energy assessments. These assessments yield significant financial and environmental benefits for local industries, while providing research and certificates to students who participate.",
+    "links": [
+      { "label": "More information", "url": "https://sustainability.uw.edu/awards/2023" }
+    ]
+  },
+  {
+    "id": 9324,
+    "title": "Graduate and Professional Student Senate & Clean Energy Institute Travel Grant",
+    "date": "March 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/121duddddd.png",
+    "people": ["Harris Nakajima"],
+    "body": "Harris Nakajima participated in the International Conference on Latest Advancements in Economics, Engineering, and Medical Sciences (EEMS) and International Conference on Renewable Energy and Electrical Systems (ICREES) in March of 2024 to present his papers \"Design and Optimization of Wearable Sensors for the Measurement of Ammonia Concentration in Air\" and \"Gamification of Research Experience in a Large Academic Laboratory.\"\n\nIn order to partake in these travels, Harris was awarded two travel grants from the University of Washington — one from the GPSS and another from the CEI — to help cover the costs of travel and registration.",
+    "links": []
+  },
+  {
+    "id": 9354,
+    "title": "Stemilt Growers Scholarship",
+    "date": "March 2024",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/image_480.png",
+    "people": ["Nathan Holterhoff"],
+    "body": "Nathan Holterhoff was awarded the Stemilt Growers Scholarship through the Washington Apple Education Foundation to continue his education at the University of Washington. WAEF scholarships are sponsored by the tree fruit industry through fundraisers, memorial scholarships, and annual donations totaling over $1 million. Nathan and his family have a long history in the fruit industry and this scholarship serves as recognition for their work.",
+    "links": [
+      { "label": "Washington Apple Education Foundation", "url": "https://waef.org/" }
+    ]
+  },
+  {
+    "id": 9333,
+    "title": "Husky Sustainability Awards",
+    "date": "May 2023",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/alexander_mamishev-1.jpg",
+    "people": ["Alexander Mamishev"],
+    "body": "The Husky Sustainability Awards recognize individuals and groups across all University of Washington campuses who lead the way for sustainability. This is the 15th year awards have been given by the UW Environmental Stewardship Committee.\n\nThe awards are given to students, faculty, and staff from the Seattle, Bothell, and Tacoma campuses who show impact, initiative, leadership, and dedication around sustainability.",
+    "links": [
+      { "label": "More information", "url": "https://sustainability.uw.edu/awards/2023" }
+    ]
+  },
+  {
+    "id": 9336,
+    "title": "Husky Sustainability Awards",
+    "date": "May 2023",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/Screenshot_111.png",
+    "people": ["Harris Nakajima"],
+    "body": "Harris Nakajima was one of the first students to join the newly reestablished UW Industrial Assessment Center (UW IAC) in 2022. As part of the center, he has shown a deep commitment to sustainability. The UW IAC offers energy and waste assessments to manufacturers in Washington state. Nakajima has led more than 20 assessments, identifying energy-saving and waste reduction opportunities. He has also served as a mentor to new students joining the center, helped foster a culture of sustainability within the center, and led outreach efforts to identify eligible facilities for the assessment program.\n\nThe Husky Sustainability Awards recognize individuals and groups across all University of Washington campuses who lead the way for sustainability.",
+    "links": [
+      { "label": "More information", "url": "https://sustainability.uw.edu/awards/2023" }
+    ]
+  },
+  {
+    "id": 9342,
+    "title": "Mary Gates Research Scholarship",
+    "date": "October 2022",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/T282LTWJC-U02QM194NTB-22d6a25e1f31-512.jpeg",
+    "people": ["Stefhany Alves"],
+    "body": "The Mary Gates Research Scholarship is a UW scholarship for undergraduate students involved in research in various disciplines, offered twice a year. Stefhany was awarded the scholarship for her project, \"Project Stoma,\" the development of \"a medical app for stoma patients to get a precise fit for their wafers and to have better care.\"\n\n\"I applied for the scholarship and wrote an essay about why I think my research related to my field of study and how I intend to continue to work on it throughout the year. When you apply, you must say which quarter you want the scholarship applied to. And you have to commit to presenting at the Research symposium and take at least one credit during Summer Quarter.\"",
+    "links": []
+  },
+  {
+    "id": 9345,
+    "title": "NCWIT Award for Aspirations in Computing — National Honorable Mention & Regional Affiliate Award Winner",
+    "date": "February 2022",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/risha.jpeg",
+    "people": ["Risha Jhangiani"],
+    "body": "Each year, the National Center for Women & Information Technology (NCWIT) recognizes students and educators for their accomplishments and goals in computing and technology. The Award for Aspirations in Computing honors 9th–12th grade women, genderqueer, or non-binary students for their computing-related achievements and interests, and encourages them to pursue their passions, granting various prizes including scholarships and internship opportunities.",
+    "links": [
+      { "label": "NCWIT Award for Aspirations in Computing", "url": "https://www.aspirations.org/award-programs/apply-for-the-award-for-aic" }
+    ]
+  },
+  {
+    "id": 9348,
+    "title": "OSAP James A. Cottone Award for Excellence in Investigative Research",
+    "date": "July 2021",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/12/Headshot-e1492313291243-2.jpg",
+    "people": ["Sep Makhsous"],
+    "body": "The Organization for Safety, Asepsis and Prevention (OSAP) is a dental membership association solely focused on dental infection prevention and patient safety education and training. Sep was awarded the 2021 Dr. James A. Cottone Award for Excellence in Investigative Research for his abstract: \"Evaluating Aerosol Persistence During Dental Procedures Using a Real-Time Network of Sensors.\"",
+    "links": [
+      { "label": "More information", "url": "https://www.myads.org/index.php?option=com_content&view=article&id=332%3Aosap-announces-recipient-of-2021-james-a--cottone-award&catid=23%3Apress-releases&Itemid=150" }
+    ]
+  }
+]
