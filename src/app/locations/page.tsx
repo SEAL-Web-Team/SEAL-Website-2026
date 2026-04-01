@@ -2,23 +2,23 @@ import data from "@/data/locations.json";
 
 export default function LocationsPage() {
   return (
-    <div className="min-h-screen pt-40 pb-28 px-8">
-      <div className="max-w-5xl mx-auto">
+    <div className="page-shell">
+      <div className="page-container">
 
-        <div className="mb-16">
-          <h1 className="text-5xl font-bold text-white">Lab Locations</h1>
-          <p className="text-slate-400 text-lg mt-4">
+        <div className="page-header">
+          <h1 className="page-title">Lab Locations</h1>
+          <p className="page-subtitle">
             SEAL Lab operates across multiple dedicated spaces on the University of Washington campus, each tailored to specific research needs.
           </p>
         </div>
 
         {/* Campus Map */}
-        <div className="mb-20 rounded-2xl overflow-hidden border border-white/[0.06] bg-black/20">
+        <div className="surface-card mb-20 overflow-hidden">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={data.mapImage}
             alt="SEAL Lab campus map"
-            className="w-full object-contain"
+            className="w-full object-contain bg-black/20"
           />
         </div>
 
@@ -27,10 +27,10 @@ export default function LocationsPage() {
           {data.locations.map((loc) => (
             <div
               key={loc.name}
-              className="rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden flex flex-col"
+              className="surface-card surface-card-hover overflow-hidden flex flex-col"
             >
               {/* Image */}
-              <div className="h-48 bg-black/20 flex items-center justify-center shrink-0">
+              <div className="media-frame h-48 shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={loc.image}
@@ -46,7 +46,7 @@ export default function LocationsPage() {
                 <h2 className="text-white font-semibold text-base leading-snug mb-3">
                   {loc.name}
                 </h2>
-                <p className="text-slate-400 text-sm leading-relaxed flex-1">
+                <p className="text-slate-300 text-sm leading-relaxed flex-1">
                   {loc.description}
                 </p>
                 {loc.link && (
@@ -54,9 +54,10 @@ export default function LocationsPage() {
                     href={loc.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-5 self-start text-xs font-medium text-slate-400 hover:text-white border border-white/10 hover:border-white/30 px-3 py-1.5 rounded-lg transition-all"
+                    className="action-chip mt-5 self-start text-xs"
                   >
-                    {loc.linkLabel} →
+                    <span>{loc.linkLabel}</span>
+                    <span aria-hidden="true">→</span>
                   </a>
                 )}
               </div>

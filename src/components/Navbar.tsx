@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const navLinks = [
@@ -19,6 +20,7 @@ const navLinks = [
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
@@ -51,7 +53,11 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm text-slate-300 hover:text-purple-300 hover:bg-white/5 rounded-md transition-all duration-150 whitespace-nowrap"
+                className={`px-3 py-2 text-sm rounded-md transition-all duration-150 whitespace-nowrap ${
+                  pathname === link.href
+                    ? "text-white bg-white/8"
+                    : "text-slate-300 hover:text-white hover:bg-white/5"
+                }`}
               >
                 {link.label}
               </Link>
@@ -81,7 +87,11 @@ export default function Navbar() {
               key={link.href}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="block px-3 py-2 text-sm text-slate-300 hover:text-purple-300 hover:bg-white/5 rounded-md transition-colors"
+              className={`block px-3 py-2 text-sm rounded-md transition-colors ${
+                pathname === link.href
+                  ? "text-white bg-white/8"
+                  : "text-slate-300 hover:text-white hover:bg-white/5"
+              }`}
             >
               {link.label}
             </Link>

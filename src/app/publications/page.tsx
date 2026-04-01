@@ -145,12 +145,12 @@ export default function PublicationsPage() {
     : conference;
 
   return (
-    <div className="min-h-screen pt-40 pb-28 px-8">
-      <div className="max-w-4xl mx-auto">
+    <div className="page-shell">
+      <div className="page-container-tight">
 
-        <div className="mb-12">
-          <h1 className="text-5xl font-bold text-white">Publications</h1>
-          <p className="text-slate-400 text-lg mt-4">
+        <div className="page-header">
+          <h1 className="page-title">Publications</h1>
+          <p className="page-subtitle">
             Peer-reviewed journal articles and conference papers from SEAL Lab research spanning sensors, electrostatics, power systems, and more.
           </p>
         </div>

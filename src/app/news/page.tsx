@@ -74,12 +74,12 @@ export default function NewsPage() {
   const [selected, setSelected] = useState<NewsItem | null>(null);
 
   return (
-    <div className="min-h-screen pt-40 pb-28 px-8">
-      <div className="max-w-6xl mx-auto">
+    <div className="page-shell">
+      <div className="page-container">
 
-        <div className="mb-16">
-          <h1 className="text-5xl font-bold text-white">News &amp; Awards</h1>
-          <p className="text-slate-400 text-lg mt-4">Latest highlights, recognitions, and milestones from the SEAL Lab community.</p>
+        <div className="page-header">
+          <h1 className="page-title">News &amp; Awards</h1>
+          <p className="page-subtitle">Latest highlights, recognitions, and milestones from the SEAL Lab community.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -87,10 +87,10 @@ export default function NewsPage() {
             <button
               key={item.id}
               onClick={() => setSelected(item)}
-              className="group rounded-2xl bg-white/[0.03] border border-white/[0.06] overflow-hidden flex flex-col text-left hover:border-white/[0.12] hover:bg-white/[0.05] transition-all duration-200 cursor-pointer"
+              className="surface-card surface-card-hover group overflow-hidden flex flex-col text-left cursor-pointer"
             >
               {/* Fixed-height image box */}
-              <div className="h-48 bg-black/20 flex items-center justify-center shrink-0">
+              <div className="media-frame h-48 shrink-0">
                 {item.image ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img src={item.image} alt={item.title} className="w-full h-full object-contain" />
@@ -106,10 +106,11 @@ export default function NewsPage() {
                   {item.title}
                 </h2>
                 {item.people.length > 0 && (
-                  <p className="text-xs text-slate-400 line-clamp-1 mb-4 shrink-0">{item.people.join(", ")}</p>
+                  <p className="text-xs text-slate-500 line-clamp-1 mb-4 shrink-0">{item.people.join(", ")}</p>
                 )}
-                <span className="mt-auto self-start text-xs font-semibold text-slate-400 group-hover:text-white border border-white/10 group-hover:border-white/30 px-3 py-1.5 rounded-lg transition-all shrink-0">
-                  View More →
+                <span className="action-chip mt-auto self-start text-xs shrink-0">
+                  <span>View more</span>
+                  <span aria-hidden="true">→</span>
                 </span>
               </div>
             </button>

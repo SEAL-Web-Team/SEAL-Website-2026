@@ -60,9 +60,8 @@ function bestRankForTeam(person: Person, team: string): number {
   return Math.min(...rolesForTeam(person, team).map(roleRank));
 }
 
-function PersonCard({ person, team, large = false }: {
+function PersonCard({ person, large = false }: {
   person: Person;
-  team: string;
   large?: boolean;
 }) {
   const titles = person.roles
@@ -71,7 +70,7 @@ function PersonCard({ person, team, large = false }: {
 
   return (
     <div className="group flex flex-col">
-      <div className={`relative w-full overflow-hidden ${large ? "rounded-2xl" : "rounded-xl"} bg-white/[0.04] mb-4`}>
+      <div className={`surface-card relative w-full overflow-hidden ${large ? "rounded-2xl" : "rounded-xl"} mb-4`}>
         <div className="aspect-square">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -82,7 +81,7 @@ function PersonCard({ person, team, large = false }: {
         </div>
       </div>
       <p className={`text-white font-semibold leading-snug mb-1 ${large ? "text-xl" : "text-base"}`}>{person.name}</p>
-      <p className={`text-slate-400 leading-snug ${large ? "text-base" : "text-sm"}`}>{titles}</p>
+      <p className={`text-slate-300 leading-snug ${large ? "text-base" : "text-sm"}`}>{titles}</p>
     </div>
   );
 }
@@ -98,12 +97,12 @@ export default function PeoplePage() {
   const [leadership, ...teams] = grouped;
 
   return (
-    <div className="min-h-screen pt-40 pb-28 px-8">
-      <div className="max-w-6xl mx-auto">
+    <div className="page-shell">
+      <div className="page-container">
 
-        <div className="mb-20">
-          <h1 className="text-5xl font-bold text-white">People</h1>
-          <p className="text-slate-400 text-lg mt-4">The researchers, engineers, and students driving SEAL Lab forward.</p>
+        <div className="page-header">
+          <h1 className="page-title">People</h1>
+          <p className="page-subtitle">The researchers, engineers, and students driving SEAL Lab forward.</p>
         </div>
 
         {/* ── Lab Leadership ── */}
@@ -114,7 +113,7 @@ export default function PeoplePage() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {leadership.members.map((p) => (
-              <PersonCard key={p.name} person={p} team="Lab Exec" large />
+              <PersonCard key={p.name} person={p} large />
             ))}
           </div>
         </div>
@@ -131,7 +130,7 @@ export default function PeoplePage() {
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
                   {members.map((p) => (
-                    <PersonCard key={p.name} person={p} team={team} />
+                    <PersonCard key={p.name} person={p} />
                   ))}
                 </div>
               </div>
