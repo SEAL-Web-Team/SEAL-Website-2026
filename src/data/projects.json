@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Aerospec",
+    "description": "A mesh sensor network capable of simultaneously monitoring air quality across multiple locations, offering a solution to air quality control in hospitals, production sites, or fire-affected areas.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/11/aerospec.jpg",
+    "url": "https://www.uwseal.org/aerospec/"
+  },
+  {
+    "name": "Ionosphere Detection",
+    "description": "The Sphere Very-Low-Frequency (VLF) Antenna System project develops a globally deployable, high-performance VLF antenna system to monitor and analyze signals from meteors, rocket launches, lightning, and weather-related events.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/11/ionosphere.png",
+    "url": "https://www.uwseal.org/ionosphere-detection/"
+  },
+  {
+    "name": "Industrial Training and Assessment Center",
+    "description": "The ITAC sub-team generates findings to improve facilities' energy consumption and productivity through hands-on industrial energy assessments.",
+    "image": "https://lamarr.ece.uw.edu/energy/iac/images/news-4.JPG",
+    "url": "https://lamarr.ece.uw.edu/energy/iac/index.html"
+  },
+  {
+    "name": "Pacific Northwest Building Training and Assessment Center",
+    "description": "PNW BTAC trains students in best practices for building performance and energy efficiency in commercial and institutional buildings, particularly in traditionally underserved communities.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2024/01/BTAC.png",
+    "url": "https://www.uwseal.org/pnw-btac/"
+  },
+  {
+    "name": "SINEW Mask",
+    "description": "The Surface Ionization Non-contact Extended Wear (SINEW) Mask offers a dynamic solution with its ergonomic design and use of efficient electrohydrodynamic (EHD)-based filtration.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2023/12/Group-4.png",
+    "url": "https://www.uwseal.org/sinew-mask/"
+  },
+  {
+    "name": "Air Leaks",
+    "description": "Automates the detection of leaks in pressurized air and gas systems using ultrasonic vibration sensors, reducing energy waste and maintenance costs for industrial facilities.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2023/12/air_leaks.png",
+    "url": "https://www.uwseal.org/air-leaks/"
+  },
+  {
+    "name": "WEGO",
+    "description": "A Microsoft Office Word ribbon tool for technical writing that enables writers to easily insert figures and equations into their Word documents with precision and speed.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2023/11/wego_logo.png",
+    "url": "https://www.uwseal.org/wego/"
+  },
+  {
+    "name": "ECoS",
+    "description": "A technical writing tool that helps writers with document collaboration and learning the complex expectations of professional and academic writing.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2023/12/Group-3-1.png",
+    "url": "https://www.uwseal.org/ecos/"
+  },
+  {
+    "name": "Fruit Ripeness",
+    "description": "A sensor that measures fruit skin impedance to determine ripeness, providing farmers and distributors with actionable data to optimize food handling, reduce waste, and lower operating costs.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2023/12/fruit_ripeness_2-scaled.jpeg",
+    "url": "https://www.uwseal.org/fruit-ripeness/"
+  },
+  {
+    "name": "Ammonia",
+    "description": "Focuses on ammonia concentration monitoring by developing single-walled carbon nanotube (SWCNT) sensors — a low-cost alternative offering approximately ten times the sensitivity and accuracy of commercial products.",
+    "image": "https://www.uwseal.org/wp-content/uploads/2023/11/ammonia.png",
+    "url": "https://www.uwseal.org/ammonia/"
+  }
+]
