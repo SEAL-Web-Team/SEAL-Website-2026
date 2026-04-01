@@ -1,0 +1,752 @@
+{
+  "journal": [
+    {
+      "authors": "Ravi Sankar Vaddi, Yifei Guan, Alexander Mamishev, Igor Novosselov",
+      "title": "Analytical Model For Electrohydrodynamic Thrust",
+      "venue": "Proceedings A, Royal Society",
+      "url": "https://royalsocietypublishing.org/doi/full/10.1098/rspa.2020.0220",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/04/JP_AnalyticalModelForElectrohydrodynamicThrust_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_AnalyticalModelForElectrohydrodynamicThrust_EndNote.rtf"
+    },
+    {
+      "authors": "S. Makhsous, M. Bharadwaj, B.E. Atkinson, I.V. Novosselov, A.V. Mamishev",
+      "title": "DietSensor: Automatic Dietary Intake Measurement Using Mobile 3D Scanning Sensor for Diabetic Patients",
+      "venue": "Sensors Journal, Volume 20, No. 12",
+      "url": "https://www.mdpi.com/1424-8220/20/12/3380",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietsensorAutomaticDietaryIntakeMeasurementUsingMobile3DScanningSensorForDiabeticPatients_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietsensorAutomaticDietaryIntakeMeasurementUsingMobile3DScanningSensorForDiabeticPatients_EndNote.rtf"
+    },
+    {
+      "authors": "S. Makhsous, H. M. Mohammad, J. M. Schenk, A. V. Mamishev, A. R. Kristal",
+      "title": "A Novel Mobile Structured Light System in Food 3D Reconstruction and Volume Estimation",
+      "venue": "Sensors, vol. 19, no. 3, p. 564, 2019",
+      "url": "https://www.mdpi.com/1424-8220/19/3/564",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ANovelMobileStructuredLightSystemInFood3DReconstructionAndVolumeEstimation_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ANovelMobileStructuredLightSystemInFood3DReconstructionAndVolumeEstimation_EndNote.rtf"
+    },
+    {
+      "authors": "S. Makhsous, J. Gentsch, J. Rollins, Z. Feingold, A. Mamishev",
+      "title": "DietSkan: Food Volume Estimation for Dietary Intake Analysis Using 3D Mesh Scanning",
+      "venue": "International Journal of Engineering & Technology, vol. 7, no. 4.38, pp. 1368\u20131371, 2018",
+      "url": "https://www.researchgate.net/publication/334452565_DietSkan_Food_Volume_Estimation_for_Dietary_Intake_Analysis_Using_3D_Mesh_Scanning",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietSkanFoodVolumeEstimationForDietaryIntakeAnalysisUsing3DMeshScanning_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietSkanFoodVolumeEstimationForDietaryIntakeAnalysisUsing3DMeshScanning_EndNote.rtf"
+    },
+    {
+      "authors": "Tsrong-Yi Wen, Igor Krichtafovitch, Alexander V. Mamishev",
+      "title": "Reduction of Aerosol Particulates Through the Use of an Electrostatic Precipitator with Guidance-Plate-Covered Collecting Electrodes",
+      "venue": "Journal of Aerosol Science, Volume 79, January 2015, Pages 40\u201347",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021850214001517",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ReductionOfAerosolParticulatesThroughTheUseOfAnElectrostaticPrecipitatorWithGuidance-plate-coveredCollectingElectrodes_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ReductionOfAerosolParticulatesThroughTheUseOfAnElectrostaticPrecipitatorWithGuidance-plate-coveredCollectingElectrodes_EndNote.rtf"
+    },
+    {
+      "authors": "T. Y. Wen, H. C. Wang, I. Krichtafovitch, A. V. Mamishev",
+      "title": "Novel Electrodes of an Electrostatic Precipitator for Air Filtration",
+      "venue": "Journal of Electrostatics, vol. 73, pp. 117\u2013124, 2015",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0304388614001107",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_NovelElectrodesOfAnElectrostaticPrecipitatorForAirFiltration_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_NovelElectrodesOfAnElectrostaticPrecipitatorForAirFiltration_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, A. V. Mamishev",
+      "title": "Heat Transfer Correlation Models for Electrospray Evaporative Cooling Chambers of Different Geometry Types",
+      "venue": "Applied Thermal Engineering, Vol. 40, 2012, pp. 91\u2013101",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1359431112000907",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferCorrelationModelsForElectrosprayEvaporativeCoolingChambersOfDifferentGeometryTypes_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferCorrelationModelsForElectrosprayEvaporativeCoolingChambersOfDifferentGeometryTypes_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, A. V. Mamishev",
+      "title": "Optimization Methodology for Electrospray Evaporative Cooling Chambers",
+      "venue": "Journal of Electrostatics, Vol. 70, 2012, pp. 384\u2013392",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0304388612000502",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationMethodologyForElectrosprayEvaporativeCoolingChambers_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationMethodologyForElectrosprayEvaporativeCoolingChambers_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, A. V. Mamishev",
+      "title": "Design Methodology of the Micronozzle-Based Electrospray Evaporative Cooling Devices",
+      "venue": "Journal of Electronics Cooling and Thermal Control, Vol. 2, No. 2, 2012, pp. 17\u201331",
+      "url": "https://www.scirp.org/journal/paperinformation.aspx?paperid=19750",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignMethodologyOfTheMicronozzle-BasedElectrosprayEvaporativeCoolingDevices_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignMethodologyOfTheMicronozzle-BasedElectrosprayEvaporativeCoolingDevices_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, G. I. Rowe, A. Bestick, G. K. Klute, W. R. Ledoux, A. V. Mamishev",
+      "title": "Interfacial Stress Sensor for Biomechanical Applications",
+      "venue": "Measurement Science and Technology, IOP, vol. 23, no. 8, 2012",
+      "url": "https://iopscience.iop.org/article/10.1088/0957-0233/23/8/085701",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterfacialStressSensorForBiomechanicalApplications_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterfacialStressSensorForBiomechanicalApplications_EndNote.rtf"
+    },
+    {
+      "authors": "C. P. Hsu, N. E. Jewell-Larsen, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Microfabrication Methods for Electrostatic Fluid Accelerators",
+      "venue": "Journal of MEMS, Volume 18, Issue 1, Pages 111\u2013118, 2009",
+      "url": "https://www.nnin.org/sites/default/files/files/NNINreu06Fox.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MicrofabricationMethodsForElectrostaticFluidAccelerators_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MicrofabricationMethodsForElectrostaticFluidAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "C. P. Hsu, N. E. Jewell-Larsen, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Heat Transfer Enhancement Measurement for Microfabricated Electrostatic Fluid Accelerators",
+      "venue": "Journal of Microelectromechanical Systems, Vol. 18, Iss. 1, pg. 111\u2013118, 2009",
+      "url": "https://ieeexplore.ieee.org/document/4509362",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "N. E. Jewell-Larsen, C. P. Hsu, I. A. Krichtafovitch, S. W. Montgomery, J. T. Dibene II, A. V. Mamishev",
+      "title": "CFD Analysis of Electrostatic Fluid Accelerators for Forced Convection Cooling",
+      "venue": "IEEE Transactions on Dielectrics and Electrical Insulation, Volume 15, Issue 6, December 2008, pp. 1745\u20131753",
+      "url": "https://ieeexplore.ieee.org/document/4712680",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_CFDAnalysisOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_CFDAnalysisOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_EndNote.rtf"
+    },
+    {
+      "authors": "Mathur, K. Sundara-Rajan, G. Rowe, A. V. Mamishev",
+      "title": "Dielectric Spectroscopy: Choosing the Right Approach",
+      "venue": "American Pharmaceutical Journal, Vol. 9, no. 32, Sep. 2008, pp. 82\u201393",
+      "url": "https://www.pharmtech.com/view/dielectric-spectroscopy-choosing-right-approach",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DielectricSpectroscopyChoosingTheRightApproach_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DielectricSpectroscopyChoosingTheRightApproach_EndNote.rtf"
+    },
+    {
+      "authors": "Moises V. Ribeiro, Jacques Szczupak, M. Reza Iravani, Irene Y. H. Gu, P. K. Dash, Alexander V. Mamishev",
+      "title": "Emerging Signal Processing Techniques for Power Quality Applications",
+      "venue": "EURASIP Journal on Advances in Signal Processing, vol. 2007, Article ID 87425",
+      "url": "https://asp-eurasipjournals.springeropen.com/articles/10.1155/2007/87425",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EmergingSignalProcessingTechniquesForPowerQualityApplications_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EmergingSignalProcessingTechniquesForPowerQualityApplications_EndNote.rtf"
+    },
+    {
+      "authors": "G. K. Klute, G. I. Rowe, A. V. Mamishev, W. R. Ledoux",
+      "title": "The Thermal Conductivity of Prosthetic Sockets and Liners",
+      "venue": "Prosthetics and Orthotics International, vol. 31, Issue 3, September 2007, pp. 292\u2013299",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17979015/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_TheThermalConductivityOfProstheticSocketsAndLiners_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_TheThermalConductivityOfProstheticSocketsAndLiners_EndNote.rtf"
+    },
+    {
+      "authors": "C. P. Hsu, N. E. Jewell-Larsen, I. A. Krichtafovitch, S. W. Montgomery, J. T. Dibene II, A. V. Mamishev",
+      "title": "Miniaturization of Electrostatic Fluid Accelerators",
+      "venue": "Journal of Microelectromechanical Systems, vol. 16, no. 4, pp. 809\u2013815, Aug. 2007",
+      "url": "https://ieeexplore.ieee.org/iel5/84/4285629/04285636.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MiniaturizationOfElectrostaticFluidAccelerators_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MiniaturizationOfElectrostaticFluidAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "B. Jiang, J. R. Smith, M. Philipose, S. Roy, K. Sundara-Rajan, A. Mamishev",
+      "title": "Energy Scavenging for Inductively Coupled Passive RFID Systems",
+      "venue": "IEEE Transactions on Instrumentation and Measurements, vol. 56, no. 1, Jan. 2007, pp. 118\u2013125",
+      "url": "https://ieeexplore.ieee.org/abstract/document/1604285/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_EndNote.rtf"
+    },
+    {
+      "authors": "X. B. Li, G. I. Rowe, V. V. Inclan, A. V. Mamishev",
+      "title": "Non-Dimensionalized Parametric Modeling of Fringing Electric Field Sensors",
+      "venue": "IEEE Sensors Journal, vol. 6, no. 6, Dec. 2006, pp. 1602\u20131608",
+      "url": "https://ieeexplore.ieee.org/document/4014170",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-dimensionalizedParametricModelingOfFringingElectricFieldSensors_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-dimensionalizedParametricModelingOfFringingElectricFieldSensors_EndNote.rtf"
+    },
+    {
+      "authors": "N. E. Jewell-Larsen, E. Tran, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Design and Optimization of Electrostatic Fluid Accelerators",
+      "venue": "IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 13, No. 1, Feb. 2006, pp. 191\u2013203",
+      "url": "https://ieeexplore.ieee.org/document/1593417",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignAndOptimizationOfElectrostaticFluidAccelerators_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignAndOptimizationOfElectrostaticFluidAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "X. B. Li, S. Larson, A. Zyuzin, A. V. Mamishev",
+      "title": "Design Principles for Multi-Channel Fringing Electric Field Sensors",
+      "venue": "IEEE Sensors Journal, Vol. 6, No. 2, April 2006, pp. 434\u2013440",
+      "url": "https://ieeexplore.ieee.org/document/1608087",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignPrinciplesForMulti-ChannelFringingElectricFieldSensors_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignPrinciplesForMulti-ChannelFringingElectricFieldSensors_EndNote.rtf"
+    },
+    {
+      "authors": "M. Philipose, J. R. Smith, J. Bing, A. Mamishev, S. Roy, K. Sundara-Rajan",
+      "title": "Battery-Free Wireless Identification and Sensing",
+      "venue": "IEEE Pervasive Computing, vol. 4, no. 1, pp. 37\u201345, 2005",
+      "url": "https://ieeexplore.ieee.org/document/1401841",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_Battery-FreeWirelessIdentificationAndSensing_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_Battery-FreeWirelessIdentificationAndSensing_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, L. Byrd, A. V. Mamishev",
+      "title": "Estimation of Moisture Content in Paper Pulp Containing Titanium Dioxide Using Fringing Field Impedance Spectroscopy",
+      "venue": "TAPPI Journal, vol. 4, no. 2, Feb. 2005, pp. 23\u201327",
+      "url": "https://www.researchgate.net/publication/3431209_Moisture_Content_Estimation_in_Paper_Pulp_Using_Fringing_Field_Impedance_Spectroscopy",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf"
+    },
+    {
+      "authors": "M. Hegg, A. Ogale, A. Mescher, A. V. Mamishev, B. Minaie",
+      "title": "Remote Monitoring of Resin Transfer Molding Processes by Distributed Dielectric Sensors",
+      "venue": "Journal of Composite Materials, vol. 39, no. 17, June 2005, pp. 1519\u20131539",
+      "url": "https://journals.sagepub.com/doi/10.1177/0021998305051083",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_RemoteMonitoringOfResinTransferMoldingProcessesByDistributedDielectricSensors_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_RemoteMonitoringOfResinTransferMoldingProcessesByDistributedDielectricSensors_EndNote.rtf"
+    },
+    {
+      "authors": "B. Jiang, A. V. Mamishev",
+      "title": "Robotic Monitoring of Power Systems",
+      "venue": "IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 912\u2013918",
+      "url": "https://labs.ece.uw.edu/seal/pubfiles/2004912918.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_RoboticMonitoringOfPowerSystems_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_RoboticMonitoringOfPowerSystems_EndNote.rtf"
+    },
+    {
+      "authors": "M. Wang, G. I. Rowe, A. V. Mamishev",
+      "title": "Classification of Power Quality Events Using Optimal Time-Frequency Representations \u2014 Part 2: Application",
+      "venue": "IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1496\u20131503",
+      "url": "https://ieeexplore.ieee.org/document/1308385",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart2Application_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart2Application_EndNote.rtf"
+    },
+    {
+      "authors": "M. Wang, A. V. Mamishev",
+      "title": "Classification of Power Quality Events Using Optimal Time-Frequency Representations \u2014 Part 1: Theory",
+      "venue": "IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1488\u20131495",
+      "url": "http://ieeexplore.ieee.org/iel5/61/29033/01308384.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart1Theory_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart1Theory_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, K. Sundara-Rajan, F. Yang, Y. Du, M. Zahn",
+      "title": "Interdigital Sensors and Transducers",
+      "venue": "Proceedings of the IEEE, vol. 92, no. 5, 2004, pp. 808\u2013845 (invited paper)",
+      "url": "https://ieeexplore.ieee.org/document/1288505",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterdigitalSensorsAndTransducers_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterdigitalSensorsAndTransducers_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, L. Byrd, A. V. Mamishev",
+      "title": "Moisture Measurement in Paper Pulp Using Fringing Field Dielectrometry",
+      "venue": "IEEE Sensors Journal, vol. 4, no. 3, 2004, pp. 378\u2013383",
+      "url": "https://labs.ece.uw.edu/seal/pubfiles/1999341344.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureMeasurementInPaperPulpUsingFringingFieldDielectrometry_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureMeasurementInPaperPulpUsingFringingFieldDielectrometry_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, S. R. Cantrell, Y. Du, B. C. Lesieutre, M. Zahn",
+      "title": "Uncertainty in Multiple Penetration Depth Fringing Electric Field Sensor Measurements",
+      "venue": "IEEE Transactions on Instrumentation and Measurements, Vol. 51, No. 6, Dec 2002, pp. 1192\u20131199",
+      "url": "https://ieeexplore.ieee.org/document/1177910",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_UncertaintyInMultiplePenetrationDepthFringingElectricFieldSensorMeasurements_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_UncertaintyInMultiplePenetrationDepthFringingElectricFieldSensorMeasurements_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, A. R. Takahashi, Y. Du, B. C. Lesieutre, M. Zahn",
+      "title": "Parameter Estimation in Dielectrometry Measurements",
+      "venue": "Journal of Electrostatics, vol. 56, 2002, pp. 465\u2013492",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304388602000682",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ParameterEstimationInDielectrometryMeasurements_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ParameterEstimationInDielectrometryMeasurements_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, Y. Du, J. H. Bau, B. C. Lesieutre, M. Zahn",
+      "title": "Evaluation of Diffusion-Driven Material Property Profiles Using Three-Wavelength Interdigital Sensor",
+      "venue": "IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 8, No. 5, Oct. 2001, pp. 785\u2013798",
+      "url": "http://ieeexplore.ieee.org/document/959702/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfDiffusionDrivenMaterialPropertyProfilesUsingThreeWavelengthInterdigitalSensor_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfDiffusionDrivenMaterialPropertyProfilesUsingThreeWavelengthInterdigitalSensor_EndNote.rtf"
+    },
+    {
+      "authors": "Y. Du, A. V. Mamishev, B. C. Lesieutre, M. Zahn, S. H. Kang",
+      "title": "Moisture Solubility for Differently Conditioned Transformer Oils",
+      "venue": "IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 8, No. 5, October 2001, pp. 805\u2013811",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureSolubilityForDifferentlyConditionedTransformerOils_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureSolubilityForDifferentlyConditionedTransformerOils_EndNote.rtf"
+    },
+    {
+      "authors": "B. C. Lesieutre, A. V. Mamishev, Y. Du, E. Keskiner, M. Zahn, G. C. Verghese",
+      "title": "Forward and Inverse Parameter Estimation Algorithms of Interdigital Dielectrometry Sensors",
+      "venue": "IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 8, No. 4, August 2001, pp. 577\u2013588",
+      "url": "https://ieeexplore.ieee.org/document/946710/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ForwardAndInverseParameterEstimationAlgorithmsOfInterdigitalDielectrometrySensors_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_ForwardAndInverseParameterEstimationAlgorithmsOfInterdigitalDielectrometrySensors_EndNote.rtf"
+    },
+    {
+      "authors": "Y. Du, M. Zahn, B. C. Lesieutre, A. V. Mamishev, S. Lindgren",
+      "title": "Moisture Equilibrium in the Paper-Oil System",
+      "venue": "IEEE Electrical Insulation Magazine, Vol. 15, No. 1, January/February 1999, pp. 11\u201320",
+      "url": "https://ieeexplore.ieee.org/document/744585",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureEquilibriumInThePaperOilSystem_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureEquilibriumInThePaperOilSystem_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, Y. Du, B. C. Lesieutre, M. Zahn",
+      "title": "Development and Application of Fringing Electric Field Dielectrometry Sensors and Parameter Estimation Algorithms",
+      "venue": "Journal of Electrostatics, vol. 46, 1999, pp. 109\u2013123",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0304388699000066",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DevelopmentAndApplicationOfFringingElectricFieldDielectrometrySensorsAndParameterEstimationAlgorithms_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_DevelopmentAndApplicationOfFringingElectricFieldDielectrometrySensorsAndParameterEstimationAlgorithms_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, B. C. Lesieutre, M. Zahn",
+      "title": "Optimization of Multi-Wavelength Interdigital Dielectrometry Instrumentation and Algorithms",
+      "venue": "IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 5, No. 3, June 1998, pp. 408\u2013420 (invited paper)",
+      "url": "https://ieeexplore.ieee.org/document/689431",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationOfMultiWavelengthInterdigitalDielectrometryInstrumentationAndAlgorithms_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationOfMultiWavelengthInterdigitalDielectrometryInstrumentationAndAlgorithms_EndNote.rtf"
+    },
+    {
+      "authors": "S. X. Short, A. V. Mamishev, T. W. Kao, B. D. Russell",
+      "title": "Evaluation of Methods for Discrimination of Energized Underground Power Cables",
+      "venue": "Electric Power Systems Research Journal, Vol. 37, No. 1, 1996, pp. 29\u201338",
+      "url": "https://www.sciencedirect.com/science/article/pii/0378779696010413",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfMethodsForDiscriminationOfEnergizedUndergroundPowerCables_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfMethodsForDiscriminationOfEnergizedUndergroundPowerCables_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, S. X. Short, T. W. Kao, B. D. Russell",
+      "title": "Non-Intrusive Sensing Techniques for the Discrimination of Energized Electric Cables",
+      "venue": "IEEE Transactions on Instrumentation and Measurements, Vol. 45, No. 2, 1996, pp. 457\u2013461",
+      "url": "https://ieeexplore.ieee.org/document/515358",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-intrusiveSensingTechniquesForTheDiscriminationOfEnergizedElectricCables_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-intrusiveSensingTechniquesForTheDiscriminationOfEnergizedElectricCables_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, B. D. Russell, C. L. Benner",
+      "title": "Analysis of High Impedance Faults Using Fractal Techniques",
+      "venue": "IEEE Transactions on Power Systems, Vol. 11, No. 1, 1996, pp. 435\u2013440",
+      "url": "https://ieeexplore.ieee.org/document/486130",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_AnalysisOfHighImpedanceFaultsUsingFractalTechniques_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/JP_AnalysisOfHighImpedanceFaultsUsingFractalTechniques_EndNote.rtf"
+    }
+  ],
+  "conference": [
+    {
+      "authors": "S. Makhsous, A. Zielinski, A. V. Mamishev",
+      "title": "Post-Operative Stoma Management Based on 3D Image Reconstruction and Pattern Recognition",
+      "venue": "FSDM, vol. 309, pp. 794\u2013801, 2018",
+      "url": "https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-927-0-794",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Post-OperativeStomaManagementBasedOn3DImageReconstructionAndPatternRecognition_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Post-OperativeStomaManagementBasedOn3DImageReconstructionAndPatternRecognition_EndNote.rtf"
+    },
+    {
+      "authors": "I. A. Krichtafovitch, Tsrong-Yi Wen, A. V. Mamishev",
+      "title": "Design of an Electronic Air Cleaner with Porous Collecting Electrodes",
+      "venue": "Electrostatics Society of America Conference, Coco Beach, FL, June 2013",
+      "url": "http://electrostatics.org/images/ESA2013_C5_Krichtafovitch_et_al.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfAnElectronicAirCleanerWithPorousCollectingElectrodes_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfAnElectronicAirCleanerWithPorousCollectingElectrodes_EndNote.rtf"
+    },
+    {
+      "authors": "Tsrong-Yi Wen, Tsan-Ting Shen, Hsiu-Che Wang, Alexander V. Mamishev",
+      "title": "Optimization of Wire-Rod Electrostatic Accelerators",
+      "venue": "ECTC, Electronics Components and Technology Conference, Las Vegas, NV, May 2013",
+      "url": "https://ieeexplore.ieee.org/document/6575578",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimizationOfWire-RodElectrostaticAccelerators_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimizationOfWire-RodElectrostaticAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "Junqing Shang, Eric Pepin, Eric Johnson, David Hazel, Ankur Teredesai, Alan Kristal, Alexander Mamishev",
+      "title": "Dietary Intake Assessment using Integrated Sensors and Software",
+      "venue": "IS&T/SPIE Electronic Imaging 2012",
+      "url": "https://ui.adsabs.harvard.edu/abs/2012SPIE.8304E..03S/abstract",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DietaryIntakeAssessmentUsingIntegratedSensorsAndSoftware_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DietaryIntakeAssessmentUsingIntegratedSensorsAndSoftware_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, V. Inclan, A. Zyuzin, N. Donnangelo, A. Mamishev",
+      "title": "Material Property Measurement of Granular Materials Using a Calibrated Dielectric Spectroscopy System",
+      "venue": "2011 CEIDP Conference, Cancun, Mexico",
+      "url": "https://ieeexplore.ieee.org/document/6232651",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MaterialPropertyMeasurementOfGranularMaterialsUsingACalibratedDielectricSpectroscopySystem_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MaterialPropertyMeasurementOfGranularMaterialsUsingACalibratedDielectricSpectroscopySystem_EndNote.rtf"
+    },
+    {
+      "authors": "Junqing Shang, Michael Duong, Eric Pepin, Xing Zhang, Kishore Sandara-Rajan, Alan Kristal, Alexander Mamishev",
+      "title": "A Mobile Structured Light System for Food Volume Estimation",
+      "venue": "International Workshop on Mobile Vision, ICCV 2011, November 2011",
+      "url": "https://ieeexplore.ieee.org/document/6130229",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AMobileStructuredLightSystemForFoodVolumeEstimation_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AMobileStructuredLightSystemForFoodVolumeEstimation_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, A. V. Mamishev",
+      "title": "Methodology for Estimation of Heat Transfer in Multi-Jet Electrospray Evaporative Coolers",
+      "venue": "2nd ISNPEDADM Conference, Noumea, New Caledonia, 2011",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MethodologyForEstimationOfHeatTransferInMulti-JetElectrosprayEvaporativeCoolers_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MethodologyForEstimationOfHeatTransferInMulti-JetElectrosprayEvaporativeCoolers_EndNote.rtf"
+    },
+    {
+      "authors": "E. Pepin, Y. Dvorkin, A. Mamishev, G. Kychyakoff",
+      "title": "Improved Efficiency of Energy-Intensive Processes through Control of Build-Up on Critical Heat-Transfer Surfaces",
+      "venue": "ACEEE Summer Study on Energy Efficiency in Industry, Niagara Falls, NY, 2011",
+      "url": "https://www.semanticscholar.org/paper/Improved-Efficiency-of-Energy-Intensive-Processes-Dvorkin-Pepin/e2d44d424a6c2bfd7353115ae540ecc5e3179f8a",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ImprovedEfficiencyOfEnergy-IntensiveProcessesThroughControlOfBuild-UpOnCriticalHeat-TransferSurfaces_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ImprovedEfficiencyOfEnergy-IntensiveProcessesThroughControlOfBuild-UpOnCriticalHeat-TransferSurfaces_EndNote.rtf"
+    },
+    {
+      "authors": "Junqing Shang, Kishore Sundara-Rajan, Levi Lindsey, Ankur Teredesai, Eric Johnson, Alan Kristal, Alexander Mamishev",
+      "title": "A Pervasive Dietary Data Recording System",
+      "venue": "IEEE International Conference on Pervasive Computing and Communications, 2011",
+      "url": "https://ieeexplore.ieee.org/document/5766890",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_APervasiveDietaryDataRecordingSystem_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_APervasiveDietaryDataRecordingSystem_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, A. V. Mamishev",
+      "title": "Optimal Heat Transfer Performance of the Microfluidic Electrospray Cooling Devices",
+      "venue": "27th Annual IEEE Semiconductor Thermal Measurement and Management Symposium (SEMI-THERM 2011), pp. 35\u201342",
+      "url": "https://ieeexplore.ieee.org/document/5767175",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimalHeatTransferPerformanceOfTheMicrofluidicElectrosprayCoolingDevices_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimalHeatTransferPerformanceOfTheMicrofluidicElectrosprayCoolingDevices_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, G. I. Rowe, A. Bestick, A. V. Mamishev, G. K. Klute, W. R. Ledoux",
+      "title": "Capacitive Sensing of Interfacial Stresses",
+      "venue": "Sensors, 2010 IEEE, pp. 2569\u20132572",
+      "url": "https://ieeexplore.ieee.org/iel5/5678851/5689839/05690146.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialStresses_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialStresses_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, G. I. Rowe, A. Bestick",
+      "title": "Capacitive Sensing of Interfacial Forces in Prosthesis",
+      "venue": "MEMEA Conference, May 2010",
+      "url": "https://ieeexplore.ieee.org/document/5480219",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialForcesInProsthesis_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialForcesInProsthesis_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, G. I. Rowe, A. J. Simon, G. K. Klute, W. R. Ledoux, A. V. Mamishev",
+      "title": "Shear Sensor for Lower Limb Prosthetic Applications",
+      "venue": "First Annual ORNL Biomedical Science & Engineering Conference (BSEC 2009), pp. 1\u20134",
+      "url": "https://www.researchgate.net/publication/224517105_Shear_sensor_for_lower_limb_prosthetic_applications",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ShearSensorForLowerLimbProstheticApplications_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ShearSensorForLowerLimbProstheticApplications_EndNote.rtf"
+    },
+    {
+      "authors": "H. C. Wang, A. V. Mamishev, C. P. Hsu",
+      "title": "The Enhancement Ratio of Corresponding Convection Heat Transfer Coefficient Using Electrospray Evaporative Cooling System",
+      "venue": "ASME Summer Heat Transfer Conference, San Francisco, CA, 2009, pp. HT2009-88629",
+      "url": "https://www.researchgate.net/publication/267575475_The_Enhancement_Ratio_of_Corresponding_Convection_Heat_Transfer_Coefficient_Using_Electrospray_Evaporative_Cooling_System",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_TheEnhancementRatioOfCorrespondingConvectionHeatTransferCoefficientUsingElectrosprayEvaporativeCoolingSystem_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_TheEnhancementRatioOfCorrespondingConvectionHeatTransferCoefficientUsingElectrosprayEvaporativeCoolingSystem_EndNote.rtf"
+    },
+    {
+      "authors": "N. E. Jewell-Larsen, H. Ran, Y. Zhang, M. Schwiebert, K. A. Honer, A. V. Mamishev",
+      "title": "Electrohydrodynamic (EHD) Cooled Laptop",
+      "venue": "IEEE SEMI-THERM 2009, San Jose, CA",
+      "url": "https://ieeexplore.ieee.org/document/4810773",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrohydrodynamicEHDCooledLaptop_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrohydrodynamicEHDCooledLaptop_EndNote.rtf"
+    },
+    {
+      "authors": "C. P. Hsu, N. E. Jewell-Larsen, C. Sticht, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Heat Transfer Enhancement Measurement for Microfabricated Electrostatic Fluid Accelerators",
+      "venue": "24th IEEE SEMI-THERM Symposium, San Jose, CA, 2008",
+      "url": "https://ieeexplore.ieee.org/document/4509362",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, A. Mathur, A. V. Mamishev",
+      "title": "Characterization of Plastic Packaging with Fringing Electric Field Sensors",
+      "venue": "SBMicro2008, Brazil, Sept. 2008",
+      "url": "https://iopscience.iop.org/article/10.1149/1.2956082",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfPlasticPackagingWithFringingElectricFieldSensors_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfPlasticPackagingWithFringingElectricFieldSensors_EndNote.rtf"
+    },
+    {
+      "authors": "C. P. Hsu, N. E. Jewell-Larsen, M. Fox, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Characterization of Microfabricated Cantilever-to-Plane Electrostatic Fluid Accelerators for Cooling in Electronics",
+      "venue": "Proceedings of ASME International Mechanical Engineering Congress and Exposition, Nov. 2007",
+      "url": "https://asmedigitalcollection.asme.org/IMECE/proceedings/IMECE2007/42991/121/324972",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfMicrofabricatedCantilever-to-PlaneElectrostaticFluidAcceleratorsForCoolingInElectronics_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfMicrofabricatedCantilever-to-PlaneElectrostaticFluidAcceleratorsForCoolingInElectronics_EndNote.rtf"
+    },
+    {
+      "authors": "C. P. Hsu, N. E. Jewell-Larsen, A. C. Rollins, I. A. Krichtafovitch, S. W. Montgomery, J. T. Dibene II, A. V. Mamishev",
+      "title": "Miniaturization of Electrostatic Fluid Accelerators",
+      "venue": "ASME International Mechanical Engineering Congress and Exposition, Chicago, November 2006",
+      "url": "https://ieeexplore.ieee.org/iel5/84/4285629/04285636.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MiniaturizationOfElectrostaticFluidAccelerators_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MiniaturizationOfElectrostaticFluidAccelerators_EndNote.rtf"
+    },
+    {
+      "authors": "A. P. Sample, D. J. Yeager, J. R. Smith, P. S. Powledge, A. V. Mamishev",
+      "title": "Energy Harvesting in RFID Systems",
+      "venue": "International Conference on Actual Problems of Electron Devices Engineering (APEDE), Saratov, Russia, September 2006",
+      "url": "http://ieeexplore.ieee.org/document/4099667/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyHarvestingInRFIDSystems_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyHarvestingInRFIDSystems_EndNote.rtf"
+    },
+    {
+      "authors": "D. J. Yeager, A. P. Sample, J. R. Smith, P. S. Powledge, A. V. Mamishev",
+      "title": "Sensor Applications in RFID Technology",
+      "venue": "International Conference on Actual Problems of Electron Devices Engineering (APEDE), Saratov, Russia, September 2006",
+      "url": "https://ieeexplore.ieee.org/iel5/4099585/4099586/04099668.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensorApplicationsInRFIDTechnology_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensorApplicationsInRFIDTechnology_EndNote.rtf"
+    },
+    {
+      "authors": "N. E. Jewell-Larsen, P. Q. Zhang, C. P. Hsu, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Coupled-Physics Modeling of Electrostatic Fluid Accelerators for Forced Convection Cooling",
+      "venue": "9th AIAA/ASME Joint Thermophysics and Heat Transfer Conference, San Francisco, CA, June 2006",
+      "url": "https://labs.ece.uw.edu/seal/pubfiles/73.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Coupled-physicsModelingOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Coupled-physicsModelingOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_EndNote.rtf"
+    },
+    {
+      "authors": "A. Krichtafovitch, V. L. Gorobets, S. V. Karpov, A. V. Mamishev",
+      "title": "Electrostatic Fluid Accelerator and Air Purifier \u2014 The Second Wind",
+      "venue": "Annual Meeting of the Electrostatics Society of America, Edmonton, Canada, 2005",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrostaticFluidAcceleratorAndAirPurifier-TheSecondWind_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrostaticFluidAcceleratorAndAirPurifier-TheSecondWind_EndNote.rtf"
+    },
+    {
+      "authors": "B. Jiang, A. Sample, A. V. Mamishev",
+      "title": "Mobile Monitoring for Distributed Infrastructures",
+      "venue": "Proceedings of IEEE International Conference on Mechatronics and Automation, pp. 138\u2013143, 2005",
+      "url": "http://ieeexplore.ieee.org/document/1626536/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MobileMonitoringForDistributedInfrastructures_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MobileMonitoringForDistributedInfrastructures_EndNote.rtf"
+    },
+    {
+      "authors": "B. Jiang, A. P. Sample, R. M. Wistort, A. V. Mamishev",
+      "title": "Autonomous Robotic Monitoring of Underground Cable Systems",
+      "venue": "12th International Conference on Advanced Robotics (ICAR), July 2005, pp. 673\u2013679",
+      "url": "https://www.researchgate.net/publication/4174053_Autonomous_robotic_monitoring_of_underground_cable_systems",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutonomousRoboticMonitoringOfUndergroundCableSystems_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutonomousRoboticMonitoringOfUndergroundCableSystems_EndNote.rtf"
+    },
+    {
+      "authors": "J. R. Smith, B. Jiang, S. Roy, M. Philipose, K. Sundara-Rajan, A. V. Mamishev",
+      "title": "Embedding Sensor Data in an RFID Timeseries",
+      "venue": "7th Information Hiding Workshop, Barcelona, Spain, 2005",
+      "url": "https://www.researchgate.net/publication/225190510_ID_Modulation_Embedding_sensor_data_in_an_RFID_timeseries",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EmbeddingSensorDataInAnRFIDTimeseries_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EmbeddingSensorDataInAnRFIDTimeseries_EndNote.rtf"
+    },
+    {
+      "authors": "M. Philipose, J. R. Smith, B. Jiang, K. Sundara-Rajan, A. V. Mamishev, S. Roy",
+      "title": "WISPnets: Hybridizing Radio Frequency Identification and Sensor Networks",
+      "venue": "Fourth International Conference on Information Processing in Sensor Networks, April 2005",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_WISPnetsHybridizingRadioFrequencyIdentificationAndSensorNetworks_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_WISPnetsHybridizingRadioFrequencyIdentificationAndSensorNetworks_EndNote.rtf"
+    },
+    {
+      "authors": "B. Jiang, S. Roy, K. Sundara-Rajan, M. Philipose, J. Smith, A. V. Mamishev",
+      "title": "Energy Scavenging for Inductively Coupled Passive RFID Systems",
+      "venue": "IEEE Instrumentation and Measurement Technology Conference, Ottawa, CA, May 2005, vol. 2, pp. 984\u2013989",
+      "url": "https://homes.cs.washington.edu/~matthai/pubs/WISP-IEEE-TIM-07.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, L. Byrd, A. V. Mamishev",
+      "title": "Estimation of Moisture Content in Paper Pulp Containing Titanium Dioxide Using Fringing Field Impedance Spectroscopy",
+      "venue": "TAPPI Fall Conference, Atlanta, 2004",
+      "url": "https://labs.ece.uw.edu/seal/kishore/papers/Tappi%20Spring%20Conference/Estimation%20of%20Moisture%20Content%20in%20Paper%20Pulp%20Containing%20Titanium%20Dioxide%20Using%20Interdigital%20Fringing%20Field%20Impedance%20Spectroscopy.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf"
+    },
+    {
+      "authors": "N. E. Jewell-Larsen, D. A. Parker, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Numerical Simulation and Optimization of Electrostatic Air Pumps",
+      "venue": "IEEE Conference on Electrical Insulation and Dielectric Phenomena, Boulder, CO, October 2004",
+      "url": "http://labs.ece.uw.edu/seal/pubfiles/2004106109.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_NumericalSimulationAndOptimizationOfElectrostaticAirPumps_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_NumericalSimulationAndOptimizationOfElectrostaticAirPumps_EndNote.rtf"
+    },
+    {
+      "authors": "X. B. Li, C. Kato, A. S. Zyuzin, A. V. Mamishev",
+      "title": "Design of Multi-Channel Fringing Electric Field Sensors for Imaging \u2014 Part II: Numerical Examples",
+      "venue": "IEEE ESEI Conference, Indiana, 2004, pp. 410\u2013413",
+      "url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1380619",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIINumericalExamples_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIINumericalExamples_EndNote.rtf"
+    },
+    {
+      "authors": "X. B. Li, S. D. Larson, A. S. Zyuzin, A. V. Mamishev",
+      "title": "Design of Multi-Channel Fringing Electric Field Sensors for Imaging \u2014 Part I: General Design Principles",
+      "venue": "IEEE ESEI Conference, Indiana, 2004, pp. 406\u2013409",
+      "url": "https://ieeexplore.ieee.org/document/1380616",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIGeneralDesignPrinciples_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIGeneralDesignPrinciples_EndNote.rtf"
+    },
+    {
+      "authors": "M. C. Hegg, M. J. Kim, A. V. Mamishev",
+      "title": "Influence of Variable Plate Separation on Fringing Electric Fields in Parallel-Plate Capacitors",
+      "venue": "IEEE ESEI Conference, Indiana, 2004, pp. 384\u2013387",
+      "url": "http://ieeexplore.ieee.org/abstract/document/1380606/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_InfluenceOfVariablePlateSeparationOnFringingElectricFieldsInParallel-PlateCapacitors_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_InfluenceOfVariablePlateSeparationOnFringingElectricFieldsInParallel-PlateCapacitors_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, L. Byrd, A. V. Mamishev",
+      "title": "Estimation of Moisture Content in Paper Pulp Containing Calcium Carbonate Using Fringing Field Impedance Spectroscopy",
+      "venue": "58th Appita Annual Conference, Canberra, Australia, April 2004",
+      "url": "http://labs.ece.uw.edu/seal/kishore/papers/Appita%20Journal/Full%20Manuscript.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingCalciumCarbonateUsingFringingFieldImpedanceSpectroscopy_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingCalciumCarbonateUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf"
+    },
+    {
+      "authors": "G. I. Rowe, A. V. Mamishev",
+      "title": "Sensitive Skin Design for Prosthetic Limb Interfacial Force and Condition Analysis",
+      "venue": "SPIE 9th Annual International Symposium on NDE for Health Monitoring and Diagnostics, San Diego, March 2004",
+      "url": "https://www.researchgate.net/publication/224143967_Capacitive_sensing_of_interfacial_forces_in_prosthesis",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensitiveSkinDesignForProstheticLimbInterfacialForceAndConditionAnalysis_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensitiveSkinDesignForProstheticLimbInterfacialForceAndConditionAnalysis_EndNote.rtf"
+    },
+    {
+      "authors": "X. Li, A. Zyuzin, A. V. Mamishev",
+      "title": "Measuring Moisture Content in Cookies Using Dielectric Spectroscopy",
+      "venue": "IEEE CEIDP Conference, Albuquerque, New Mexico, October 2003, pp. 459\u2013462",
+      "url": "https://ieeexplore.ieee.org/document/1254892",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MeasuringMoistureContentInCookiesUsingDielectricpSectroscopy_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MeasuringMoistureContentInCookiesUsingDielectricpSectroscopy_EndNote.rtf"
+    },
+    {
+      "authors": "K. Sundara-Rajan, X. Li, N. Semenyuk, A. V. Mamishev",
+      "title": "Moisture Measurement in Paper Pulp Using Fringing Field Impedance Spectroscopy",
+      "venue": "IEEE Sensors Conference, Toronto, Canada, October 2003",
+      "url": "https://ieeexplore.ieee.org/document/1294919",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureMeasurementInPaperPulpUsingFringingFieldImpedanceSpectroscopy_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureMeasurementInPaperPulpUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf"
+    },
+    {
+      "authors": "F. Yang, N. E. Jewell-Larsen, D. L. Brown, K. Pendergrass, D. A. Parker, I. A. Krichtafovitch, A. V. Mamishev",
+      "title": "Corona Driven Air Propulsion for Cooling of Electronics",
+      "venue": "International Symposium on High Voltage Engineering, Amsterdam, Netherlands, August 2003",
+      "url": "https://www.researchgate.net/publication/237333052_Corona_driven_air_propulsion_for_cooling_of_electronics",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CoronaDrivenAirPropulsionForCoolingOfElectronics_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CoronaDrivenAirPropulsionForCoolingOfElectronics_EndNote.rtf"
+    },
+    {
+      "authors": "M. Wang, G. I. Rowe, A. V. Mamishev",
+      "title": "Real-Time Power Quality Waveform Recognition with a Programmable Digital Signal Processor",
+      "venue": "IEEE PES Summer Power Meeting, Toronto, Canada, July 2003, pp. 1268\u20131273",
+      "url": "http://ieeexplore.ieee.org/abstract/document/1270511/",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Real-TimePowerQualityWaveformRecognitionWithAProgrammableDigitalSignalProcessor_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Real-TimePowerQualityWaveformRecognitionWithAProgrammableDigitalSignalProcessor_EndNote.rtf"
+    },
+    {
+      "authors": "M. Wang, A. V. Mamishev, A. Maitra, T. Cooke, F. Elmendorf, M. Ingram",
+      "title": "Automatic Detection of Incipient Faults \u2014 Incipient Fault Detection and Monitoring by Wavelet Multiresolution Analysis and Wiener Filters",
+      "venue": "PQA 2003 North America, Monterey, California, June 2\u20134, 2003",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutomaticDetectionOfIncipientFaults-IncipientFaultDetectionAndMonitoringByWaveletMultiresolutionAnalysisAndWienerFilters_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutomaticDetectionOfIncipientFaults-IncipientFaultDetectionAndMonitoringByWaveletMultiresolutionAnalysisAndWienerFilters_EndNote.rtf"
+    },
+    {
+      "authors": "A. Ogale, M. Hegg, A. Mescher, A. V. Mamishev, B. Minaie",
+      "title": "Fill Front Detection Using Dielectric Sensors in Resin Transfer Molding Process",
+      "venue": "ICCE, New Orleans, LA, 2003",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_FillFrontDetectionUsingDielectricSensorsInResinTransferMoldingProcess_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_FillFrontDetectionUsingDielectricSensorsInResinTransferMoldingProcess_EndNote.rtf"
+    },
+    {
+      "authors": "Y. Du, M. Zahn, N. Altmirano, M. Sarda, A. V. Mamishev, B. C. Lesieutre",
+      "title": "Moisture and Temperature Effects on Dielectric Spectrum of Transformer Pressboards",
+      "venue": "IEEE Conference on Electrical Insulation and Dielectric Phenomena, 2002, pp. 878\u2013881",
+      "url": "https://ieeexplore.ieee.org/document/1048935",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureAndTemperatureEffectsOnDielectricSpectrumOfTransformerPressboards_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureAndTemperatureEffectsOnDielectricSpectrumOfTransformerPressboards_EndNote.rtf"
+    },
+    {
+      "authors": "A. V. Mamishev, A. R. Takahashi, Y. Du, B. C. Lesieutre, M. Zahn",
+      "title": "Assessment of Performance of Fringing Electric Field Sensor Arrays",
+      "venue": "IEEE Conference on Electrical Insulation and Dielectric Phenomena, 2002, pp. 918\u2013921",
+      "url": "https://ieeexplore.ieee.org/document/1048945",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AssessmentOfPerformanceOfFringingElectricFieldSensorArrays_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AssessmentOfPerformanceOfFringingElectricFieldSensorArrays_EndNote.rtf"
+    },
+    {
+      "authors": "B. Jiang, P. Stuart, M. Raymond, D. Villa, A. V. Mamishev",
+      "title": "Robotic Platform for Monitoring Underground Cable Systems",
+      "venue": "IEEE/PES Transmission and Distribution Conference, vol. 2, pp. 1105\u20131109, Yokohama, Japan, Oct. 2002",
+      "url": "https://ieeexplore.ieee.org/abstract/document/1177632",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_RoboticPlatformForMonitoringUndergroundCableSystems_BibText.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_RoboticPlatformForMonitoringUndergroundCableSystems_EndNote.rtf"
+    }
+  ],
+  "books": [
+    {
+      "type": "complete",
+      "authors": "N. L. Jewell-Larsen, A. V. Mamishev",
+      "title": "Electrostatic Fluid Accelerators for Thermal Management",
+      "venue": "Amazon Creative Press (in print)",
+      "url": null,
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_ElectrostaticFluidAcceleratorsForThermalManagement_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_ElectrostaticFluidAcceleratorsForThermalManagement_EndNote.rtf"
+    },
+    {
+      "type": "complete",
+      "authors": "A. V. Mamishev, M. Sargent",
+      "title": "Creating Research and Scientific Documents Using Microsoft Word",
+      "venue": "Microsoft Press, 2013",
+      "url": "https://www.microsoftpressstore.com/store/creating-research-and-scientific-documents-using-microsoft-9780735670396",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_CreatingResearchAndScientificDocumentsUsingMicrosoftWord_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_CreatingResearchAndScientificDocumentsUsingMicrosoftWord_EndNote.rtf"
+    },
+    {
+      "type": "complete",
+      "authors": "A. V. Mamishev",
+      "title": "Breaking Barriers: A Practical Guide to Getting Into Graduate School in the United States",
+      "venue": "Lulu Press, 2011",
+      "url": "https://www.lulu.com/shop/alexander-mamishev/breaking-barriers-a-practical-guide-to-getting-into-graduate-school-in-the-united-states/paperback/product-1j987evm.html",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_BreakingBarriersAPracticalGuideToGettingIntoGraduateSchoolInTheUnitedStates_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_BreakingBarriersAPracticalGuideToGettingIntoGraduateSchoolInTheUnitedStates_EndNote.rtf"
+    },
+    {
+      "type": "complete",
+      "authors": "A. V. Mamishev",
+      "title": "Graduate Education in the United States",
+      "venue": "Ravnovesie, 2010; Lulu Press, 2011 (in Russian)",
+      "url": "https://books.google.com/books?id=0F2AAwAAQBAJ&printsec=frontcover&source=gbs_book_other_versions_r&cad=4",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_GraduateEducationInTheUnitedStates_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_GraduateEducationInTheUnitedStates_EndNote.rtf"
+    },
+    {
+      "type": "complete",
+      "authors": "A. V. Mamishev, S. D. Williams",
+      "title": "Technical Writing for Teams: The STREAM Tools Handbook",
+      "venue": "Wiley-IEEE Press, 2010",
+      "url": "https://www.wiley.com/en-us/Technical+Writing+for+Teams%3A+The+STREAM+Tools+Handbook-p-9780470602690",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_TechnicalWritingForTeamsTheSTREAMToolsHandbook_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_TechnicalWritingForTeamsTheSTREAMToolsHandbook_EndNote.rtf"
+    },
+    {
+      "type": "chapter",
+      "authors": "A. V. Mamishev",
+      "title": "Dielectric Spectroscopy",
+      "venue": "Chapter in Micro-Instrumentation for High Throughput Experimentation and Process Intensification: A Tool for PAT, Wiley-VCH, 2007 (invited)",
+      "url": "https://searchworks.stanford.edu/view/6839755",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_DielectricSpectroscopy_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_DielectricSpectroscopy_EndNote.rtf"
+    },
+    {
+      "type": "chapter",
+      "authors": "K. Sundara-Rajan, A. V. Mamishev, M. Zahn",
+      "title": "Fringing Electric and Magnetic Field Sensors",
+      "venue": "Chapter in Encyclopedia of Sensors, American Scientific Publishers, vol. 4, pp. 89–100, 2006 (invited)",
+      "url": "http://www.kishore-sr.com/PubFiles/Others/EOS.pdf",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_FringingElectricAndMagneticFieldSensors_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_FringingElectricAndMagneticFieldSensors_EndNote.rtf"
+    },
+    {
+      "type": "chapter",
+      "authors": "A. V. Mamishev",
+      "title": "Overhead Line Conductors",
+      "venue": "Chapter in Wiley Encyclopedia of Electrical and Electronics Engineering, vol. 15, pp. 463–474, John Wiley and Sons, 1999 (invited)",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/047134608X.W6123",
+      "bibtex": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_OverheadLineConductors_BibTeX.rtf",
+      "endnote": "https://www.uwseal.org/wp-content/uploads/2023/02/Book_OverheadLineConductors_EndNote.rtf"
+    }
+  ]
+}
