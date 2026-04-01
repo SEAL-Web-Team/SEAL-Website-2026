@@ -71,12 +71,12 @@ function PersonCard({ person, large = false }: {
   return (
     <div className="group flex flex-col">
       <div className={`surface-card relative w-full overflow-hidden ${large ? "rounded-2xl" : "rounded-xl"} mb-4`}>
-        <div className="aspect-square">
+        <div className="media-frame aspect-square">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={person.image}
             alt={person.name}
-            className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>

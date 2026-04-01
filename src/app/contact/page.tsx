@@ -12,12 +12,12 @@ export default function ContactPage() {
 
           {/* Director card */}
           <div className="surface-card overflow-hidden flex flex-col md:flex-row">
-            <div className="w-full md:w-72 aspect-square shrink-0 overflow-hidden">
+            <div className="media-frame w-full md:w-72 aspect-square shrink-0 overflow-hidden">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="https://avatars.slack-edge.com/2016-09-13/79321426352_182972ad4e5224cc32ba_512.jpg"
                 alt="Alexander Mamishev"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="flex flex-col gap-6 p-7 w-full">
