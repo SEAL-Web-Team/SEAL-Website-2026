@@ -1,5 +1,8 @@
 import data from "@/data/locations.json";
 
+const UW_MAP_URL =
+  "https://map.uw.edu/?id=2099#!ct/94056,94058,94059?m/969804?s/ece";
+
 export default function LocationsPage() {
   return (
     <div className="page-shell">
@@ -14,11 +17,12 @@ export default function LocationsPage() {
 
         {/* Campus Map */}
         <div className="surface-card mb-20 overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={data.mapImage}
-            alt="SEAL Lab campus map"
-            className="w-full object-contain bg-black/20"
+          <iframe
+            title="SEAL Lab campus map"
+            src={UW_MAP_URL}
+            className="h-[560px] w-full bg-black/20"
+            loading="lazy"
+            referrerPolicy="strict-origin-when-cross-origin"
           />
         </div>
 
