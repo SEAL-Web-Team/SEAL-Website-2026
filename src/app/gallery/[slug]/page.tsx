@@ -1,14 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import galleryData from "@/data/gallery.json";
+import { getGalleryAlbumBySlug, getInternalGalleryAlbumSlugs } from "@/data/galleries";
 import GalleryLightbox from "@/components/GalleryLightbox";
 
-type Album = (typeof galleryData.albums)[number];
-
 export function generateStaticParams() {
-  return galleryData.albums
-    .filter((album) => album.internal)
-    .map((album) => ({ slug: album.slug }));
+  return getInternalGalleryAlbumSlugs().map((slug) => ({ slug }));
 }
 
 export default async function GalleryAlbumPage({
@@ -17,30 +13,37 @@ export default async function GalleryAlbumPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const album = galleryData.albums.find(
-    (entry) => entry.slug === slug && entry.internal,
-  ) as Album | undefined;
+  const album = await getGalleryAlbumBySlug(slug);
 
-  if (!album || !album.images) {
+  if (!album) {
     notFound();
   }
 
   return (
     <div className="page-shell">
       <div className="page-container">
-        <div className="mb-8 flex items-end justify-between gap-4">
-          <div>
-            <div className="mb-4">
-              <Link
-                href="/gallery"
-                className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
-              >
-                ← Back to Gallery
-              </Link>
-            </div>
+        <div className="mb-4">
+          <Link
+            href="/gallery"
+            className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
+          >
+            ← Back to Gallery
+          </Link>
+        </div>
+
+        <div className="gallery-album-header">
+          <div className="gallery-album-header-main">
             <h1 className="page-title">{album.title}</h1>
+            {album.intro?.length ? (
+              <div className="gallery-album-intro">
+                {album.intro.map((paragraph) => (
+                  <p key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+            ) : null}
           </div>
-          <p className="text-sm text-slate-400 whitespace-nowrap">
+
+          <p className="gallery-album-count">
             {album.count} photos
           </p>
         </div>

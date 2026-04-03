@@ -1,9 +1,9 @@
 import Link from "next/link";
-import galleryData from "@/data/gallery.json";
-
-const albums = galleryData.albums;
+import { getGalleryAlbums } from "@/data/galleries";
 
 export default function GalleryPage() {
+  const albums = getGalleryAlbums();
+
   return (
     <div className="page-shell">
       <div className="page-container">

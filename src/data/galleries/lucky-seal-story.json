@@ -1,0 +1,29 @@
+{
+  "slug": "lucky-seal-story",
+  "title": "Lucky Seal Story",
+  "count": 3,
+  "intro": [
+    "By rubbing the lucky seal, you will get lucky too. Make sure to touch it before your final exams. This is actually a scientific fact.",
+    "Academic luck has been pumped into the SEAL by rubbing it against famous lucky objects."
+  ],
+  "images": [
+    {
+      "title": "Newton-Tree-2",
+      "description": "Direct descendent of the Newton apple tree",
+      "full": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story-minus-one/Newton-Tree-2.png",
+      "thumb": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story-minus-one/cache/Newton-Tree-2.png-nggid0285-ngg0dyn-480x320x100-00f0w010c010r110f110r010t010.png"
+    },
+    {
+      "title": "Newton-Tree-1",
+      "description": "The Lucky Seal",
+      "full": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story-minus-one/Newton-Tree-1.png",
+      "thumb": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story-minus-one/cache/Newton-Tree-1.png-nggid0286-ngg0dyn-480x320x100-00f0w010c010r110f110r010t010.png"
+    },
+    {
+      "title": "George-Eastman",
+      "description": "The bronze nose of George Eastman at MIT (students touch it for luck before exams)",
+      "full": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story-minus-one/George-Eastman.png",
+      "thumb": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story-minus-one/cache/George-Eastman.png-nggid0287-ngg0dyn-480x320x100-00f0w010c010r110f110r010t010.png"
+    }
+  ]
+}

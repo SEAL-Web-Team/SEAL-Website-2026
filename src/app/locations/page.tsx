@@ -1,7 +1,7 @@
 import data from "@/data/locations.json";
 
 const UW_MAP_URL =
-  "https://map.uw.edu/?id=2099#!ct/94056,94058,94059?m/969804?s/ece";
+  "https://map.uw.edu/?id=2099#!ct/94056,94058,94059?s/ece?sbc/";
 
 export default function LocationsPage() {
   return (

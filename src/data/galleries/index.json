@@ -1,0 +1,44 @@
+{
+  "albums": [
+    {
+      "slug": "spring17-group-photo",
+      "title": "Spring17 Group Photo",
+      "href": "/gallery/spring17-group-photo",
+      "image": "https://www.uwseal.org/wp-content/gallery/spring17-group-photo/cache/IMG_7009.jpg-nggid0228-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.jpg",
+      "count": 19,
+      "internal": true
+    },
+    {
+      "slug": "spring18-group-photo",
+      "title": "Spring18 Group Photo",
+      "href": "/gallery/spring18-group-photo",
+      "image": "https://www.uwseal.org/wp-content/gallery/spring18-group-photo/cache/IMG_9075.JPG-nggid0247-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.JPG",
+      "count": 20,
+      "internal": true
+    },
+    {
+      "slug": "spring19-group-photo",
+      "title": "Spring19 Group Photo",
+      "href": "/gallery/spring19-group-photo",
+      "image": "https://www.uwseal.org/wp-content/gallery/spring19-group-photo/cache/SEAL_2019_Spring_Photo.jpeg-nggid0290-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.jpeg",
+      "count": 1,
+      "internal": true
+    },
+    {
+      "slug": "summer21-social-photo",
+      "title": "Summer21 Social Photo",
+      "href": "/gallery/summer21-social-photo",
+      "image": "https://www.uwseal.org/wp-content/gallery/summer21-social-photo/cache/Volleyball_1.jpg-nggid0277-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.jpg",
+      "count": 2,
+      "internal": true
+    },
+    {
+      "slug": "lucky-seal-story",
+      "title": "Lucky Seal Story",
+      "href": "/gallery/lucky-seal-story",
+      "image": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story/cache/Newton-Tree-2.png-nggid0279-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.png",
+      "count": 3,
+      "internal": true
+    }
+  ]
+}
