@@ -1,0 +1,23 @@
+{
+  "page": {
+    "title": "Contact",
+    "subtitle": "Reach out to the lab director or send mail to our campus address."
+  },
+  "director": {
+    "eyebrow": "Lab Director",
+    "name": "Alexander Mamishev",
+    "title": "University of Washington Department of Electrical & Computer Engineering",
+    "image": "https://avatars.slack-edge.com/2016-09-13/79321426352_182972ad4e5224cc32ba_512.jpg",
+    "emailImage": "/director-email.svg"
+  },
+  "address": {
+    "eyebrow": "Mailing Address",
+    "name": "University of Washington",
+    "lines": [
+      "185 Stevens Way",
+      "MS 352500",
+      "Department of ECE",
+      "Seattle, WA 98195"
+    ]
+  }
+}

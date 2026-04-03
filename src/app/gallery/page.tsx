@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getGalleryAlbums } from "@/data/galleries";
+import pageCopy from "@/data/page-copy.json";
 
 export default function GalleryPage() {
   const albums = getGalleryAlbums();
@@ -8,10 +9,8 @@ export default function GalleryPage() {
     <div className="page-shell">
       <div className="page-container">
         <div className="page-header">
-          <h1 className="page-title">Gallery</h1>
-          <p className="page-subtitle">
-            Photo albums and visual snapshots from SEAL events, group photos, and lab culture.
-          </p>
+          <h1 className="page-title">{pageCopy.gallery.title}</h1>
+          <p className="page-subtitle">{pageCopy.gallery.subtitle}</p>
         </div>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -37,7 +36,7 @@ export default function GalleryPage() {
                     <strong className="text-slate-200">{album.count}</strong> photos
                   </p>
                   <span className="action-chip self-start">
-                    <span>Open album</span>
+                    <span>{pageCopy.gallery.actionLabel}</span>
                     <span aria-hidden="true">→</span>
                   </span>
                 </div>
@@ -65,7 +64,7 @@ export default function GalleryPage() {
                     <strong className="text-slate-200">{album.count}</strong> photos
                   </p>
                   <span className="action-chip self-start">
-                    <span>Open album</span>
+                    <span>{pageCopy.gallery.actionLabel}</span>
                     <span aria-hidden="true">→</span>
                   </span>
                 </div>

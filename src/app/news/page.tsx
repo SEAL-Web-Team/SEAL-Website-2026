@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import news from "@/data/news.json";
+import pageCopy from "@/data/page-copy.json";
 
 type NewsItem = typeof news[number];
 
@@ -78,8 +79,8 @@ export default function NewsPage() {
       <div className="page-container">
 
         <div className="page-header">
-          <h1 className="page-title">News &amp; Awards</h1>
-          <p className="page-subtitle">Latest highlights, recognitions, and milestones from the SEAL Lab community.</p>
+          <h1 className="page-title">{pageCopy.news.title}</h1>
+          <p className="page-subtitle">{pageCopy.news.subtitle}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -109,7 +110,7 @@ export default function NewsPage() {
                   <p className="text-xs text-slate-500 line-clamp-1 mb-4 shrink-0">{item.people.join(", ")}</p>
                 )}
                 <span className="action-chip mt-auto self-start text-xs shrink-0">
-                  <span>View more</span>
+                  <span>{pageCopy.news.actionLabel}</span>
                   <span aria-hidden="true">→</span>
                 </span>
               </div>

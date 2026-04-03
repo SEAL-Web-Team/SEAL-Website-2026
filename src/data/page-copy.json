@@ -1,0 +1,39 @@
+{
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Photo albums and visual snapshots from SEAL events, group photos, and lab culture.",
+    "actionLabel": "Open album"
+  },
+  "news": {
+    "title": "News & Awards",
+    "subtitle": "Latest highlights, recognitions, and milestones from the SEAL Lab community.",
+    "actionLabel": "View more"
+  },
+  "projects": {
+    "title": "Project Showcase",
+    "subtitle": "Research initiatives and engineering projects from the SEAL Lab.",
+    "actionLabel": "View project"
+  },
+  "partners": {
+    "title": "Partner Organizations",
+    "subtitle": "Industry, government, and academic organizations collaborating with SEAL Lab.",
+    "actionLabel": "Visit website"
+  },
+  "publications": {
+    "title": "Publications",
+    "subtitle": "Peer-reviewed journal articles and conference papers from SEAL Lab research spanning sensors, electrostatics, power systems, and more.",
+    "searchPlaceholder": "Search by title or authors…",
+    "sections": {
+      "journal": "Journal Publications",
+      "conference": "Conference Publications",
+      "completeBooks": "Complete Books",
+      "bookChapters": "Book Chapters"
+    },
+    "emptyStates": {
+      "journal": "No journal publications match your search.",
+      "conference": "No conference publications match your search.",
+      "completeBooks": "No books match your search.",
+      "bookChapters": "No book chapters match your search."
+    }
+  }
+}

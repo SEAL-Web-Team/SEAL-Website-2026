@@ -1,4 +1,5 @@
 import partners from "@/data/partners.json";
+import pageCopy from "@/data/page-copy.json";
 
 export default function PartnersPage() {
   return (
@@ -6,8 +7,8 @@ export default function PartnersPage() {
       <div className="page-container">
 
         <div className="page-header">
-          <h1 className="page-title">Partner Organizations</h1>
-          <p className="page-subtitle">Industry, government, and academic organizations collaborating with SEAL Lab.</p>
+          <h1 className="page-title">{pageCopy.partners.title}</h1>
+          <p className="page-subtitle">{pageCopy.partners.subtitle}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6">
@@ -35,7 +36,7 @@ export default function PartnersPage() {
                   rel="noopener noreferrer"
                   className="action-chip self-start"
                 >
-                  <span>Visit website</span>
+                  <span>{pageCopy.partners.actionLabel}</span>
                   <span aria-hidden="true">→</span>
                 </a>
               </div>

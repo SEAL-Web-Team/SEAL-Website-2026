@@ -1,7 +1,5 @@
 import data from "@/data/locations.json";
-
-const UW_MAP_URL =
-  "https://map.uw.edu/?id=2099#!ct/94056,94058,94059?s/ece?sbc/";
+import locationPage from "@/data/locations-page.json";
 
 export default function LocationsPage() {
   return (
@@ -9,17 +7,15 @@ export default function LocationsPage() {
       <div className="page-container">
 
         <div className="page-header">
-          <h1 className="page-title">Lab Locations</h1>
-          <p className="page-subtitle">
-            SEAL Lab operates across multiple dedicated spaces on the University of Washington campus, each tailored to specific research needs.
-          </p>
+          <h1 className="page-title">{locationPage.page.title}</h1>
+          <p className="page-subtitle">{locationPage.page.subtitle}</p>
         </div>
 
         {/* Campus Map */}
         <div className="surface-card mb-20 overflow-hidden">
           <iframe
-            title="SEAL Lab campus map"
-            src={UW_MAP_URL}
+            title={locationPage.map.title}
+            src={locationPage.map.url}
             className="h-[560px] w-full bg-black/20"
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"

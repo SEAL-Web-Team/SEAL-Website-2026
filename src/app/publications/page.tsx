@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import publications from "@/data/publications.json";
+import pageCopy from "@/data/page-copy.json";
 
 type Publication = {
   authors: string;
@@ -149,17 +150,15 @@ export default function PublicationsPage() {
       <div className="page-container-tight">
 
         <div className="page-header">
-          <h1 className="page-title">Publications</h1>
-          <p className="page-subtitle">
-            Peer-reviewed journal articles and conference papers from SEAL Lab research spanning sensors, electrostatics, power systems, and more.
-          </p>
+          <h1 className="page-title">{pageCopy.publications.title}</h1>
+          <p className="page-subtitle">{pageCopy.publications.subtitle}</p>
         </div>
 
         {/* Global search */}
         <div className="mb-12">
           <input
             type="text"
-            placeholder="Search by title or authors…"
+            placeholder={pageCopy.publications.searchPlaceholder}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-full bg-white/[0.04] border border-white/[0.08] rounded-lg px-4 py-2.5 text-white text-sm placeholder-slate-500 outline-none focus:border-white/20"
@@ -168,52 +167,52 @@ export default function PublicationsPage() {
 
         {/* Journal Publications */}
         <section className="mb-12">
-          <SectionHeader title="Journal Publications" shown={filteredJournal.length} total={journal.length} open={openJournal} onToggle={() => setOpenJournal((v) => !v)} />
+          <SectionHeader title={pageCopy.publications.sections.journal} shown={filteredJournal.length} total={journal.length} open={openJournal} onToggle={() => setOpenJournal((v) => !v)} />
           {openJournal && (
             <div className="flex flex-col mb-8">
               {filteredJournal.map((pub, idx) => (
                 <PubRow key={`journal-${idx}`} pub={pub} index={q ? journal.indexOf(pub) + 1 : idx + 1} />
               ))}
-              {filteredJournal.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">No journal publications match your search.</p>}
+              {filteredJournal.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">{pageCopy.publications.emptyStates.journal}</p>}
             </div>
           )}
         </section>
 
         {/* Conference Publications */}
         <section className="mb-12">
-          <SectionHeader title="Conference Publications" shown={filteredConference.length} total={conference.length} open={openConference} onToggle={() => setOpenConference((v) => !v)} />
+          <SectionHeader title={pageCopy.publications.sections.conference} shown={filteredConference.length} total={conference.length} open={openConference} onToggle={() => setOpenConference((v) => !v)} />
           {openConference && (
             <div className="flex flex-col mb-8">
               {filteredConference.map((pub, idx) => (
                 <PubRow key={`conf-${idx}`} pub={pub} index={q ? conference.indexOf(pub) + 1 : idx + 1} />
               ))}
-              {filteredConference.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">No conference publications match your search.</p>}
+              {filteredConference.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">{pageCopy.publications.emptyStates.conference}</p>}
             </div>
           )}
         </section>
 
         {/* Books */}
         <section className="mb-12">
-          <SectionHeader title="Complete Books" shown={filteredCompleteBooks.length} total={completeBooks.length} open={openBooks} onToggle={() => setOpenBooks((v) => !v)} />
+          <SectionHeader title={pageCopy.publications.sections.completeBooks} shown={filteredCompleteBooks.length} total={completeBooks.length} open={openBooks} onToggle={() => setOpenBooks((v) => !v)} />
           {openBooks && (
             <div className="flex flex-col mb-8">
               {filteredCompleteBooks.map((pub, idx) => (
                 <PubRow key={`book-${idx}`} pub={pub} index={idx + 1} />
               ))}
-              {filteredCompleteBooks.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">No books match your search.</p>}
+              {filteredCompleteBooks.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">{pageCopy.publications.emptyStates.completeBooks}</p>}
             </div>
           )}
         </section>
 
         {/* Book Chapters */}
         <section className="mb-12">
-          <SectionHeader title="Book Chapters" shown={filteredChapters.length} total={chapters.length} open={openChapters} onToggle={() => setOpenChapters((v) => !v)} />
+          <SectionHeader title={pageCopy.publications.sections.bookChapters} shown={filteredChapters.length} total={chapters.length} open={openChapters} onToggle={() => setOpenChapters((v) => !v)} />
           {openChapters && (
             <div className="flex flex-col mb-8">
               {filteredChapters.map((pub, idx) => (
                 <PubRow key={`chapter-${idx}`} pub={pub} index={idx + 1} />
               ))}
-              {filteredChapters.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">No book chapters match your search.</p>}
+              {filteredChapters.length === 0 && <p className="text-slate-500 text-sm py-8 text-center">{pageCopy.publications.emptyStates.bookChapters}</p>}
             </div>
           )}
         </section>

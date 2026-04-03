@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "videoSrc": "/uw%20cherry%20blossom%20footage.mp4",
+    "uwLogoSrc": "/UW.svg",
+    "uwLogoAlt": "University of Washington",
+    "titleLines": [
+      "Sensors, Energy, and",
+      "Automation Laboratory"
+    ],
+    "subtitle": "Engineering research that moves from lab bench to real-world impact — in medicine, defense, avionics, energy, and beyond.",
+    "actions": [
+      {
+        "label": "Our Research",
+        "href": "/projects"
+      },
+      {
+        "label": "Work With Us",
+        "href": "/contact"
+      },
+      {
+        "label": "Apply Now",
+        "href": "/apply"
+      }
+    ],
+    "scrollLabel": "Scroll"
+  },
+  "about": {
+    "title": "Who we are",
+    "paragraphs": [
+      "A UW engineering research lab at the crossroads of sensors, energy, and automation. We take on hard problems in medicine, avionics, wearable tech, defense, and sustainability — and see them through to real-world application. Associates have gone on to found startups, publish research, and land roles at top companies.",
+      "The lab runs like a giant RPG: quests, battlestations, squads, a sandbox for newcomers, and mission-critical teams for high performers. We're always open to motivated people — experience is welcome, but never required."
+    ]
+  },
+  "teamsSection": {
+    "title": "SEAL Teams",
+    "links": [
+      {
+        "label": "Projects",
+        "href": "/projects"
+      },
+      {
+        "label": "Publications",
+        "href": "/publications"
+      }
+    ],
+    "items": [
+      {
+        "id": "01",
+        "name": "ITAC",
+        "full": "Industrial Training and Assessment Center",
+        "description": "Energy assessments and technical solutions for industrial efficiency and sustainability."
+      },
+      {
+        "id": "02",
+        "name": "Plasma",
+        "full": "High Voltage Plasma Research",
+        "description": "High-voltage plasma R&D with applications in medical devices, filtration, avionics, and satellites."
+      },
+      {
+        "id": "03",
+        "name": "Biz/Tech",
+        "full": "Business & Technology",
+        "description": "Spin-off formation, grant proposals, scholarship coordination, and lab commercialization."
+      },
+      {
+        "id": "04",
+        "name": "Embedded",
+        "full": "Embedded Systems & Instrumentation",
+        "description": "Sensor design, weak-signal detection, and signal processing across agriculture, scientific measurement, and environmental monitoring."
+      },
+      {
+        "id": "05",
+        "name": "Sudoku",
+        "full": "DevOps & Software Engineering",
+        "description": "Software platforms, web systems, apps, scripts, and media production."
+      },
+      {
+        "id": "06",
+        "name": "Teaching",
+        "full": "Education & Teaching Tools",
+        "description": "Novel teaching tools and curricula, deployed in UW courses and institutions worldwide."
+      }
+    ]
+  },
+  "benefitsSection": {
+    "title": "Why join SEAL?",
+    "items": [
+      {
+        "heading": "Earn Academic Credit",
+        "description": "Take on 1–3 credits while shipping real work on active projects. Flexible commitment, real output.",
+        "href": "/apply"
+      },
+      {
+        "heading": "Do Real Research",
+        "description": "Get hands-on with graduate-level work at one of the world's top public research universities.",
+        "href": "/projects"
+      },
+      {
+        "heading": "Build Your Resume",
+        "description": "You learn by doing. Every project teaches something concrete and demonstrable.",
+        "href": "/projects"
+      },
+      {
+        "heading": "Publish and Win Scholarships",
+        "description": "SEAL actively supports students pursuing publications and scholarships — especially valuable for anyone with graduate school in mind.",
+        "href": "/publications"
+      }
+    ]
+  }
+}

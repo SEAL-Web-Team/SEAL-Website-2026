@@ -192,7 +192,6 @@ export default function GalleryLightbox({
 
     el.addEventListener("wheel", onWheel, { passive: false });
     return () => el.removeEventListener("wheel", onWheel);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeIndex]);
 
   // ── ResizeObserver for container ───────────────────────────────────────────

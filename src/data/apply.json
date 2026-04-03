@@ -1,0 +1,24 @@
+{
+  "page": {
+    "title": "Apply to SEAL",
+    "subtitle": "Applications are open. Review the resources below before submitting."
+  },
+  "resources": [
+    {
+      "title": "FAQ & Open Positions",
+      "description": "What SEAL is, how it works, and what positions are available.",
+      "href": "https://tinyurl.com/SEALFAQs"
+    },
+    {
+      "title": "Cover Letter Template",
+      "description": "Required format for your cover letter submission.",
+      "href": "https://docs.google.com/presentation/d/e/2PACX-1vQ9VG87uMQSPhwdXctTRM0jIenB3S-NXUVoAy4HSrdVnFQN6p9np0MDO316I6s93w/pub?start=false&loop=false&delayms=3000"
+    },
+    {
+      "title": "Apply Now",
+      "description": "Submit your application once you have reviewed the FAQ and prepared your cover letter.",
+      "href": "https://goo.gl/forms/aiTE4Vms9RejcAg13"
+    }
+  ],
+  "actionLabel": "Open"
+}

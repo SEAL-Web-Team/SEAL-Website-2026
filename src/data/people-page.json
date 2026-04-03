@@ -1,0 +1,35 @@
+{
+  "page": {
+    "title": "People",
+    "subtitle": "The researchers, engineers, and students driving SEAL Lab forward."
+  },
+  "leadershipTitle": "Lab Leadership",
+  "teamOrder": [
+    "Lab Exec",
+    "ITAC",
+    "Embedded",
+    "Plasma",
+    "Sudoku",
+    "Teaching",
+    "Biz/Tech"
+  ],
+  "teamDisplayNames": {
+    "Lab Exec": "Lab Leadership",
+    "ITAC": "ITAC",
+    "Embedded": "Embedded",
+    "Plasma": "Plasma",
+    "Sudoku": "Sudoku",
+    "Teaching": "Teaching",
+    "Biz/Tech": "Biz/Tech"
+  },
+  "roleTeam": {
+    "1.": "ITAC",
+    "2.": "Embedded",
+    "3.": "Plasma",
+    "5.": "Sudoku",
+    "6.": "Teaching",
+    "7.": "Biz/Tech",
+    "8.1": "Lab Exec",
+    "7.1": "Lab Exec"
+  }
+}

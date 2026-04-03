@@ -1,36 +1,13 @@
 import people from "@/data/people.json";
+import peoplePage from "@/data/people-page.json";
 
 type Person = typeof people[number];
-
-// Maps role number prefix → team
-const ROLE_TEAM: Record<string, string> = {
-  "1.": "ITAC",
-  "2.": "Embedded",
-  "3.": "Plasma",
-  "5.": "Sudoku",
-  "6.": "Teaching",
-  "7.": "Biz/Tech",
-  "8.1": "Lab Exec",
-  "7.1": "Lab Exec",
-};
-
-const TEAM_ORDER = ["Lab Exec", "ITAC", "Embedded", "Plasma", "Sudoku", "Teaching", "Biz/Tech"];
-
-const TEAM_COLORS: Record<string, { label: string; bar: string }> = {
-  "Lab Exec":  { label: "text-slate-400", bar: "bg-white/20" },
-  "ITAC":      { label: "text-slate-400", bar: "bg-white/20" },
-  "Embedded":  { label: "text-slate-400", bar: "bg-white/20" },
-  "Plasma":    { label: "text-slate-400", bar: "bg-white/20" },
-  "Sudoku":    { label: "text-slate-400", bar: "bg-white/20" },
-  "Teaching":  { label: "text-slate-400", bar: "bg-white/20" },
-  "Biz/Tech":  { label: "text-slate-400", bar: "bg-white/20" },
-};
 
 function roleToTeam(role: string): string | null {
   // Check 8.1 and 7.1 before generic 7. / 8.
   if (role.startsWith("8.1") || role.toLowerCase().includes("lab director") || role.toLowerCase().includes("clan lead")) return "Lab Exec";
   if (role.startsWith("7.1")) return "Lab Exec";
-  for (const [prefix, team] of Object.entries(ROLE_TEAM)) {
+  for (const [prefix, team] of Object.entries(peoplePage.roleTeam)) {
     if (role.startsWith(prefix)) return team;
   }
   return null;
@@ -87,7 +64,7 @@ function PersonCard({ person, large = false }: {
 }
 
 export default function PeoplePage() {
-  const grouped = TEAM_ORDER.map((team) => {
+  const grouped = peoplePage.teamOrder.map((team) => {
     const members = people
       .filter((p) => teamsForPerson(p).includes(team))
       .sort((a, b) => bestRankForTeam(a, team) - bestRankForTeam(b, team));
@@ -101,15 +78,15 @@ export default function PeoplePage() {
       <div className="page-container">
 
         <div className="page-header">
-          <h1 className="page-title">People</h1>
-          <p className="page-subtitle">The researchers, engineers, and students driving SEAL Lab forward.</p>
+          <h1 className="page-title">{peoplePage.page.title}</h1>
+          <p className="page-subtitle">{peoplePage.page.subtitle}</p>
         </div>
 
         {/* ── Lab Leadership ── */}
         <div className="mb-28 pb-28 border-b border-white/[0.06]">
           <div className="flex items-center gap-4 mb-10">
-            <div className={`w-8 h-px ${TEAM_COLORS["Lab Exec"].bar}`} />
-            <h2 className={`text-sm font-semibold uppercase tracking-widest ${TEAM_COLORS["Lab Exec"].label}`}>Lab Leadership</h2>
+            <div className="w-8 h-px bg-white/20" />
+            <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-400">{peoplePage.leadershipTitle}</h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {leadership.members.map((p) => (
@@ -121,12 +98,11 @@ export default function PeoplePage() {
         {/* ── Teams ── */}
         <div className="flex flex-col gap-24">
           {teams.map(({ team, members }) => {
-            const colors = TEAM_COLORS[team];
             return (
               <div key={team}>
                 <div className="flex items-center gap-4 mb-10">
-                  <div className={`w-8 h-px ${colors.bar}`} />
-                  <h2 className={`text-sm font-semibold uppercase tracking-widest ${colors.label}`}>{team}</h2>
+                  <div className="w-8 h-px bg-white/20" />
+                  <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-400">{peoplePage.teamDisplayNames[team as keyof typeof peoplePage.teamDisplayNames]}</h2>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5">
                   {members.map((p) => (

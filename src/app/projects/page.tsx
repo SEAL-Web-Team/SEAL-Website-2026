@@ -1,4 +1,5 @@
 import projects from "@/data/projects.json";
+import pageCopy from "@/data/page-copy.json";
 
 export default function ProjectsPage() {
   return (
@@ -6,8 +7,8 @@ export default function ProjectsPage() {
       <div className="page-container">
 
         <div className="page-header">
-          <h1 className="page-title">Project Showcase</h1>
-          <p className="page-subtitle">Research initiatives and engineering projects from the SEAL Lab.</p>
+          <h1 className="page-title">{pageCopy.projects.title}</h1>
+          <p className="page-subtitle">{pageCopy.projects.subtitle}</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -42,7 +43,7 @@ export default function ProjectsPage() {
                 </p>
                 <div className="mt-5">
                   <span className="action-chip text-xs">
-                    <span>View project</span>
+                    <span>{pageCopy.projects.actionLabel}</span>
                     <span aria-hidden="true">→</span>
                   </span>
                 </div>
