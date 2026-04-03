@@ -32,10 +32,8 @@ export default async function GalleryAlbumPage({
         </div>
 
         <div className="page-header">
-          <div className="flex items-start justify-between gap-6">
-            <h1 className="page-title">{album.title}</h1>
-            <p className="gallery-album-count shrink-0 pt-2">{album.count} photos</p>
-          </div>
+          <h1 className="page-title">{album.title}</h1>
+          <p className="page-subtitle" style={{ marginTop: "0.5rem" }}>{album.count} photos</p>
           {album.intro?.length ? (
             <div className="gallery-album-intro">
               {album.intro.map((paragraph) => (
