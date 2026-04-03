@@ -31,21 +31,18 @@ export default async function GalleryAlbumPage({
           </Link>
         </div>
 
-        <div className="gallery-album-header">
-          <div className="gallery-album-header-main">
+        <div className="page-header">
+          <div className="flex items-start justify-between gap-6">
             <h1 className="page-title">{album.title}</h1>
-            {album.intro?.length ? (
-              <div className="gallery-album-intro">
-                {album.intro.map((paragraph) => (
-                  <p key={paragraph}>{paragraph}</p>
-                ))}
-              </div>
-            ) : null}
+            <p className="gallery-album-count shrink-0 pt-2">{album.count} photos</p>
           </div>
-
-          <p className="gallery-album-count">
-            {album.count} photos
-          </p>
+          {album.intro?.length ? (
+            <div className="gallery-album-intro">
+              {album.intro.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+          ) : null}
         </div>
 
         <GalleryLightbox albumTitle={album.title} images={album.images} />
