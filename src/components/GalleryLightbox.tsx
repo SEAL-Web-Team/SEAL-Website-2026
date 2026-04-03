@@ -261,8 +261,6 @@ export default function GalleryLightbox({
           role="dialog"
           aria-modal="true"
         >
-          <button type="button" className="lightbox-close" onClick={closeLightbox} aria-label="Close">×</button>
-
           {images.length > 1 && (
             <>
               <button type="button" className="lightbox-nav lightbox-nav-left"
@@ -273,6 +271,7 @@ export default function GalleryLightbox({
           )}
 
           <div className="lightbox-frame">
+              <button type="button" className="lightbox-close" onClick={(e) => { e.stopPropagation(); closeLightbox(); }} aria-label="Close">×</button>
             {/* ── Image stage ── */}
             <div className="lightbox-stage">
               <div
