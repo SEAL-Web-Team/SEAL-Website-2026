@@ -66,6 +66,79 @@ function zoomToward(
   return { zoom: newZoom, panX: x, panY: y };
 }
 
+// ── Minimap ───────────────────────────────────────────────────────────────────
+
+const MINIMAP_MAX = 120; // px — longest side of the minimap box
+
+function Minimap({
+  zoom,
+  pan,
+  baseSize,
+  containerSize,
+}: {
+  zoom: number;
+  pan: { x: number; y: number };
+  baseSize: { w: number; h: number };
+  containerSize: { w: number; h: number };
+}) {
+  if (zoom <= 1 || !baseSize.w || !containerSize.w) return null;
+
+  const { w: bw, h: bh } = baseSize;
+  const { w: vw, h: vh } = containerSize;
+
+  // Minimap box dimensions (preserving aspect ratio)
+  const scale = bw >= bh ? MINIMAP_MAX / bw : MINIMAP_MAX / bh;
+  const mmW = Math.round(bw * scale);
+  const mmH = Math.round(bh * scale);
+
+  // Visible fraction of the image
+  const visW = Math.min(1, vw / (zoom * bw));
+  const visH = Math.min(1, vh / (zoom * bh));
+
+  // Top-left corner of the visible region as a fraction of the image
+  const visLeft = Math.max(0, 0.5 - pan.x / (zoom * bw) - vw / (2 * zoom * bw));
+  const visTop  = Math.max(0, 0.5 - pan.y / (zoom * bh) - vh / (2 * zoom * bh));
+
+  const hlLeft  = Math.round(visLeft * mmW);
+  const hlTop   = Math.round(visTop  * mmH);
+  const hlW     = Math.round(visW    * mmW);
+  const hlH     = Math.round(visH    * mmH);
+
+  return (
+    <div
+      style={{
+        position: "absolute",
+        bottom: "0.75rem",
+        right: "0.75rem",
+        width: mmW,
+        height: mmH,
+        background: "rgb(0 0 0 / 0.52)",
+        border: "1px solid rgb(255 255 255 / 0.18)",
+        borderRadius: "0.4rem",
+        overflow: "hidden",
+        pointerEvents: "none",
+        zIndex: 10,
+        backdropFilter: "blur(4px)",
+      }}
+    >
+      {/* Highlight — visible area */}
+      <div
+        style={{
+          position: "absolute",
+          left: hlLeft,
+          top: hlTop,
+          width: hlW,
+          height: hlH,
+          border: "1.5px solid rgb(168 85 247 / 0.9)",
+          background: "rgb(168 85 247 / 0.18)",
+          borderRadius: "0.2rem",
+          boxSizing: "border-box",
+        }}
+      />
+    </div>
+  );
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 export default function GalleryLightbox({
@@ -342,6 +415,13 @@ export default function GalleryLightbox({
                     }}
                   />
                 </div>
+
+                <Minimap
+                  zoom={zoom}
+                  pan={pan}
+                  baseSize={baseSize}
+                  containerSize={containerSize}
+                />
               </div>
             </div>
 
