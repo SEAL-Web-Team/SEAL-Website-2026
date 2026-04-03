@@ -12,11 +12,11 @@ export default function LocationsPage() {
         </div>
 
         {/* Campus Map */}
-        <div className="surface-card mb-20 overflow-hidden">
+        <div className="surface-card mb-12 sm:mb-20 overflow-hidden">
           <iframe
             title={locationPage.map.title}
             src={locationPage.map.url}
-            className="h-[560px] w-full bg-black/20"
+            className="h-[55svh] min-h-[20rem] sm:h-[560px] w-full bg-black/20"
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
           />
@@ -42,7 +42,7 @@ export default function LocationsPage() {
               <div className="h-px bg-white/[0.06]" />
 
               {/* Content */}
-              <div className="flex flex-col flex-1 p-6">
+              <div className="flex flex-col flex-1 p-5 sm:p-6">
                 <h2 className="text-white font-semibold text-base leading-snug mb-3">
                   {loc.name}
                 </h2>

@@ -18,7 +18,7 @@ export default function PartnersPage() {
               className="surface-card surface-card-hover group flex flex-col overflow-hidden"
             >
               {p.image && (
-                <div className="media-frame h-52 overflow-hidden">
+                <div className="media-frame h-44 sm:h-52 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={p.image}
@@ -27,7 +27,7 @@ export default function PartnersPage() {
                   />
                 </div>
               )}
-              <div className="flex flex-col flex-1 p-8">
+              <div className="flex flex-col flex-1 p-5 sm:p-8">
                 <h2 className="text-white text-xl font-semibold mb-4">{p.name}</h2>
                 <p className="text-slate-300 text-base leading-relaxed flex-1 mb-8">{p.description}</p>
                 <a

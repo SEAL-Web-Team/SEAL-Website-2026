@@ -16,14 +16,14 @@ type Publication = {
 
 function PubRow({ pub, index }: { pub: Publication; index: number }) {
   return (
-    <div className="flex gap-5 py-5 border-b border-white/[0.06] last:border-b-0">
+    <div className="flex flex-wrap gap-x-5 gap-y-2 py-5 border-b border-white/[0.06] last:border-b-0">
       {/* Index */}
       <div className="w-8 shrink-0 text-right text-slate-600 text-sm tabular-nums pt-0.5 select-none">
         {index}
       </div>
 
       {/* Main content */}
-      <div className="flex-1 min-w-0">
+      <div className="flex-1 min-w-0" style={{ minWidth: "min(100%, 16rem)" }}>
         {pub.url ? (
           <a
             href={pub.url}
@@ -44,7 +44,7 @@ function PubRow({ pub, index }: { pub: Publication; index: number }) {
 
       {/* Citation pills */}
       {(pub.bibtex || pub.endnote) && (
-        <div className="flex flex-col items-end gap-1.5 shrink-0 pt-0.5">
+        <div className="flex flex-row sm:flex-col items-start sm:items-end gap-1.5 shrink-0 pt-0.5 pl-8 sm:pl-0 w-full sm:w-auto">
           {pub.bibtex && (
             <a
               href={pub.bibtex}
@@ -85,13 +85,13 @@ function SectionHeader({
   return (
     <button
       onClick={onToggle}
-      className="flex items-center gap-3 w-full text-left group mb-8"
+      className="flex flex-wrap items-center gap-3 w-full text-left group mb-6 sm:mb-8"
     >
       <h2 className="text-white text-xl font-semibold group-hover:text-slate-200 transition-colors">{title}</h2>
       <span className="text-xs font-medium text-slate-400 bg-white/[0.06] border border-white/[0.08] rounded-full px-2.5 py-0.5 tabular-nums">
         {shown}/{total}
       </span>
-      <span className="ml-auto text-slate-500 group-hover:text-slate-300 transition-colors text-sm">
+      <span className="ml-auto text-slate-500 group-hover:text-slate-300 transition-colors text-sm min-w-6 text-right">
         {open ? "−" : "+"}
       </span>
     </button>

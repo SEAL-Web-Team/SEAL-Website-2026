@@ -21,7 +21,7 @@ export default function ProjectsPage() {
               className="surface-card surface-card-hover group relative overflow-hidden flex flex-col"
             >
               {/* Image */}
-              <div className="media-frame h-52 overflow-hidden shrink-0">
+              <div className="media-frame h-44 sm:h-52 overflow-hidden shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={project.image}
@@ -34,7 +34,7 @@ export default function ProjectsPage() {
               <div className="h-px bg-white/[0.06]" />
 
               {/* Content */}
-              <div className="flex flex-col flex-1 p-6">
+              <div className="flex flex-col flex-1 p-5 sm:p-6">
                 <h2 className="text-white font-semibold text-base leading-snug mb-3">
                   {project.name}
                 </h2>

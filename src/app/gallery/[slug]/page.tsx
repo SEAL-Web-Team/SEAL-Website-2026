@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGalleryAlbumBySlug, getInternalGalleryAlbumSlugs } from "@/data/galleries";
 import GalleryLightbox from "@/components/GalleryLightbox";
+import { parseGalleryImageParam } from "@/lib/galleryImageParam";
 
 export function generateStaticParams() {
   return getInternalGalleryAlbumSlugs().map((slug) => ({ slug }));
@@ -9,8 +10,10 @@ export function generateStaticParams() {
 
 export default async function GalleryAlbumPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ image?: string | string[] }>;
 }) {
   const { slug } = await params;
   const album = await getGalleryAlbumBySlug(slug);
@@ -18,6 +21,8 @@ export default async function GalleryAlbumPage({
   if (!album) {
     notFound();
   }
+
+  const requestedImageIndex = parseGalleryImageParam((await searchParams).image, album.images.length);
 
   return (
     <div className="page-shell">
@@ -43,7 +48,11 @@ export default async function GalleryAlbumPage({
           ) : null}
         </div>
 
-        <GalleryLightbox albumTitle={album.title} images={album.images} />
+        <GalleryLightbox
+          albumTitle={album.title}
+          images={album.images}
+          initialIndex={requestedImageIndex}
+        />
       </div>
     </div>
   );

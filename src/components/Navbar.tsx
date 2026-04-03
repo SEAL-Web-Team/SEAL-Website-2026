@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 
 const navLinks = [
   { label: "Home", href: "/" },
@@ -18,9 +18,10 @@ const navLinks = [
 ];
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const detailsRef = useRef<HTMLDetailsElement>(null);
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 10);
@@ -28,10 +29,30 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  // Sync React state with the native details toggle (for header bg)
+  useEffect(() => {
+    const el = detailsRef.current;
+    if (!el) return;
+    const handler = () => setMenuOpen(el.open);
+    el.addEventListener("toggle", handler);
+    return () => el.removeEventListener("toggle", handler);
+  }, []);
+
+  // Close menu on route change
+  useEffect(() => {
+    if (detailsRef.current) detailsRef.current.open = false;
+  }, [pathname]);
+
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-[#0e0a14]/40 backdrop-blur-md" : "bg-transparent"}`}>
+    <header
+      style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 50 }}
+      className={`transition-colors duration-300 ${
+        scrolled || menuOpen ? "bg-[#0e0a14]/95 backdrop-blur-md" : "bg-transparent"
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -55,8 +76,8 @@ export default function Navbar() {
                 href={link.href}
                 className={`px-3 py-2 text-sm rounded-md transition-all duration-150 whitespace-nowrap ${
                   pathname === link.href
-                    ? "text-white bg-white/8"
-                    : "text-slate-300 hover:text-white hover:bg-white/5"
+                    ? "text-white bg-white/[0.08]"
+                    : "text-slate-300 hover:text-white hover:bg-white/[0.05]"
                 }`}
               >
                 {link.label}
@@ -64,40 +85,34 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Mobile menu button */}
-          <button
-            className="lg:hidden text-slate-300 hover:text-white p-2 rounded-md hover:bg-white/10 transition-colors"
-            onClick={() => setMenuOpen(!menuOpen)}
-            aria-label="Toggle menu"
-          >
-            <div className="w-5 flex flex-col gap-1.5">
-              <span className={`block h-0.5 bg-current transition-all duration-200 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
-              <span className={`block h-0.5 bg-current transition-all duration-200 ${menuOpen ? "opacity-0" : ""}`} />
-              <span className={`block h-0.5 bg-current transition-all duration-200 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
-            </div>
-          </button>
+          {/* Mobile: native <details> toggle — no JS required to open/close */}
+          <details ref={detailsRef} className="lg:hidden mobile-nav-details">
+            <summary className="mobile-nav-summary" aria-label="Toggle menu">
+              {/* Hamburger lines — animated via CSS [open] selector */}
+              <span className="mobile-nav-bar bar1" />
+              <span className="mobile-nav-bar bar2" />
+              <span className="mobile-nav-bar bar3" />
+            </summary>
+
+            {/* Dropdown — position:fixed so it escapes the header's flow */}
+            <nav className="mobile-nav-dropdown">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`mobile-nav-link ${pathname === link.href ? "active" : ""}`}
+                  onClick={() => {
+                    if (detailsRef.current) detailsRef.current.open = false;
+                  }}
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
+          </details>
+
         </div>
       </div>
-
-      {/* Mobile menu */}
-      {menuOpen && (
-        <div className="lg:hidden bg-[#0e0a14] border-t border-white/10 px-4 py-3 space-y-1">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setMenuOpen(false)}
-              className={`block px-3 py-2 text-sm rounded-md transition-colors ${
-                pathname === link.href
-                  ? "text-white bg-white/8"
-                  : "text-slate-300 hover:text-white hover:bg-white/5"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </div>
-      )}
     </header>
   );
 }

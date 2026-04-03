@@ -21,7 +21,7 @@ export default function GalleryPage() {
                 href={album.href}
                 className="surface-card surface-card-hover flex flex-col overflow-hidden"
               >
-                <div className="media-frame h-52 overflow-hidden">
+                <div className="media-frame h-44 sm:h-52 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={album.image}
@@ -30,7 +30,7 @@ export default function GalleryPage() {
                   />
                 </div>
 
-                <div className="flex flex-1 flex-col p-6">
+                <div className="flex flex-1 flex-col p-5 sm:p-6">
                   <h2 className="mb-3 text-xl font-semibold text-white">{album.title}</h2>
                   <p className="mb-6 text-sm text-slate-400">
                     <strong className="text-slate-200">{album.count}</strong> photos
@@ -49,7 +49,7 @@ export default function GalleryPage() {
                 rel="noopener noreferrer"
                 className="surface-card surface-card-hover flex flex-col overflow-hidden"
               >
-                <div className="media-frame h-52 overflow-hidden">
+                <div className="media-frame h-44 sm:h-52 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src={album.image}
@@ -58,7 +58,7 @@ export default function GalleryPage() {
                   />
                 </div>
 
-                <div className="flex flex-1 flex-col p-6">
+                <div className="flex flex-1 flex-col p-5 sm:p-6">
                   <h2 className="mb-3 text-xl font-semibold text-white">{album.title}</h2>
                   <p className="mb-6 text-sm text-slate-400">
                     <strong className="text-slate-200">{album.count}</strong> photos

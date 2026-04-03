@@ -1,0 +1,1218 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: mobile-interactions.spec.ts >> mobile interactions >> publication sections collapse on tap
+- Location: e2e/mobile-interactions.spec.ts:15:7
+
+# Error details
+
+```
+Error: expect(locator).toBeHidden() failed
+
+Locator:  getByText(/Analytical Model For Electrohydrodynamic Thrust/i).first()
+Expected: hidden
+Received: visible
+Timeout:  5000ms
+
+Call log:
+  - Expect "toBeHidden" with timeout 5000ms
+  - waiting for getByText(/Analytical Model For Electrohydrodynamic Thrust/i).first()
+    9 × locator resolved to <a target="_blank" rel="noopener noreferrer" href="https://royalsocietypublishing.org/doi/full/10.1098/rspa.2020.0220" class="text-white font-medium text-[0.9375rem] leading-snug hover:text-slate-200 transition-colors duration-150 break-words">Analytical Model For Electrohydrodynamic Thrust</a>
+      - unexpected value "visible"
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "SEAL icon" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "SEAL icon" [ref=e6]
+      - group [ref=e7]:
+        - generic "Toggle menu" [ref=e8] [cursor=pointer]
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - heading "Publications" [level=1] [ref=e16]
+        - paragraph [ref=e17]: Peer-reviewed journal articles and conference papers from SEAL Lab research spanning sensors, electrostatics, power systems, and more.
+      - textbox "Search by title or authors…" [ref=e19]
+      - generic [ref=e20]:
+        - button "Journal Publications 40/40 −" [active] [ref=e21]:
+          - heading "Journal Publications" [level=2] [ref=e22]
+          - generic [ref=e23]: 40/40
+          - generic [ref=e24]: −
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: "1"
+            - generic [ref=e28]:
+              - link "Analytical Model For Electrohydrodynamic Thrust" [ref=e29] [cursor=pointer]:
+                - /url: https://royalsocietypublishing.org/doi/full/10.1098/rspa.2020.0220
+              - paragraph [ref=e30]: Ravi Sankar Vaddi, Yifei Guan, Alexander Mamishev, Igor Novosselov
+              - paragraph [ref=e31]: Proceedings A, Royal Society
+            - generic [ref=e32]:
+              - link "BibTeX" [ref=e33] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/04/JP_AnalyticalModelForElectrohydrodynamicThrust_BibTeX.rtf
+              - link "EndNote" [ref=e34] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_AnalyticalModelForElectrohydrodynamicThrust_EndNote.rtf
+          - generic [ref=e35]:
+            - generic [ref=e36]: "2"
+            - generic [ref=e37]:
+              - 'link "DietSensor: Automatic Dietary Intake Measurement Using Mobile 3D Scanning Sensor for Diabetic Patients" [ref=e38] [cursor=pointer]':
+                - /url: https://www.mdpi.com/1424-8220/20/12/3380
+              - paragraph [ref=e39]: S. Makhsous, M. Bharadwaj, B.E. Atkinson, I.V. Novosselov, A.V. Mamishev
+              - paragraph [ref=e40]: Sensors Journal, Volume 20, No. 12
+            - generic [ref=e41]:
+              - link "BibTeX" [ref=e42] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietsensorAutomaticDietaryIntakeMeasurementUsingMobile3DScanningSensorForDiabeticPatients_BibTeX.rtf
+              - link "EndNote" [ref=e43] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietsensorAutomaticDietaryIntakeMeasurementUsingMobile3DScanningSensorForDiabeticPatients_EndNote.rtf
+          - generic [ref=e44]:
+            - generic [ref=e45]: "3"
+            - generic [ref=e46]:
+              - link "A Novel Mobile Structured Light System in Food 3D Reconstruction and Volume Estimation" [ref=e47] [cursor=pointer]:
+                - /url: https://www.mdpi.com/1424-8220/19/3/564
+              - paragraph [ref=e48]: S. Makhsous, H. M. Mohammad, J. M. Schenk, A. V. Mamishev, A. R. Kristal
+              - paragraph [ref=e49]: Sensors, vol. 19, no. 3, p. 564, 2019
+            - generic [ref=e50]:
+              - link "BibTeX" [ref=e51] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ANovelMobileStructuredLightSystemInFood3DReconstructionAndVolumeEstimation_BibTeX.rtf
+              - link "EndNote" [ref=e52] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ANovelMobileStructuredLightSystemInFood3DReconstructionAndVolumeEstimation_EndNote.rtf
+          - generic [ref=e53]:
+            - generic [ref=e54]: "4"
+            - generic [ref=e55]:
+              - 'link "DietSkan: Food Volume Estimation for Dietary Intake Analysis Using 3D Mesh Scanning" [ref=e56] [cursor=pointer]':
+                - /url: https://www.researchgate.net/publication/334452565_DietSkan_Food_Volume_Estimation_for_Dietary_Intake_Analysis_Using_3D_Mesh_Scanning
+              - paragraph [ref=e57]: S. Makhsous, J. Gentsch, J. Rollins, Z. Feingold, A. Mamishev
+              - paragraph [ref=e58]: International Journal of Engineering & Technology, vol. 7, no. 4.38, pp. 1368–1371, 2018
+            - generic [ref=e59]:
+              - link "BibTeX" [ref=e60] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietSkanFoodVolumeEstimationForDietaryIntakeAnalysisUsing3DMeshScanning_BibTeX.rtf
+              - link "EndNote" [ref=e61] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DietSkanFoodVolumeEstimationForDietaryIntakeAnalysisUsing3DMeshScanning_EndNote.rtf
+          - generic [ref=e62]:
+            - generic [ref=e63]: "5"
+            - generic [ref=e64]:
+              - link "Reduction of Aerosol Particulates Through the Use of an Electrostatic Precipitator with Guidance-Plate-Covered Collecting Electrodes" [ref=e65] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S0021850214001517
+              - paragraph [ref=e66]: Tsrong-Yi Wen, Igor Krichtafovitch, Alexander V. Mamishev
+              - paragraph [ref=e67]: Journal of Aerosol Science, Volume 79, January 2015, Pages 40–47
+            - generic [ref=e68]:
+              - link "BibTeX" [ref=e69] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ReductionOfAerosolParticulatesThroughTheUseOfAnElectrostaticPrecipitatorWithGuidance-plate-coveredCollectingElectrodes_BibTeX.rtf
+              - link "EndNote" [ref=e70] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ReductionOfAerosolParticulatesThroughTheUseOfAnElectrostaticPrecipitatorWithGuidance-plate-coveredCollectingElectrodes_EndNote.rtf
+          - generic [ref=e71]:
+            - generic [ref=e72]: "6"
+            - generic [ref=e73]:
+              - link "Novel Electrodes of an Electrostatic Precipitator for Air Filtration" [ref=e74] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S0304388614001107
+              - paragraph [ref=e75]: T. Y. Wen, H. C. Wang, I. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e76]: Journal of Electrostatics, vol. 73, pp. 117–124, 2015
+            - generic [ref=e77]:
+              - link "BibTeX" [ref=e78] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_NovelElectrodesOfAnElectrostaticPrecipitatorForAirFiltration_BibTeX.rtf
+              - link "EndNote" [ref=e79] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_NovelElectrodesOfAnElectrostaticPrecipitatorForAirFiltration_EndNote.rtf
+          - generic [ref=e80]:
+            - generic [ref=e81]: "7"
+            - generic [ref=e82]:
+              - link "Heat Transfer Correlation Models for Electrospray Evaporative Cooling Chambers of Different Geometry Types" [ref=e83] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S1359431112000907
+              - paragraph [ref=e84]: H. C. Wang, A. V. Mamishev
+              - paragraph [ref=e85]: Applied Thermal Engineering, Vol. 40, 2012, pp. 91–101
+            - generic [ref=e86]:
+              - link "BibTeX" [ref=e87] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferCorrelationModelsForElectrosprayEvaporativeCoolingChambersOfDifferentGeometryTypes_BibTeX.rtf
+              - link "EndNote" [ref=e88] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferCorrelationModelsForElectrosprayEvaporativeCoolingChambersOfDifferentGeometryTypes_EndNote.rtf
+          - generic [ref=e89]:
+            - generic [ref=e90]: "8"
+            - generic [ref=e91]:
+              - link "Optimization Methodology for Electrospray Evaporative Cooling Chambers" [ref=e92] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S0304388612000502
+              - paragraph [ref=e93]: H. C. Wang, A. V. Mamishev
+              - paragraph [ref=e94]: Journal of Electrostatics, Vol. 70, 2012, pp. 384–392
+            - generic [ref=e95]:
+              - link "BibTeX" [ref=e96] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationMethodologyForElectrosprayEvaporativeCoolingChambers_BibTeX.rtf
+              - link "EndNote" [ref=e97] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationMethodologyForElectrosprayEvaporativeCoolingChambers_EndNote.rtf
+          - generic [ref=e98]:
+            - generic [ref=e99]: "9"
+            - generic [ref=e100]:
+              - link "Design Methodology of the Micronozzle-Based Electrospray Evaporative Cooling Devices" [ref=e101] [cursor=pointer]:
+                - /url: https://www.scirp.org/journal/paperinformation.aspx?paperid=19750
+              - paragraph [ref=e102]: H. C. Wang, A. V. Mamishev
+              - paragraph [ref=e103]: Journal of Electronics Cooling and Thermal Control, Vol. 2, No. 2, 2012, pp. 17–31
+            - generic [ref=e104]:
+              - link "BibTeX" [ref=e105] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignMethodologyOfTheMicronozzle-BasedElectrosprayEvaporativeCoolingDevices_BibTeX.rtf
+              - link "EndNote" [ref=e106] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignMethodologyOfTheMicronozzle-BasedElectrosprayEvaporativeCoolingDevices_EndNote.rtf
+          - generic [ref=e107]:
+            - generic [ref=e108]: "10"
+            - generic [ref=e109]:
+              - link "Interfacial Stress Sensor for Biomechanical Applications" [ref=e110] [cursor=pointer]:
+                - /url: https://iopscience.iop.org/article/10.1088/0957-0233/23/8/085701
+              - paragraph [ref=e111]: K. Sundara-Rajan, G. I. Rowe, A. Bestick, G. K. Klute, W. R. Ledoux, A. V. Mamishev
+              - paragraph [ref=e112]: Measurement Science and Technology, IOP, vol. 23, no. 8, 2012
+            - generic [ref=e113]:
+              - link "BibTeX" [ref=e114] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterfacialStressSensorForBiomechanicalApplications_BibTeX.rtf
+              - link "EndNote" [ref=e115] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterfacialStressSensorForBiomechanicalApplications_EndNote.rtf
+          - generic [ref=e116]:
+            - generic [ref=e117]: "11"
+            - generic [ref=e118]:
+              - link "Microfabrication Methods for Electrostatic Fluid Accelerators" [ref=e119] [cursor=pointer]:
+                - /url: https://www.nnin.org/sites/default/files/files/NNINreu06Fox.pdf
+              - paragraph [ref=e120]: C. P. Hsu, N. E. Jewell-Larsen, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e121]: Journal of MEMS, Volume 18, Issue 1, Pages 111–118, 2009
+            - generic [ref=e122]:
+              - link "BibTeX" [ref=e123] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MicrofabricationMethodsForElectrostaticFluidAccelerators_BibTeX.rtf
+              - link "EndNote" [ref=e124] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MicrofabricationMethodsForElectrostaticFluidAccelerators_EndNote.rtf
+          - generic [ref=e125]:
+            - generic [ref=e126]: "12"
+            - generic [ref=e127]:
+              - link "Heat Transfer Enhancement Measurement for Microfabricated Electrostatic Fluid Accelerators" [ref=e128] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/4509362
+              - paragraph [ref=e129]: C. P. Hsu, N. E. Jewell-Larsen, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e130]: Journal of Microelectromechanical Systems, Vol. 18, Iss. 1, pg. 111–118, 2009
+            - generic [ref=e131]:
+              - link "BibTeX" [ref=e132] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_BibTeX.rtf
+              - link "EndNote" [ref=e133] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_EndNote.rtf
+          - generic [ref=e134]:
+            - generic [ref=e135]: "13"
+            - generic [ref=e136]:
+              - link "CFD Analysis of Electrostatic Fluid Accelerators for Forced Convection Cooling" [ref=e137] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/4712680
+              - paragraph [ref=e138]: N. E. Jewell-Larsen, C. P. Hsu, I. A. Krichtafovitch, S. W. Montgomery, J. T. Dibene II, A. V. Mamishev
+              - paragraph [ref=e139]: IEEE Transactions on Dielectrics and Electrical Insulation, Volume 15, Issue 6, December 2008, pp. 1745–1753
+            - generic [ref=e140]:
+              - link "BibTeX" [ref=e141] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_CFDAnalysisOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_BibTeX.rtf
+              - link "EndNote" [ref=e142] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_CFDAnalysisOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_EndNote.rtf
+          - generic [ref=e143]:
+            - generic [ref=e144]: "14"
+            - generic [ref=e145]:
+              - 'link "Dielectric Spectroscopy: Choosing the Right Approach" [ref=e146] [cursor=pointer]':
+                - /url: https://www.pharmtech.com/view/dielectric-spectroscopy-choosing-right-approach
+              - paragraph [ref=e147]: Mathur, K. Sundara-Rajan, G. Rowe, A. V. Mamishev
+              - paragraph [ref=e148]: American Pharmaceutical Journal, Vol. 9, no. 32, Sep. 2008, pp. 82–93
+            - generic [ref=e149]:
+              - link "BibTeX" [ref=e150] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DielectricSpectroscopyChoosingTheRightApproach_BibTeX.rtf
+              - link "EndNote" [ref=e151] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DielectricSpectroscopyChoosingTheRightApproach_EndNote.rtf
+          - generic [ref=e152]:
+            - generic [ref=e153]: "15"
+            - generic [ref=e154]:
+              - link "Emerging Signal Processing Techniques for Power Quality Applications" [ref=e155] [cursor=pointer]:
+                - /url: https://asp-eurasipjournals.springeropen.com/articles/10.1155/2007/87425
+              - paragraph [ref=e156]: Moises V. Ribeiro, Jacques Szczupak, M. Reza Iravani, Irene Y. H. Gu, P. K. Dash, Alexander V. Mamishev
+              - paragraph [ref=e157]: EURASIP Journal on Advances in Signal Processing, vol. 2007, Article ID 87425
+            - generic [ref=e158]:
+              - link "BibTeX" [ref=e159] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EmergingSignalProcessingTechniquesForPowerQualityApplications_BibTeX.rtf
+              - link "EndNote" [ref=e160] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EmergingSignalProcessingTechniquesForPowerQualityApplications_EndNote.rtf
+          - generic [ref=e161]:
+            - generic [ref=e162]: "16"
+            - generic [ref=e163]:
+              - link "The Thermal Conductivity of Prosthetic Sockets and Liners" [ref=e164] [cursor=pointer]:
+                - /url: https://pubmed.ncbi.nlm.nih.gov/17979015/
+              - paragraph [ref=e165]: G. K. Klute, G. I. Rowe, A. V. Mamishev, W. R. Ledoux
+              - paragraph [ref=e166]: Prosthetics and Orthotics International, vol. 31, Issue 3, September 2007, pp. 292–299
+            - generic [ref=e167]:
+              - link "BibTeX" [ref=e168] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_TheThermalConductivityOfProstheticSocketsAndLiners_BibTeX.rtf
+              - link "EndNote" [ref=e169] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_TheThermalConductivityOfProstheticSocketsAndLiners_EndNote.rtf
+          - generic [ref=e170]:
+            - generic [ref=e171]: "17"
+            - generic [ref=e172]:
+              - link "Miniaturization of Electrostatic Fluid Accelerators" [ref=e173] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/iel5/84/4285629/04285636.pdf
+              - paragraph [ref=e174]: C. P. Hsu, N. E. Jewell-Larsen, I. A. Krichtafovitch, S. W. Montgomery, J. T. Dibene II, A. V. Mamishev
+              - paragraph [ref=e175]: Journal of Microelectromechanical Systems, vol. 16, no. 4, pp. 809–815, Aug. 2007
+            - generic [ref=e176]:
+              - link "BibTeX" [ref=e177] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MiniaturizationOfElectrostaticFluidAccelerators_BibTeX.rtf
+              - link "EndNote" [ref=e178] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MiniaturizationOfElectrostaticFluidAccelerators_EndNote.rtf
+          - generic [ref=e179]:
+            - generic [ref=e180]: "18"
+            - generic [ref=e181]:
+              - link "Energy Scavenging for Inductively Coupled Passive RFID Systems" [ref=e182] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/abstract/document/1604285/
+              - paragraph [ref=e183]: B. Jiang, J. R. Smith, M. Philipose, S. Roy, K. Sundara-Rajan, A. Mamishev
+              - paragraph [ref=e184]: IEEE Transactions on Instrumentation and Measurements, vol. 56, no. 1, Jan. 2007, pp. 118–125
+            - generic [ref=e185]:
+              - link "BibTeX" [ref=e186] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_BibTeX.rtf
+              - link "EndNote" [ref=e187] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_EndNote.rtf
+          - generic [ref=e188]:
+            - generic [ref=e189]: "19"
+            - generic [ref=e190]:
+              - link "Non-Dimensionalized Parametric Modeling of Fringing Electric Field Sensors" [ref=e191] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/4014170
+              - paragraph [ref=e192]: X. B. Li, G. I. Rowe, V. V. Inclan, A. V. Mamishev
+              - paragraph [ref=e193]: IEEE Sensors Journal, vol. 6, no. 6, Dec. 2006, pp. 1602–1608
+            - generic [ref=e194]:
+              - link "BibTeX" [ref=e195] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-dimensionalizedParametricModelingOfFringingElectricFieldSensors_BibTeX.rtf
+              - link "EndNote" [ref=e196] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-dimensionalizedParametricModelingOfFringingElectricFieldSensors_EndNote.rtf
+          - generic [ref=e197]:
+            - generic [ref=e198]: "20"
+            - generic [ref=e199]:
+              - link "Design and Optimization of Electrostatic Fluid Accelerators" [ref=e200] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1593417
+              - paragraph [ref=e201]: N. E. Jewell-Larsen, E. Tran, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e202]: IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 13, No. 1, Feb. 2006, pp. 191–203
+            - generic [ref=e203]:
+              - link "BibTeX" [ref=e204] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignAndOptimizationOfElectrostaticFluidAccelerators_BibTeX.rtf
+              - link "EndNote" [ref=e205] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignAndOptimizationOfElectrostaticFluidAccelerators_EndNote.rtf
+          - generic [ref=e206]:
+            - generic [ref=e207]: "21"
+            - generic [ref=e208]:
+              - link "Design Principles for Multi-Channel Fringing Electric Field Sensors" [ref=e209] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1608087
+              - paragraph [ref=e210]: X. B. Li, S. Larson, A. Zyuzin, A. V. Mamishev
+              - paragraph [ref=e211]: IEEE Sensors Journal, Vol. 6, No. 2, April 2006, pp. 434–440
+            - generic [ref=e212]:
+              - link "BibTeX" [ref=e213] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignPrinciplesForMulti-ChannelFringingElectricFieldSensors_BibTeX.rtf
+              - link "EndNote" [ref=e214] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DesignPrinciplesForMulti-ChannelFringingElectricFieldSensors_EndNote.rtf
+          - generic [ref=e215]:
+            - generic [ref=e216]: "22"
+            - generic [ref=e217]:
+              - link "Battery-Free Wireless Identification and Sensing" [ref=e218] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1401841
+              - paragraph [ref=e219]: M. Philipose, J. R. Smith, J. Bing, A. Mamishev, S. Roy, K. Sundara-Rajan
+              - paragraph [ref=e220]: IEEE Pervasive Computing, vol. 4, no. 1, pp. 37–45, 2005
+            - generic [ref=e221]:
+              - link "BibTeX" [ref=e222] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_Battery-FreeWirelessIdentificationAndSensing_BibTeX.rtf
+              - link "EndNote" [ref=e223] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_Battery-FreeWirelessIdentificationAndSensing_EndNote.rtf
+          - generic [ref=e224]:
+            - generic [ref=e225]: "23"
+            - generic [ref=e226]:
+              - link "Estimation of Moisture Content in Paper Pulp Containing Titanium Dioxide Using Fringing Field Impedance Spectroscopy" [ref=e227] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/3431209_Moisture_Content_Estimation_in_Paper_Pulp_Using_Fringing_Field_Impedance_Spectroscopy
+              - paragraph [ref=e228]: K. Sundara-Rajan, L. Byrd, A. V. Mamishev
+              - paragraph [ref=e229]: TAPPI Journal, vol. 4, no. 2, Feb. 2005, pp. 23–27
+            - generic [ref=e230]:
+              - link "BibTeX" [ref=e231] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_BibTeX.rtf
+              - link "EndNote" [ref=e232] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf
+          - generic [ref=e233]:
+            - generic [ref=e234]: "24"
+            - generic [ref=e235]:
+              - link "Remote Monitoring of Resin Transfer Molding Processes by Distributed Dielectric Sensors" [ref=e236] [cursor=pointer]:
+                - /url: https://journals.sagepub.com/doi/10.1177/0021998305051083
+              - paragraph [ref=e237]: M. Hegg, A. Ogale, A. Mescher, A. V. Mamishev, B. Minaie
+              - paragraph [ref=e238]: Journal of Composite Materials, vol. 39, no. 17, June 2005, pp. 1519–1539
+            - generic [ref=e239]:
+              - link "BibTeX" [ref=e240] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_RemoteMonitoringOfResinTransferMoldingProcessesByDistributedDielectricSensors_BibTeX.rtf
+              - link "EndNote" [ref=e241] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_RemoteMonitoringOfResinTransferMoldingProcessesByDistributedDielectricSensors_EndNote.rtf
+          - generic [ref=e242]:
+            - generic [ref=e243]: "25"
+            - generic [ref=e244]:
+              - link "Robotic Monitoring of Power Systems" [ref=e245] [cursor=pointer]:
+                - /url: https://labs.ece.uw.edu/seal/pubfiles/2004912918.pdf
+              - paragraph [ref=e246]: B. Jiang, A. V. Mamishev
+              - paragraph [ref=e247]: IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 912–918
+            - generic [ref=e248]:
+              - link "BibTeX" [ref=e249] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_RoboticMonitoringOfPowerSystems_BibTeX.rtf
+              - link "EndNote" [ref=e250] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_RoboticMonitoringOfPowerSystems_EndNote.rtf
+          - generic [ref=e251]:
+            - generic [ref=e252]: "26"
+            - generic [ref=e253]:
+              - 'link "Classification of Power Quality Events Using Optimal Time-Frequency Representations — Part 2: Application" [ref=e254] [cursor=pointer]':
+                - /url: https://ieeexplore.ieee.org/document/1308385
+              - paragraph [ref=e255]: M. Wang, G. I. Rowe, A. V. Mamishev
+              - paragraph [ref=e256]: IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1496–1503
+            - generic [ref=e257]:
+              - link "BibTeX" [ref=e258] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart2Application_BibTeX.rtf
+              - link "EndNote" [ref=e259] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart2Application_EndNote.rtf
+          - generic [ref=e260]:
+            - generic [ref=e261]: "27"
+            - generic [ref=e262]:
+              - 'link "Classification of Power Quality Events Using Optimal Time-Frequency Representations — Part 1: Theory" [ref=e263] [cursor=pointer]':
+                - /url: http://ieeexplore.ieee.org/iel5/61/29033/01308384.pdf
+              - paragraph [ref=e264]: M. Wang, A. V. Mamishev
+              - paragraph [ref=e265]: IEEE Transactions on Power Delivery, vol. 19, no. 3, July 2004, pp. 1488–1495
+            - generic [ref=e266]:
+              - link "BibTeX" [ref=e267] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart1Theory_BibTeX.rtf
+              - link "EndNote" [ref=e268] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ClassificationOfPowerQualityEventsUsingOptimalTime-FrequencyRepresentationsPart1Theory_EndNote.rtf
+          - generic [ref=e269]:
+            - generic [ref=e270]: "28"
+            - generic [ref=e271]:
+              - link "Interdigital Sensors and Transducers" [ref=e272] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1288505
+              - paragraph [ref=e273]: A. V. Mamishev, K. Sundara-Rajan, F. Yang, Y. Du, M. Zahn
+              - paragraph [ref=e274]: Proceedings of the IEEE, vol. 92, no. 5, 2004, pp. 808–845 (invited paper)
+            - generic [ref=e275]:
+              - link "BibTeX" [ref=e276] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterdigitalSensorsAndTransducers_BibTeX.rtf
+              - link "EndNote" [ref=e277] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_InterdigitalSensorsAndTransducers_EndNote.rtf
+          - generic [ref=e278]:
+            - generic [ref=e279]: "29"
+            - generic [ref=e280]:
+              - link "Moisture Measurement in Paper Pulp Using Fringing Field Dielectrometry" [ref=e281] [cursor=pointer]:
+                - /url: https://labs.ece.uw.edu/seal/pubfiles/1999341344.pdf
+              - paragraph [ref=e282]: K. Sundara-Rajan, L. Byrd, A. V. Mamishev
+              - paragraph [ref=e283]: IEEE Sensors Journal, vol. 4, no. 3, 2004, pp. 378–383
+            - generic [ref=e284]:
+              - link "BibTeX" [ref=e285] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureMeasurementInPaperPulpUsingFringingFieldDielectrometry_BibTeX.rtf
+              - link "EndNote" [ref=e286] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureMeasurementInPaperPulpUsingFringingFieldDielectrometry_EndNote.rtf
+          - generic [ref=e287]:
+            - generic [ref=e288]: "30"
+            - generic [ref=e289]:
+              - link "Uncertainty in Multiple Penetration Depth Fringing Electric Field Sensor Measurements" [ref=e290] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1177910
+              - paragraph [ref=e291]: A. V. Mamishev, S. R. Cantrell, Y. Du, B. C. Lesieutre, M. Zahn
+              - paragraph [ref=e292]: IEEE Transactions on Instrumentation and Measurements, Vol. 51, No. 6, Dec 2002, pp. 1192–1199
+            - generic [ref=e293]:
+              - link "BibTeX" [ref=e294] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_UncertaintyInMultiplePenetrationDepthFringingElectricFieldSensorMeasurements_BibTeX.rtf
+              - link "EndNote" [ref=e295] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_UncertaintyInMultiplePenetrationDepthFringingElectricFieldSensorMeasurements_EndNote.rtf
+          - generic [ref=e296]:
+            - generic [ref=e297]: "31"
+            - generic [ref=e298]:
+              - link "Parameter Estimation in Dielectrometry Measurements" [ref=e299] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/abs/pii/S0304388602000682
+              - paragraph [ref=e300]: A. V. Mamishev, A. R. Takahashi, Y. Du, B. C. Lesieutre, M. Zahn
+              - paragraph [ref=e301]: Journal of Electrostatics, vol. 56, 2002, pp. 465–492
+            - generic [ref=e302]:
+              - link "BibTeX" [ref=e303] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ParameterEstimationInDielectrometryMeasurements_BibTeX.rtf
+              - link "EndNote" [ref=e304] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ParameterEstimationInDielectrometryMeasurements_EndNote.rtf
+          - generic [ref=e305]:
+            - generic [ref=e306]: "32"
+            - generic [ref=e307]:
+              - link "Evaluation of Diffusion-Driven Material Property Profiles Using Three-Wavelength Interdigital Sensor" [ref=e308] [cursor=pointer]:
+                - /url: http://ieeexplore.ieee.org/document/959702/
+              - paragraph [ref=e309]: A. V. Mamishev, Y. Du, J. H. Bau, B. C. Lesieutre, M. Zahn
+              - paragraph [ref=e310]: IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 8, No. 5, Oct. 2001, pp. 785–798
+            - generic [ref=e311]:
+              - link "BibTeX" [ref=e312] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfDiffusionDrivenMaterialPropertyProfilesUsingThreeWavelengthInterdigitalSensor_BibTeX.rtf
+              - link "EndNote" [ref=e313] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfDiffusionDrivenMaterialPropertyProfilesUsingThreeWavelengthInterdigitalSensor_EndNote.rtf
+          - generic [ref=e314]:
+            - generic [ref=e315]: "33"
+            - generic [ref=e316]:
+              - text: Moisture Solubility for Differently Conditioned Transformer Oils
+              - paragraph [ref=e317]: Y. Du, A. V. Mamishev, B. C. Lesieutre, M. Zahn, S. H. Kang
+              - paragraph [ref=e318]: IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 8, No. 5, October 2001, pp. 805–811
+            - generic [ref=e319]:
+              - link "BibTeX" [ref=e320] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureSolubilityForDifferentlyConditionedTransformerOils_BibTeX.rtf
+              - link "EndNote" [ref=e321] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureSolubilityForDifferentlyConditionedTransformerOils_EndNote.rtf
+          - generic [ref=e322]:
+            - generic [ref=e323]: "34"
+            - generic [ref=e324]:
+              - link "Forward and Inverse Parameter Estimation Algorithms of Interdigital Dielectrometry Sensors" [ref=e325] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/946710/
+              - paragraph [ref=e326]: B. C. Lesieutre, A. V. Mamishev, Y. Du, E. Keskiner, M. Zahn, G. C. Verghese
+              - paragraph [ref=e327]: IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 8, No. 4, August 2001, pp. 577–588
+            - generic [ref=e328]:
+              - link "BibTeX" [ref=e329] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ForwardAndInverseParameterEstimationAlgorithmsOfInterdigitalDielectrometrySensors_BibTeX.rtf
+              - link "EndNote" [ref=e330] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_ForwardAndInverseParameterEstimationAlgorithmsOfInterdigitalDielectrometrySensors_EndNote.rtf
+          - generic [ref=e331]:
+            - generic [ref=e332]: "35"
+            - generic [ref=e333]:
+              - link "Moisture Equilibrium in the Paper-Oil System" [ref=e334] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/744585
+              - paragraph [ref=e335]: Y. Du, M. Zahn, B. C. Lesieutre, A. V. Mamishev, S. Lindgren
+              - paragraph [ref=e336]: IEEE Electrical Insulation Magazine, Vol. 15, No. 1, January/February 1999, pp. 11–20
+            - generic [ref=e337]:
+              - link "BibTeX" [ref=e338] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureEquilibriumInThePaperOilSystem_BibTeX.rtf
+              - link "EndNote" [ref=e339] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_MoistureEquilibriumInThePaperOilSystem_EndNote.rtf
+          - generic [ref=e340]:
+            - generic [ref=e341]: "36"
+            - generic [ref=e342]:
+              - link "Development and Application of Fringing Electric Field Dielectrometry Sensors and Parameter Estimation Algorithms" [ref=e343] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/S0304388699000066
+              - paragraph [ref=e344]: A. V. Mamishev, Y. Du, B. C. Lesieutre, M. Zahn
+              - paragraph [ref=e345]: Journal of Electrostatics, vol. 46, 1999, pp. 109–123
+            - generic [ref=e346]:
+              - link "BibTeX" [ref=e347] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DevelopmentAndApplicationOfFringingElectricFieldDielectrometrySensorsAndParameterEstimationAlgorithms_BibTeX.rtf
+              - link "EndNote" [ref=e348] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_DevelopmentAndApplicationOfFringingElectricFieldDielectrometrySensorsAndParameterEstimationAlgorithms_EndNote.rtf
+          - generic [ref=e349]:
+            - generic [ref=e350]: "37"
+            - generic [ref=e351]:
+              - link "Optimization of Multi-Wavelength Interdigital Dielectrometry Instrumentation and Algorithms" [ref=e352] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/689431
+              - paragraph [ref=e353]: A. V. Mamishev, B. C. Lesieutre, M. Zahn
+              - paragraph [ref=e354]: IEEE Transactions on Dielectrics and Electrical Insulation, Vol. 5, No. 3, June 1998, pp. 408–420 (invited paper)
+            - generic [ref=e355]:
+              - link "BibTeX" [ref=e356] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationOfMultiWavelengthInterdigitalDielectrometryInstrumentationAndAlgorithms_BibTeX.rtf
+              - link "EndNote" [ref=e357] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_OptimizationOfMultiWavelengthInterdigitalDielectrometryInstrumentationAndAlgorithms_EndNote.rtf
+          - generic [ref=e358]:
+            - generic [ref=e359]: "38"
+            - generic [ref=e360]:
+              - link "Evaluation of Methods for Discrimination of Energized Underground Power Cables" [ref=e361] [cursor=pointer]:
+                - /url: https://www.sciencedirect.com/science/article/pii/0378779696010413
+              - paragraph [ref=e362]: S. X. Short, A. V. Mamishev, T. W. Kao, B. D. Russell
+              - paragraph [ref=e363]: Electric Power Systems Research Journal, Vol. 37, No. 1, 1996, pp. 29–38
+            - generic [ref=e364]:
+              - link "BibTeX" [ref=e365] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfMethodsForDiscriminationOfEnergizedUndergroundPowerCables_BibTeX.rtf
+              - link "EndNote" [ref=e366] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_EvaluationOfMethodsForDiscriminationOfEnergizedUndergroundPowerCables_EndNote.rtf
+          - generic [ref=e367]:
+            - generic [ref=e368]: "39"
+            - generic [ref=e369]:
+              - link "Non-Intrusive Sensing Techniques for the Discrimination of Energized Electric Cables" [ref=e370] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/515358
+              - paragraph [ref=e371]: A. V. Mamishev, S. X. Short, T. W. Kao, B. D. Russell
+              - paragraph [ref=e372]: IEEE Transactions on Instrumentation and Measurements, Vol. 45, No. 2, 1996, pp. 457–461
+            - generic [ref=e373]:
+              - link "BibTeX" [ref=e374] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-intrusiveSensingTechniquesForTheDiscriminationOfEnergizedElectricCables_BibTeX.rtf
+              - link "EndNote" [ref=e375] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_Non-intrusiveSensingTechniquesForTheDiscriminationOfEnergizedElectricCables_EndNote.rtf
+          - generic [ref=e376]:
+            - generic [ref=e377]: "40"
+            - generic [ref=e378]:
+              - link "Analysis of High Impedance Faults Using Fractal Techniques" [ref=e379] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/486130
+              - paragraph [ref=e380]: A. V. Mamishev, B. D. Russell, C. L. Benner
+              - paragraph [ref=e381]: IEEE Transactions on Power Systems, Vol. 11, No. 1, 1996, pp. 435–440
+            - generic [ref=e382]:
+              - link "BibTeX" [ref=e383] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_AnalysisOfHighImpedanceFaultsUsingFractalTechniques_BibTeX.rtf
+              - link "EndNote" [ref=e384] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/JP_AnalysisOfHighImpedanceFaultsUsingFractalTechniques_EndNote.rtf
+      - generic [ref=e385]:
+        - button "Conference Publications 44/44 −" [ref=e386]:
+          - heading "Conference Publications" [level=2] [ref=e387]
+          - generic [ref=e388]: 44/44
+          - generic [ref=e389]: −
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - generic [ref=e392]: "1"
+            - generic [ref=e393]:
+              - link "Post-Operative Stoma Management Based on 3D Image Reconstruction and Pattern Recognition" [ref=e394] [cursor=pointer]:
+                - /url: https://ebooks.iospress.nl/DOI/10.3233/978-1-61499-927-0-794
+              - paragraph [ref=e395]: S. Makhsous, A. Zielinski, A. V. Mamishev
+              - paragraph [ref=e396]: FSDM, vol. 309, pp. 794–801, 2018
+            - generic [ref=e397]:
+              - link "BibTeX" [ref=e398] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Post-OperativeStomaManagementBasedOn3DImageReconstructionAndPatternRecognition_BibText.rtf
+              - link "EndNote" [ref=e399] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Post-OperativeStomaManagementBasedOn3DImageReconstructionAndPatternRecognition_EndNote.rtf
+          - generic [ref=e400]:
+            - generic [ref=e401]: "2"
+            - generic [ref=e402]:
+              - link "Design of an Electronic Air Cleaner with Porous Collecting Electrodes" [ref=e403] [cursor=pointer]:
+                - /url: http://electrostatics.org/images/ESA2013_C5_Krichtafovitch_et_al.pdf
+              - paragraph [ref=e404]: I. A. Krichtafovitch, Tsrong-Yi Wen, A. V. Mamishev
+              - paragraph [ref=e405]: Electrostatics Society of America Conference, Coco Beach, FL, June 2013
+            - generic [ref=e406]:
+              - link "BibTeX" [ref=e407] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfAnElectronicAirCleanerWithPorousCollectingElectrodes_BibText.rtf
+              - link "EndNote" [ref=e408] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfAnElectronicAirCleanerWithPorousCollectingElectrodes_EndNote.rtf
+          - generic [ref=e409]:
+            - generic [ref=e410]: "3"
+            - generic [ref=e411]:
+              - link "Optimization of Wire-Rod Electrostatic Accelerators" [ref=e412] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/6575578
+              - paragraph [ref=e413]: Tsrong-Yi Wen, Tsan-Ting Shen, Hsiu-Che Wang, Alexander V. Mamishev
+              - paragraph [ref=e414]: ECTC, Electronics Components and Technology Conference, Las Vegas, NV, May 2013
+            - generic [ref=e415]:
+              - link "BibTeX" [ref=e416] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimizationOfWire-RodElectrostaticAccelerators_BibText.rtf
+              - link "EndNote" [ref=e417] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimizationOfWire-RodElectrostaticAccelerators_EndNote.rtf
+          - generic [ref=e418]:
+            - generic [ref=e419]: "4"
+            - generic [ref=e420]:
+              - link "Dietary Intake Assessment using Integrated Sensors and Software" [ref=e421] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/2012SPIE.8304E..03S/abstract
+              - paragraph [ref=e422]: Junqing Shang, Eric Pepin, Eric Johnson, David Hazel, Ankur Teredesai, Alan Kristal, Alexander Mamishev
+              - paragraph [ref=e423]: IS&T/SPIE Electronic Imaging 2012
+            - generic [ref=e424]:
+              - link "BibTeX" [ref=e425] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DietaryIntakeAssessmentUsingIntegratedSensorsAndSoftware_BibText.rtf
+              - link "EndNote" [ref=e426] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DietaryIntakeAssessmentUsingIntegratedSensorsAndSoftware_EndNote.rtf
+          - generic [ref=e427]:
+            - generic [ref=e428]: "5"
+            - generic [ref=e429]:
+              - link "Material Property Measurement of Granular Materials Using a Calibrated Dielectric Spectroscopy System" [ref=e430] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/6232651
+              - paragraph [ref=e431]: H. C. Wang, V. Inclan, A. Zyuzin, N. Donnangelo, A. Mamishev
+              - paragraph [ref=e432]: 2011 CEIDP Conference, Cancun, Mexico
+            - generic [ref=e433]:
+              - link "BibTeX" [ref=e434] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MaterialPropertyMeasurementOfGranularMaterialsUsingACalibratedDielectricSpectroscopySystem_BibText.rtf
+              - link "EndNote" [ref=e435] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MaterialPropertyMeasurementOfGranularMaterialsUsingACalibratedDielectricSpectroscopySystem_EndNote.rtf
+          - generic [ref=e436]:
+            - generic [ref=e437]: "6"
+            - generic [ref=e438]:
+              - link "A Mobile Structured Light System for Food Volume Estimation" [ref=e439] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/6130229
+              - paragraph [ref=e440]: Junqing Shang, Michael Duong, Eric Pepin, Xing Zhang, Kishore Sandara-Rajan, Alan Kristal, Alexander Mamishev
+              - paragraph [ref=e441]: International Workshop on Mobile Vision, ICCV 2011, November 2011
+            - generic [ref=e442]:
+              - link "BibTeX" [ref=e443] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AMobileStructuredLightSystemForFoodVolumeEstimation_BibText.rtf
+              - link "EndNote" [ref=e444] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AMobileStructuredLightSystemForFoodVolumeEstimation_EndNote.rtf
+          - generic [ref=e445]:
+            - generic [ref=e446]: "7"
+            - generic [ref=e447]:
+              - text: Methodology for Estimation of Heat Transfer in Multi-Jet Electrospray Evaporative Coolers
+              - paragraph [ref=e448]: H. C. Wang, A. V. Mamishev
+              - paragraph [ref=e449]: 2nd ISNPEDADM Conference, Noumea, New Caledonia, 2011
+            - generic [ref=e450]:
+              - link "BibTeX" [ref=e451] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MethodologyForEstimationOfHeatTransferInMulti-JetElectrosprayEvaporativeCoolers_BibText.rtf
+              - link "EndNote" [ref=e452] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MethodologyForEstimationOfHeatTransferInMulti-JetElectrosprayEvaporativeCoolers_EndNote.rtf
+          - generic [ref=e453]:
+            - generic [ref=e454]: "8"
+            - generic [ref=e455]:
+              - link "Improved Efficiency of Energy-Intensive Processes through Control of Build-Up on Critical Heat-Transfer Surfaces" [ref=e456] [cursor=pointer]:
+                - /url: https://www.semanticscholar.org/paper/Improved-Efficiency-of-Energy-Intensive-Processes-Dvorkin-Pepin/e2d44d424a6c2bfd7353115ae540ecc5e3179f8a
+              - paragraph [ref=e457]: E. Pepin, Y. Dvorkin, A. Mamishev, G. Kychyakoff
+              - paragraph [ref=e458]: ACEEE Summer Study on Energy Efficiency in Industry, Niagara Falls, NY, 2011
+            - generic [ref=e459]:
+              - link "BibTeX" [ref=e460] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ImprovedEfficiencyOfEnergy-IntensiveProcessesThroughControlOfBuild-UpOnCriticalHeat-TransferSurfaces_BibText.rtf
+              - link "EndNote" [ref=e461] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ImprovedEfficiencyOfEnergy-IntensiveProcessesThroughControlOfBuild-UpOnCriticalHeat-TransferSurfaces_EndNote.rtf
+          - generic [ref=e462]:
+            - generic [ref=e463]: "9"
+            - generic [ref=e464]:
+              - link "A Pervasive Dietary Data Recording System" [ref=e465] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/5766890
+              - paragraph [ref=e466]: Junqing Shang, Kishore Sundara-Rajan, Levi Lindsey, Ankur Teredesai, Eric Johnson, Alan Kristal, Alexander Mamishev
+              - paragraph [ref=e467]: IEEE International Conference on Pervasive Computing and Communications, 2011
+            - generic [ref=e468]:
+              - link "BibTeX" [ref=e469] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_APervasiveDietaryDataRecordingSystem_BibText.rtf
+              - link "EndNote" [ref=e470] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_APervasiveDietaryDataRecordingSystem_EndNote.rtf
+          - generic [ref=e471]:
+            - generic [ref=e472]: "10"
+            - generic [ref=e473]:
+              - link "Optimal Heat Transfer Performance of the Microfluidic Electrospray Cooling Devices" [ref=e474] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/5767175
+              - paragraph [ref=e475]: H. C. Wang, A. V. Mamishev
+              - paragraph [ref=e476]: 27th Annual IEEE Semiconductor Thermal Measurement and Management Symposium (SEMI-THERM 2011), pp. 35–42
+            - generic [ref=e477]:
+              - link "BibTeX" [ref=e478] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimalHeatTransferPerformanceOfTheMicrofluidicElectrosprayCoolingDevices_BibText.rtf
+              - link "EndNote" [ref=e479] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_OptimalHeatTransferPerformanceOfTheMicrofluidicElectrosprayCoolingDevices_EndNote.rtf
+          - generic [ref=e480]:
+            - generic [ref=e481]: "11"
+            - generic [ref=e482]:
+              - link "Capacitive Sensing of Interfacial Stresses" [ref=e483] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/iel5/5678851/5689839/05690146.pdf
+              - paragraph [ref=e484]: K. Sundara-Rajan, G. I. Rowe, A. Bestick, A. V. Mamishev, G. K. Klute, W. R. Ledoux
+              - paragraph [ref=e485]: Sensors, 2010 IEEE, pp. 2569–2572
+            - generic [ref=e486]:
+              - link "BibTeX" [ref=e487] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialStresses_BibText.rtf
+              - link "EndNote" [ref=e488] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialStresses_EndNote.rtf
+          - generic [ref=e489]:
+            - generic [ref=e490]: "12"
+            - generic [ref=e491]:
+              - link "Capacitive Sensing of Interfacial Forces in Prosthesis" [ref=e492] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/5480219
+              - paragraph [ref=e493]: K. Sundara-Rajan, G. I. Rowe, A. Bestick
+              - paragraph [ref=e494]: MEMEA Conference, May 2010
+            - generic [ref=e495]:
+              - link "BibTeX" [ref=e496] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialForcesInProsthesis_BibText.rtf
+              - link "EndNote" [ref=e497] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CapacitiveSensingOfInterfacialForcesInProsthesis_EndNote.rtf
+          - generic [ref=e498]:
+            - generic [ref=e499]: "13"
+            - generic [ref=e500]:
+              - link "Shear Sensor for Lower Limb Prosthetic Applications" [ref=e501] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/224517105_Shear_sensor_for_lower_limb_prosthetic_applications
+              - paragraph [ref=e502]: K. Sundara-Rajan, G. I. Rowe, A. J. Simon, G. K. Klute, W. R. Ledoux, A. V. Mamishev
+              - paragraph [ref=e503]: First Annual ORNL Biomedical Science & Engineering Conference (BSEC 2009), pp. 1–4
+            - generic [ref=e504]:
+              - link "BibTeX" [ref=e505] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ShearSensorForLowerLimbProstheticApplications_BibText.rtf
+              - link "EndNote" [ref=e506] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ShearSensorForLowerLimbProstheticApplications_EndNote.rtf
+          - generic [ref=e507]:
+            - generic [ref=e508]: "14"
+            - generic [ref=e509]:
+              - link "The Enhancement Ratio of Corresponding Convection Heat Transfer Coefficient Using Electrospray Evaporative Cooling System" [ref=e510] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/267575475_The_Enhancement_Ratio_of_Corresponding_Convection_Heat_Transfer_Coefficient_Using_Electrospray_Evaporative_Cooling_System
+              - paragraph [ref=e511]: H. C. Wang, A. V. Mamishev, C. P. Hsu
+              - paragraph [ref=e512]: ASME Summer Heat Transfer Conference, San Francisco, CA, 2009, pp. HT2009-88629
+            - generic [ref=e513]:
+              - link "BibTeX" [ref=e514] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_TheEnhancementRatioOfCorrespondingConvectionHeatTransferCoefficientUsingElectrosprayEvaporativeCoolingSystem_BibText.rtf
+              - link "EndNote" [ref=e515] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_TheEnhancementRatioOfCorrespondingConvectionHeatTransferCoefficientUsingElectrosprayEvaporativeCoolingSystem_EndNote.rtf
+          - generic [ref=e516]:
+            - generic [ref=e517]: "15"
+            - generic [ref=e518]:
+              - link "Electrohydrodynamic (EHD) Cooled Laptop" [ref=e519] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/4810773
+              - paragraph [ref=e520]: N. E. Jewell-Larsen, H. Ran, Y. Zhang, M. Schwiebert, K. A. Honer, A. V. Mamishev
+              - paragraph [ref=e521]: IEEE SEMI-THERM 2009, San Jose, CA
+            - generic [ref=e522]:
+              - link "BibTeX" [ref=e523] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrohydrodynamicEHDCooledLaptop_BibText.rtf
+              - link "EndNote" [ref=e524] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrohydrodynamicEHDCooledLaptop_EndNote.rtf
+          - generic [ref=e525]:
+            - generic [ref=e526]: "16"
+            - generic [ref=e527]:
+              - link "Heat Transfer Enhancement Measurement for Microfabricated Electrostatic Fluid Accelerators" [ref=e528] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/4509362
+              - paragraph [ref=e529]: C. P. Hsu, N. E. Jewell-Larsen, C. Sticht, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e530]: 24th IEEE SEMI-THERM Symposium, San Jose, CA, 2008
+            - generic [ref=e531]:
+              - link "BibTeX" [ref=e532] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_BibText.rtf
+              - link "EndNote" [ref=e533] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_HeatTransferEnhancementMeasurementForMicrofabricatedElectrostaticFluidAccelerators_EndNote.rtf
+          - generic [ref=e534]:
+            - generic [ref=e535]: "17"
+            - generic [ref=e536]:
+              - link "Characterization of Plastic Packaging with Fringing Electric Field Sensors" [ref=e537] [cursor=pointer]:
+                - /url: https://iopscience.iop.org/article/10.1149/1.2956082
+              - paragraph [ref=e538]: K. Sundara-Rajan, A. Mathur, A. V. Mamishev
+              - paragraph [ref=e539]: SBMicro2008, Brazil, Sept. 2008
+            - generic [ref=e540]:
+              - link "BibTeX" [ref=e541] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfPlasticPackagingWithFringingElectricFieldSensors_BibText.rtf
+              - link "EndNote" [ref=e542] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfPlasticPackagingWithFringingElectricFieldSensors_EndNote.rtf
+          - generic [ref=e543]:
+            - generic [ref=e544]: "18"
+            - generic [ref=e545]:
+              - link "Characterization of Microfabricated Cantilever-to-Plane Electrostatic Fluid Accelerators for Cooling in Electronics" [ref=e546] [cursor=pointer]:
+                - /url: https://asmedigitalcollection.asme.org/IMECE/proceedings/IMECE2007/42991/121/324972
+              - paragraph [ref=e547]: C. P. Hsu, N. E. Jewell-Larsen, M. Fox, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e548]: Proceedings of ASME International Mechanical Engineering Congress and Exposition, Nov. 2007
+            - generic [ref=e549]:
+              - link "BibTeX" [ref=e550] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfMicrofabricatedCantilever-to-PlaneElectrostaticFluidAcceleratorsForCoolingInElectronics_BibText.rtf
+              - link "EndNote" [ref=e551] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CharacterizationOfMicrofabricatedCantilever-to-PlaneElectrostaticFluidAcceleratorsForCoolingInElectronics_EndNote.rtf
+          - generic [ref=e552]:
+            - generic [ref=e553]: "19"
+            - generic [ref=e554]:
+              - link "Miniaturization of Electrostatic Fluid Accelerators" [ref=e555] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/iel5/84/4285629/04285636.pdf
+              - paragraph [ref=e556]: C. P. Hsu, N. E. Jewell-Larsen, A. C. Rollins, I. A. Krichtafovitch, S. W. Montgomery, J. T. Dibene II, A. V. Mamishev
+              - paragraph [ref=e557]: ASME International Mechanical Engineering Congress and Exposition, Chicago, November 2006
+            - generic [ref=e558]:
+              - link "BibTeX" [ref=e559] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MiniaturizationOfElectrostaticFluidAccelerators_BibText.rtf
+              - link "EndNote" [ref=e560] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MiniaturizationOfElectrostaticFluidAccelerators_EndNote.rtf
+          - generic [ref=e561]:
+            - generic [ref=e562]: "20"
+            - generic [ref=e563]:
+              - link "Energy Harvesting in RFID Systems" [ref=e564] [cursor=pointer]:
+                - /url: http://ieeexplore.ieee.org/document/4099667/
+              - paragraph [ref=e565]: A. P. Sample, D. J. Yeager, J. R. Smith, P. S. Powledge, A. V. Mamishev
+              - paragraph [ref=e566]: International Conference on Actual Problems of Electron Devices Engineering (APEDE), Saratov, Russia, September 2006
+            - generic [ref=e567]:
+              - link "BibTeX" [ref=e568] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyHarvestingInRFIDSystems_BibText.rtf
+              - link "EndNote" [ref=e569] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyHarvestingInRFIDSystems_EndNote.rtf
+          - generic [ref=e570]:
+            - generic [ref=e571]: "21"
+            - generic [ref=e572]:
+              - link "Sensor Applications in RFID Technology" [ref=e573] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/iel5/4099585/4099586/04099668.pdf
+              - paragraph [ref=e574]: D. J. Yeager, A. P. Sample, J. R. Smith, P. S. Powledge, A. V. Mamishev
+              - paragraph [ref=e575]: International Conference on Actual Problems of Electron Devices Engineering (APEDE), Saratov, Russia, September 2006
+            - generic [ref=e576]:
+              - link "BibTeX" [ref=e577] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensorApplicationsInRFIDTechnology_BibText.rtf
+              - link "EndNote" [ref=e578] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensorApplicationsInRFIDTechnology_EndNote.rtf
+          - generic [ref=e579]:
+            - generic [ref=e580]: "22"
+            - generic [ref=e581]:
+              - link "Coupled-Physics Modeling of Electrostatic Fluid Accelerators for Forced Convection Cooling" [ref=e582] [cursor=pointer]:
+                - /url: https://labs.ece.uw.edu/seal/pubfiles/73.pdf
+              - paragraph [ref=e583]: N. E. Jewell-Larsen, P. Q. Zhang, C. P. Hsu, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e584]: 9th AIAA/ASME Joint Thermophysics and Heat Transfer Conference, San Francisco, CA, June 2006
+            - generic [ref=e585]:
+              - link "BibTeX" [ref=e586] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Coupled-physicsModelingOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_BibText.rtf
+              - link "EndNote" [ref=e587] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Coupled-physicsModelingOfElectrostaticFluidAcceleratorsForForcedConvectionCooling_EndNote.rtf
+          - generic [ref=e588]:
+            - generic [ref=e589]: "23"
+            - generic [ref=e590]:
+              - text: Electrostatic Fluid Accelerator and Air Purifier — The Second Wind
+              - paragraph [ref=e591]: A. Krichtafovitch, V. L. Gorobets, S. V. Karpov, A. V. Mamishev
+              - paragraph [ref=e592]: Annual Meeting of the Electrostatics Society of America, Edmonton, Canada, 2005
+            - generic [ref=e593]:
+              - link "BibTeX" [ref=e594] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrostaticFluidAcceleratorAndAirPurifier-TheSecondWind_BibText.rtf
+              - link "EndNote" [ref=e595] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_ElectrostaticFluidAcceleratorAndAirPurifier-TheSecondWind_EndNote.rtf
+          - generic [ref=e596]:
+            - generic [ref=e597]: "24"
+            - generic [ref=e598]:
+              - link "Mobile Monitoring for Distributed Infrastructures" [ref=e599] [cursor=pointer]:
+                - /url: http://ieeexplore.ieee.org/document/1626536/
+              - paragraph [ref=e600]: B. Jiang, A. Sample, A. V. Mamishev
+              - paragraph [ref=e601]: Proceedings of IEEE International Conference on Mechatronics and Automation, pp. 138–143, 2005
+            - generic [ref=e602]:
+              - link "BibTeX" [ref=e603] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MobileMonitoringForDistributedInfrastructures_BibText.rtf
+              - link "EndNote" [ref=e604] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MobileMonitoringForDistributedInfrastructures_EndNote.rtf
+          - generic [ref=e605]:
+            - generic [ref=e606]: "25"
+            - generic [ref=e607]:
+              - link "Autonomous Robotic Monitoring of Underground Cable Systems" [ref=e608] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/4174053_Autonomous_robotic_monitoring_of_underground_cable_systems
+              - paragraph [ref=e609]: B. Jiang, A. P. Sample, R. M. Wistort, A. V. Mamishev
+              - paragraph [ref=e610]: 12th International Conference on Advanced Robotics (ICAR), July 2005, pp. 673–679
+            - generic [ref=e611]:
+              - link "BibTeX" [ref=e612] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutonomousRoboticMonitoringOfUndergroundCableSystems_BibText.rtf
+              - link "EndNote" [ref=e613] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutonomousRoboticMonitoringOfUndergroundCableSystems_EndNote.rtf
+          - generic [ref=e614]:
+            - generic [ref=e615]: "26"
+            - generic [ref=e616]:
+              - link "Embedding Sensor Data in an RFID Timeseries" [ref=e617] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/225190510_ID_Modulation_Embedding_sensor_data_in_an_RFID_timeseries
+              - paragraph [ref=e618]: J. R. Smith, B. Jiang, S. Roy, M. Philipose, K. Sundara-Rajan, A. V. Mamishev
+              - paragraph [ref=e619]: 7th Information Hiding Workshop, Barcelona, Spain, 2005
+            - generic [ref=e620]:
+              - link "BibTeX" [ref=e621] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EmbeddingSensorDataInAnRFIDTimeseries_BibText.rtf
+              - link "EndNote" [ref=e622] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EmbeddingSensorDataInAnRFIDTimeseries_EndNote.rtf
+          - generic [ref=e623]:
+            - generic [ref=e624]: "27"
+            - generic [ref=e625]:
+              - text: "WISPnets: Hybridizing Radio Frequency Identification and Sensor Networks"
+              - paragraph [ref=e626]: M. Philipose, J. R. Smith, B. Jiang, K. Sundara-Rajan, A. V. Mamishev, S. Roy
+              - paragraph [ref=e627]: Fourth International Conference on Information Processing in Sensor Networks, April 2005
+            - generic [ref=e628]:
+              - link "BibTeX" [ref=e629] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_WISPnetsHybridizingRadioFrequencyIdentificationAndSensorNetworks_BibText.rtf
+              - link "EndNote" [ref=e630] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_WISPnetsHybridizingRadioFrequencyIdentificationAndSensorNetworks_EndNote.rtf
+          - generic [ref=e631]:
+            - generic [ref=e632]: "28"
+            - generic [ref=e633]:
+              - link "Energy Scavenging for Inductively Coupled Passive RFID Systems" [ref=e634] [cursor=pointer]:
+                - /url: https://homes.cs.washington.edu/~matthai/pubs/WISP-IEEE-TIM-07.pdf
+              - paragraph [ref=e635]: B. Jiang, S. Roy, K. Sundara-Rajan, M. Philipose, J. Smith, A. V. Mamishev
+              - paragraph [ref=e636]: IEEE Instrumentation and Measurement Technology Conference, Ottawa, CA, May 2005, vol. 2, pp. 984–989
+            - generic [ref=e637]:
+              - link "BibTeX" [ref=e638] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_BibText.rtf
+              - link "EndNote" [ref=e639] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EnergyScavengingForInductivelyCoupledPassiveRFIDSystems_EndNote.rtf
+          - generic [ref=e640]:
+            - generic [ref=e641]: "29"
+            - generic [ref=e642]:
+              - link "Estimation of Moisture Content in Paper Pulp Containing Titanium Dioxide Using Fringing Field Impedance Spectroscopy" [ref=e643] [cursor=pointer]:
+                - /url: https://labs.ece.uw.edu/seal/kishore/papers/Tappi%20Spring%20Conference/Estimation%20of%20Moisture%20Content%20in%20Paper%20Pulp%20Containing%20Titanium%20Dioxide%20Using%20Interdigital%20Fringing%20Field%20Impedance%20Spectroscopy.pdf
+              - paragraph [ref=e644]: K. Sundara-Rajan, L. Byrd, A. V. Mamishev
+              - paragraph [ref=e645]: TAPPI Fall Conference, Atlanta, 2004
+            - generic [ref=e646]:
+              - link "BibTeX" [ref=e647] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_BibText.rtf
+              - link "EndNote" [ref=e648] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingTitaniumDioxideUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf
+          - generic [ref=e649]:
+            - generic [ref=e650]: "30"
+            - generic [ref=e651]:
+              - link "Numerical Simulation and Optimization of Electrostatic Air Pumps" [ref=e652] [cursor=pointer]:
+                - /url: http://labs.ece.uw.edu/seal/pubfiles/2004106109.pdf
+              - paragraph [ref=e653]: N. E. Jewell-Larsen, D. A. Parker, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e654]: IEEE Conference on Electrical Insulation and Dielectric Phenomena, Boulder, CO, October 2004
+            - generic [ref=e655]:
+              - link "BibTeX" [ref=e656] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_NumericalSimulationAndOptimizationOfElectrostaticAirPumps_BibText.rtf
+              - link "EndNote" [ref=e657] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_NumericalSimulationAndOptimizationOfElectrostaticAirPumps_EndNote.rtf
+          - generic [ref=e658]:
+            - generic [ref=e659]: "31"
+            - generic [ref=e660]:
+              - 'link "Design of Multi-Channel Fringing Electric Field Sensors for Imaging — Part II: Numerical Examples" [ref=e661] [cursor=pointer]':
+                - /url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1380619
+              - paragraph [ref=e662]: X. B. Li, C. Kato, A. S. Zyuzin, A. V. Mamishev
+              - paragraph [ref=e663]: IEEE ESEI Conference, Indiana, 2004, pp. 410–413
+            - generic [ref=e664]:
+              - link "BibTeX" [ref=e665] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIINumericalExamples_BibText.rtf
+              - link "EndNote" [ref=e666] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIINumericalExamples_EndNote.rtf
+          - generic [ref=e667]:
+            - generic [ref=e668]: "32"
+            - generic [ref=e669]:
+              - 'link "Design of Multi-Channel Fringing Electric Field Sensors for Imaging — Part I: General Design Principles" [ref=e670] [cursor=pointer]':
+                - /url: https://ieeexplore.ieee.org/document/1380616
+              - paragraph [ref=e671]: X. B. Li, S. D. Larson, A. S. Zyuzin, A. V. Mamishev
+              - paragraph [ref=e672]: IEEE ESEI Conference, Indiana, 2004, pp. 406–409
+            - generic [ref=e673]:
+              - link "BibTeX" [ref=e674] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIGeneralDesignPrinciples_BibText.rtf
+              - link "EndNote" [ref=e675] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_DesignOfMulti-channelFringingElectricFieldSensorsForImaging-PartIGeneralDesignPrinciples_EndNote.rtf
+          - generic [ref=e676]:
+            - generic [ref=e677]: "33"
+            - generic [ref=e678]:
+              - link "Influence of Variable Plate Separation on Fringing Electric Fields in Parallel-Plate Capacitors" [ref=e679] [cursor=pointer]:
+                - /url: http://ieeexplore.ieee.org/abstract/document/1380606/
+              - paragraph [ref=e680]: M. C. Hegg, M. J. Kim, A. V. Mamishev
+              - paragraph [ref=e681]: IEEE ESEI Conference, Indiana, 2004, pp. 384–387
+            - generic [ref=e682]:
+              - link "BibTeX" [ref=e683] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_InfluenceOfVariablePlateSeparationOnFringingElectricFieldsInParallel-PlateCapacitors_BibText.rtf
+              - link "EndNote" [ref=e684] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_InfluenceOfVariablePlateSeparationOnFringingElectricFieldsInParallel-PlateCapacitors_EndNote.rtf
+          - generic [ref=e685]:
+            - generic [ref=e686]: "34"
+            - generic [ref=e687]:
+              - link "Estimation of Moisture Content in Paper Pulp Containing Calcium Carbonate Using Fringing Field Impedance Spectroscopy" [ref=e688] [cursor=pointer]:
+                - /url: http://labs.ece.uw.edu/seal/kishore/papers/Appita%20Journal/Full%20Manuscript.pdf
+              - paragraph [ref=e689]: K. Sundara-Rajan, L. Byrd, A. V. Mamishev
+              - paragraph [ref=e690]: 58th Appita Annual Conference, Canberra, Australia, April 2004
+            - generic [ref=e691]:
+              - link "BibTeX" [ref=e692] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingCalciumCarbonateUsingFringingFieldImpedanceSpectroscopy_BibText.rtf
+              - link "EndNote" [ref=e693] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_EstimationOfMoistureContentInPaperPulpContainingCalciumCarbonateUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf
+          - generic [ref=e694]:
+            - generic [ref=e695]: "35"
+            - generic [ref=e696]:
+              - link "Sensitive Skin Design for Prosthetic Limb Interfacial Force and Condition Analysis" [ref=e697] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/224143967_Capacitive_sensing_of_interfacial_forces_in_prosthesis
+              - paragraph [ref=e698]: G. I. Rowe, A. V. Mamishev
+              - paragraph [ref=e699]: SPIE 9th Annual International Symposium on NDE for Health Monitoring and Diagnostics, San Diego, March 2004
+            - generic [ref=e700]:
+              - link "BibTeX" [ref=e701] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensitiveSkinDesignForProstheticLimbInterfacialForceAndConditionAnalysis_BibText.rtf
+              - link "EndNote" [ref=e702] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_SensitiveSkinDesignForProstheticLimbInterfacialForceAndConditionAnalysis_EndNote.rtf
+          - generic [ref=e703]:
+            - generic [ref=e704]: "36"
+            - generic [ref=e705]:
+              - link "Measuring Moisture Content in Cookies Using Dielectric Spectroscopy" [ref=e706] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1254892
+              - paragraph [ref=e707]: X. Li, A. Zyuzin, A. V. Mamishev
+              - paragraph [ref=e708]: IEEE CEIDP Conference, Albuquerque, New Mexico, October 2003, pp. 459–462
+            - generic [ref=e709]:
+              - link "BibTeX" [ref=e710] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MeasuringMoistureContentInCookiesUsingDielectricpSectroscopy_BibText.rtf
+              - link "EndNote" [ref=e711] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MeasuringMoistureContentInCookiesUsingDielectricpSectroscopy_EndNote.rtf
+          - generic [ref=e712]:
+            - generic [ref=e713]: "37"
+            - generic [ref=e714]:
+              - link "Moisture Measurement in Paper Pulp Using Fringing Field Impedance Spectroscopy" [ref=e715] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1294919
+              - paragraph [ref=e716]: K. Sundara-Rajan, X. Li, N. Semenyuk, A. V. Mamishev
+              - paragraph [ref=e717]: IEEE Sensors Conference, Toronto, Canada, October 2003
+            - generic [ref=e718]:
+              - link "BibTeX" [ref=e719] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureMeasurementInPaperPulpUsingFringingFieldImpedanceSpectroscopy_BibText.rtf
+              - link "EndNote" [ref=e720] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureMeasurementInPaperPulpUsingFringingFieldImpedanceSpectroscopy_EndNote.rtf
+          - generic [ref=e721]:
+            - generic [ref=e722]: "38"
+            - generic [ref=e723]:
+              - link "Corona Driven Air Propulsion for Cooling of Electronics" [ref=e724] [cursor=pointer]:
+                - /url: https://www.researchgate.net/publication/237333052_Corona_driven_air_propulsion_for_cooling_of_electronics
+              - paragraph [ref=e725]: F. Yang, N. E. Jewell-Larsen, D. L. Brown, K. Pendergrass, D. A. Parker, I. A. Krichtafovitch, A. V. Mamishev
+              - paragraph [ref=e726]: International Symposium on High Voltage Engineering, Amsterdam, Netherlands, August 2003
+            - generic [ref=e727]:
+              - link "BibTeX" [ref=e728] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CoronaDrivenAirPropulsionForCoolingOfElectronics_BibText.rtf
+              - link "EndNote" [ref=e729] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_CoronaDrivenAirPropulsionForCoolingOfElectronics_EndNote.rtf
+          - generic [ref=e730]:
+            - generic [ref=e731]: "39"
+            - generic [ref=e732]:
+              - link "Real-Time Power Quality Waveform Recognition with a Programmable Digital Signal Processor" [ref=e733] [cursor=pointer]:
+                - /url: http://ieeexplore.ieee.org/abstract/document/1270511/
+              - paragraph [ref=e734]: M. Wang, G. I. Rowe, A. V. Mamishev
+              - paragraph [ref=e735]: IEEE PES Summer Power Meeting, Toronto, Canada, July 2003, pp. 1268–1273
+            - generic [ref=e736]:
+              - link "BibTeX" [ref=e737] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Real-TimePowerQualityWaveformRecognitionWithAProgrammableDigitalSignalProcessor_BibText.rtf
+              - link "EndNote" [ref=e738] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_Real-TimePowerQualityWaveformRecognitionWithAProgrammableDigitalSignalProcessor_EndNote.rtf
+          - generic [ref=e739]:
+            - generic [ref=e740]: "40"
+            - generic [ref=e741]:
+              - text: Automatic Detection of Incipient Faults — Incipient Fault Detection and Monitoring by Wavelet Multiresolution Analysis and Wiener Filters
+              - paragraph [ref=e742]: M. Wang, A. V. Mamishev, A. Maitra, T. Cooke, F. Elmendorf, M. Ingram
+              - paragraph [ref=e743]: PQA 2003 North America, Monterey, California, June 2–4, 2003
+            - generic [ref=e744]:
+              - link "BibTeX" [ref=e745] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutomaticDetectionOfIncipientFaults-IncipientFaultDetectionAndMonitoringByWaveletMultiresolutionAnalysisAndWienerFilters_BibText.rtf
+              - link "EndNote" [ref=e746] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AutomaticDetectionOfIncipientFaults-IncipientFaultDetectionAndMonitoringByWaveletMultiresolutionAnalysisAndWienerFilters_EndNote.rtf
+          - generic [ref=e747]:
+            - generic [ref=e748]: "41"
+            - generic [ref=e749]:
+              - text: Fill Front Detection Using Dielectric Sensors in Resin Transfer Molding Process
+              - paragraph [ref=e750]: A. Ogale, M. Hegg, A. Mescher, A. V. Mamishev, B. Minaie
+              - paragraph [ref=e751]: ICCE, New Orleans, LA, 2003
+            - generic [ref=e752]:
+              - link "BibTeX" [ref=e753] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_FillFrontDetectionUsingDielectricSensorsInResinTransferMoldingProcess_BibText.rtf
+              - link "EndNote" [ref=e754] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_FillFrontDetectionUsingDielectricSensorsInResinTransferMoldingProcess_EndNote.rtf
+          - generic [ref=e755]:
+            - generic [ref=e756]: "42"
+            - generic [ref=e757]:
+              - link "Moisture and Temperature Effects on Dielectric Spectrum of Transformer Pressboards" [ref=e758] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1048935
+              - paragraph [ref=e759]: Y. Du, M. Zahn, N. Altmirano, M. Sarda, A. V. Mamishev, B. C. Lesieutre
+              - paragraph [ref=e760]: IEEE Conference on Electrical Insulation and Dielectric Phenomena, 2002, pp. 878–881
+            - generic [ref=e761]:
+              - link "BibTeX" [ref=e762] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureAndTemperatureEffectsOnDielectricSpectrumOfTransformerPressboards_BibText.rtf
+              - link "EndNote" [ref=e763] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_MoistureAndTemperatureEffectsOnDielectricSpectrumOfTransformerPressboards_EndNote.rtf
+          - generic [ref=e764]:
+            - generic [ref=e765]: "43"
+            - generic [ref=e766]:
+              - link "Assessment of Performance of Fringing Electric Field Sensor Arrays" [ref=e767] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/document/1048945
+              - paragraph [ref=e768]: A. V. Mamishev, A. R. Takahashi, Y. Du, B. C. Lesieutre, M. Zahn
+              - paragraph [ref=e769]: IEEE Conference on Electrical Insulation and Dielectric Phenomena, 2002, pp. 918–921
+            - generic [ref=e770]:
+              - link "BibTeX" [ref=e771] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AssessmentOfPerformanceOfFringingElectricFieldSensorArrays_BibText.rtf
+              - link "EndNote" [ref=e772] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_AssessmentOfPerformanceOfFringingElectricFieldSensorArrays_EndNote.rtf
+          - generic [ref=e773]:
+            - generic [ref=e774]: "44"
+            - generic [ref=e775]:
+              - link "Robotic Platform for Monitoring Underground Cable Systems" [ref=e776] [cursor=pointer]:
+                - /url: https://ieeexplore.ieee.org/abstract/document/1177632
+              - paragraph [ref=e777]: B. Jiang, P. Stuart, M. Raymond, D. Villa, A. V. Mamishev
+              - paragraph [ref=e778]: IEEE/PES Transmission and Distribution Conference, vol. 2, pp. 1105–1109, Yokohama, Japan, Oct. 2002
+            - generic [ref=e779]:
+              - link "BibTeX" [ref=e780] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_RoboticPlatformForMonitoringUndergroundCableSystems_BibText.rtf
+              - link "EndNote" [ref=e781] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/NJFRP_RoboticPlatformForMonitoringUndergroundCableSystems_EndNote.rtf
+      - generic [ref=e782]:
+        - button "Complete Books 5/5 −" [ref=e783]:
+          - heading "Complete Books" [level=2] [ref=e784]
+          - generic [ref=e785]: 5/5
+          - generic [ref=e786]: −
+        - generic [ref=e787]:
+          - generic [ref=e788]:
+            - generic [ref=e789]: "1"
+            - generic [ref=e790]:
+              - text: Electrostatic Fluid Accelerators for Thermal Management
+              - paragraph [ref=e791]: N. L. Jewell-Larsen, A. V. Mamishev
+              - paragraph [ref=e792]: Amazon Creative Press (in print)
+            - generic [ref=e793]:
+              - link "BibTeX" [ref=e794] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_ElectrostaticFluidAcceleratorsForThermalManagement_BibTeX.rtf
+              - link "EndNote" [ref=e795] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_ElectrostaticFluidAcceleratorsForThermalManagement_EndNote.rtf
+          - generic [ref=e796]:
+            - generic [ref=e797]: "2"
+            - generic [ref=e798]:
+              - link "Creating Research and Scientific Documents Using Microsoft Word" [ref=e799] [cursor=pointer]:
+                - /url: https://www.microsoftpressstore.com/store/creating-research-and-scientific-documents-using-microsoft-9780735670396
+              - paragraph [ref=e800]: A. V. Mamishev, M. Sargent
+              - paragraph [ref=e801]: Microsoft Press, 2013
+            - generic [ref=e802]:
+              - link "BibTeX" [ref=e803] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_CreatingResearchAndScientificDocumentsUsingMicrosoftWord_BibTeX.rtf
+              - link "EndNote" [ref=e804] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_CreatingResearchAndScientificDocumentsUsingMicrosoftWord_EndNote.rtf
+          - generic [ref=e805]:
+            - generic [ref=e806]: "3"
+            - generic [ref=e807]:
+              - 'link "Breaking Barriers: A Practical Guide to Getting Into Graduate School in the United States" [ref=e808] [cursor=pointer]':
+                - /url: https://www.lulu.com/shop/alexander-mamishev/breaking-barriers-a-practical-guide-to-getting-into-graduate-school-in-the-united-states/paperback/product-1j987evm.html
+              - paragraph [ref=e809]: A. V. Mamishev
+              - paragraph [ref=e810]: Lulu Press, 2011
+            - generic [ref=e811]:
+              - link "BibTeX" [ref=e812] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_BreakingBarriersAPracticalGuideToGettingIntoGraduateSchoolInTheUnitedStates_BibTeX.rtf
+              - link "EndNote" [ref=e813] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_BreakingBarriersAPracticalGuideToGettingIntoGraduateSchoolInTheUnitedStates_EndNote.rtf
+          - generic [ref=e814]:
+            - generic [ref=e815]: "4"
+            - generic [ref=e816]:
+              - link "Graduate Education in the United States" [ref=e817] [cursor=pointer]:
+                - /url: https://books.google.com/books?id=0F2AAwAAQBAJ&printsec=frontcover&source=gbs_book_other_versions_r&cad=4
+              - paragraph [ref=e818]: A. V. Mamishev
+              - paragraph [ref=e819]: Ravnovesie, 2010; Lulu Press, 2011 (in Russian)
+            - generic [ref=e820]:
+              - link "BibTeX" [ref=e821] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_GraduateEducationInTheUnitedStates_BibTeX.rtf
+              - link "EndNote" [ref=e822] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_GraduateEducationInTheUnitedStates_EndNote.rtf
+          - generic [ref=e823]:
+            - generic [ref=e824]: "5"
+            - generic [ref=e825]:
+              - 'link "Technical Writing for Teams: The STREAM Tools Handbook" [ref=e826] [cursor=pointer]':
+                - /url: https://www.wiley.com/en-us/Technical+Writing+for+Teams%3A+The+STREAM+Tools+Handbook-p-9780470602690
+              - paragraph [ref=e827]: A. V. Mamishev, S. D. Williams
+              - paragraph [ref=e828]: Wiley-IEEE Press, 2010
+            - generic [ref=e829]:
+              - link "BibTeX" [ref=e830] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_TechnicalWritingForTeamsTheSTREAMToolsHandbook_BibTeX.rtf
+              - link "EndNote" [ref=e831] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_TechnicalWritingForTeamsTheSTREAMToolsHandbook_EndNote.rtf
+      - generic [ref=e832]:
+        - button "Book Chapters 3/3 −" [ref=e833]:
+          - heading "Book Chapters" [level=2] [ref=e834]
+          - generic [ref=e835]: 3/3
+          - generic [ref=e836]: −
+        - generic [ref=e837]:
+          - generic [ref=e838]:
+            - generic [ref=e839]: "1"
+            - generic [ref=e840]:
+              - link "Dielectric Spectroscopy" [ref=e841] [cursor=pointer]:
+                - /url: https://searchworks.stanford.edu/view/6839755
+              - paragraph [ref=e842]: A. V. Mamishev
+              - paragraph [ref=e843]: "Chapter in Micro-Instrumentation for High Throughput Experimentation and Process Intensification: A Tool for PAT, Wiley-VCH, 2007 (invited)"
+            - generic [ref=e844]:
+              - link "BibTeX" [ref=e845] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_DielectricSpectroscopy_BibTeX.rtf
+              - link "EndNote" [ref=e846] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_DielectricSpectroscopy_EndNote.rtf
+          - generic [ref=e847]:
+            - generic [ref=e848]: "2"
+            - generic [ref=e849]:
+              - link "Fringing Electric and Magnetic Field Sensors" [ref=e850] [cursor=pointer]:
+                - /url: http://www.kishore-sr.com/PubFiles/Others/EOS.pdf
+              - paragraph [ref=e851]: K. Sundara-Rajan, A. V. Mamishev, M. Zahn
+              - paragraph [ref=e852]: Chapter in Encyclopedia of Sensors, American Scientific Publishers, vol. 4, pp. 89–100, 2006 (invited)
+            - generic [ref=e853]:
+              - link "BibTeX" [ref=e854] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_FringingElectricAndMagneticFieldSensors_BibTeX.rtf
+              - link "EndNote" [ref=e855] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_FringingElectricAndMagneticFieldSensors_EndNote.rtf
+          - generic [ref=e856]:
+            - generic [ref=e857]: "3"
+            - generic [ref=e858]:
+              - link "Overhead Line Conductors" [ref=e859] [cursor=pointer]:
+                - /url: https://onlinelibrary.wiley.com/doi/10.1002/047134608X.W6123
+              - paragraph [ref=e860]: A. V. Mamishev
+              - paragraph [ref=e861]: Chapter in Wiley Encyclopedia of Electrical and Electronics Engineering, vol. 15, pp. 463–474, John Wiley and Sons, 1999 (invited)
+            - generic [ref=e862]:
+              - link "BibTeX" [ref=e863] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_OverheadLineConductors_BibTeX.rtf
+              - link "EndNote" [ref=e864] [cursor=pointer]:
+                - /url: https://www.uwseal.org/wp-content/uploads/2023/02/Book_OverheadLineConductors_EndNote.rtf
+  - contentinfo [ref=e865]:
+    - paragraph [ref=e866]: © 2026 SEAL. All Rights Reserved.
+```
+
+# Test source
+
+```ts
+  1  | import { expect, test } from "@playwright/test";
+  2  | 
+  3  | test.describe("mobile interactions", () => {
+  4  |   test("news cards open on tap", async ({ page }) => {
+  5  |     await page.goto("/news");
+  6  | 
+  7  |     const firstCard = page.locator("a.surface-card").first();
+  8  |     await expect(firstCard).toBeVisible();
+  9  |     await firstCard.tap();
+  10 | 
+  11 |     await expect(page).toHaveURL(/\/news\/\d+$/);
+  12 |     await expect(page.getByRole("link", { name: /Back to News/i })).toBeVisible();
+  13 |   });
+  14 | 
+  15 |   test("publication sections collapse on tap", async ({ page }) => {
+  16 |     await page.goto("/publications");
+  17 | 
+  18 |     const journalSection = page.locator("section").first();
+  19 |     const journalToggle = journalSection.getByRole("button", { name: /Journal Publications/i });
+  20 |     const knownJournalTitle = page.getByText(/Analytical Model For Electrohydrodynamic Thrust/i).first();
+  21 | 
+  22 |     await expect(journalToggle).toBeVisible();
+  23 |     await expect(knownJournalTitle).toBeVisible();
+  24 | 
+  25 |     await journalToggle.tap();
+> 26 |     await expect(knownJournalTitle).toBeHidden();
+     |                                     ^ Error: expect(locator).toBeHidden() failed
+  27 | 
+  28 |     await journalToggle.tap();
+  29 |     await expect(knownJournalTitle).toBeVisible();
+  30 |   });
+  31 | 
+  32 |   test("gallery images open on tap", async ({ page }) => {
+  33 |     await page.goto("/gallery/spring17-group-photo");
+  34 | 
+  35 |     const firstTile = page.locator("button.gallery-tile").first();
+  36 |     await expect(firstTile).toBeVisible();
+  37 |     await firstTile.tap();
+  38 | 
+  39 |     await expect(page.locator(".lightbox-frame")).toBeVisible();
+  40 |   });
+  41 | });
+  42 | 
+```

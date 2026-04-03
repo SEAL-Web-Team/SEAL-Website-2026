@@ -83,7 +83,7 @@ export default function PeoplePage() {
         </div>
 
         {/* ── Lab Leadership ── */}
-        <div className="mb-28 pb-28 border-b border-white/[0.06]">
+        <div className="mb-16 pb-16 sm:mb-28 sm:pb-28 border-b border-white/[0.06]">
           <div className="flex items-center gap-4 mb-10">
             <div className="w-8 h-px bg-white/20" />
             <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-400">{peoplePage.leadershipTitle}</h2>
@@ -96,7 +96,7 @@ export default function PeoplePage() {
         </div>
 
         {/* ── Teams ── */}
-        <div className="flex flex-col gap-24">
+        <div className="flex flex-col gap-16 sm:gap-24">
           {teams.map(({ team, members }) => {
             return (
               <div key={team}>

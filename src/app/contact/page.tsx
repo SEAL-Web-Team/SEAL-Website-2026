@@ -14,7 +14,7 @@ export default function ContactPage() {
 
           {/* Director card */}
           <div className="surface-card overflow-hidden flex flex-col md:flex-row">
-            <div className="media-frame w-full md:w-72 aspect-square shrink-0 overflow-hidden">
+            <div className="media-frame w-full md:w-64 aspect-square md:aspect-auto shrink-0 overflow-hidden" style={{ maxHeight: "18rem" }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={contact.director.image}
@@ -22,7 +22,7 @@ export default function ContactPage() {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="flex flex-col gap-6 p-7 w-full">
+            <div className="flex flex-col gap-6 p-5 sm:p-7 w-full">
               <div>
                 <p className="text-sm uppercase tracking-widest text-slate-500 mb-3">{contact.director.eyebrow}</p>
                 <p className="text-white text-3xl font-semibold leading-tight">{contact.director.name}</p>
@@ -38,7 +38,7 @@ export default function ContactPage() {
           </div>
 
           {/* Address card */}
-          <div className="surface-card overflow-hidden p-7">
+          <div className="surface-card overflow-hidden p-5 sm:p-7">
             <p className="text-sm uppercase tracking-widest text-slate-500 mb-3">{contact.address.eyebrow}</p>
             <p className="text-white text-3xl font-semibold leading-tight">{contact.address.name}</p>
             <address className="not-italic text-slate-300 text-lg leading-9 mt-3">

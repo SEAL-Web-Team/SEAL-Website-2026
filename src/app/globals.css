@@ -1,5 +1,120 @@
 @import "tailwindcss";
 
+/* ── Mobile nav (details/summary) ── */
+
+/* Hide the native triangle marker everywhere */
+.mobile-nav-details > summary {
+  list-style: none;
+}
+.mobile-nav-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* The summary IS the hamburger button */
+.mobile-nav-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 150ms ease;
+  /* Prevent text selection on tap */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-nav-summary:hover {
+  background: rgb(255 255 255 / 0.08);
+}
+
+/* The three lines */
+.mobile-nav-bar {
+  display: block;
+  height: 2px;
+  background: rgb(203 213 225);
+  border-radius: 2px;
+  transform-origin: center;
+  transition: transform 220ms ease, opacity 180ms ease;
+}
+
+/* Animate to X when open */
+.mobile-nav-details[open] .bar1 {
+  transform: translateY(8px) rotate(45deg);
+}
+.mobile-nav-details[open] .bar2 {
+  opacity: 0;
+}
+.mobile-nav-details[open] .bar3 {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* The dropdown — breaks out of the header via position:fixed */
+.mobile-nav-dropdown {
+  position: fixed;
+  top: 4rem; /* height of the navbar */
+  left: 0;
+  right: 0;
+  z-index: 49;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0.625rem;
+  background:
+    linear-gradient(180deg, rgb(15 23 42 / 0.88), rgb(9 13 24 / 0.94)),
+    rgb(15 23 42 / 0.78);
+  border-bottom: 1px solid rgb(255 255 255 / 0.12);
+  box-shadow: 0 24px 48px rgb(2 6 23 / 0.4);
+  backdrop-filter: blur(28px) saturate(165%);
+  -webkit-backdrop-filter: blur(28px) saturate(165%);
+  max-height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
+}
+
+.mobile-nav-details:not([open]) .mobile-nav-dropdown {
+  display: none;
+  pointer-events: none;
+}
+
+.mobile-nav-details[open] .mobile-nav-dropdown {
+  display: flex;
+  pointer-events: auto;
+}
+
+.mobile-nav-link {
+  display: block;
+  min-height: 44px;
+  padding: 0.75rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.9375rem;
+  color: rgb(203 213 225);
+  background: rgb(255 255 255 / 0.035);
+  transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+  border: 1px solid transparent;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link.active {
+  background: rgb(255 255 255 / 0.08);
+  border-color: rgb(255 255 255 / 0.06);
+  color: white;
+}
+
+/* Hide the whole thing on desktop */
+@media (min-width: 1024px) {
+  .mobile-nav-details {
+    display: none;
+  }
+}
+
+/* ─────────────────────────────── */
+
 :root {
   --background: #0d1119;
   --foreground: #e2e8f0;
@@ -30,7 +145,19 @@ body {
 
 .page-shell {
   min-height: 100vh;
-  padding: 10rem 2rem 7rem;
+  padding: 6rem 1rem 4rem;
+}
+
+@media (min-width: 640px) {
+  .page-shell {
+    padding: 8rem 2rem 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-shell {
+    padding: 10rem 2rem 7rem;
+  }
 }
 
 .page-container {
@@ -53,7 +180,7 @@ body {
 
 .page-header {
   position: relative;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   max-width: 48rem;
   padding-bottom: 1.75rem;
 }
@@ -70,7 +197,7 @@ body {
 
 .page-title {
   color: white;
-  font-size: clamp(2.5rem, 4vw, 3rem);
+  font-size: clamp(2.1rem, 7vw, 3rem);
   font-weight: 700;
   line-height: 1.05;
   text-wrap: balance;
@@ -80,8 +207,19 @@ body {
   margin-top: 1rem;
   max-width: 42rem;
   color: rgb(148 163 184);
-  font-size: 1.125rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+@media (min-width: 640px) {
+  .page-header {
+    margin-bottom: 4rem;
+  }
+
+  .page-subtitle {
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
 }
 
 .surface-card {
@@ -103,17 +241,20 @@ body {
     border-color 200ms ease,
     transform 200ms ease,
     box-shadow 200ms ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.surface-card-hover:hover {
-  background:
-    linear-gradient(180deg, rgb(255 255 255 / 0.075), rgb(255 255 255 / 0.04)),
-    rgb(16 23 34 / 0.78);
-  border-color: rgb(255 255 255 / 0.14);
-  transform: translateY(-2px);
-  box-shadow:
-    inset 0 1px 0 rgb(255 255 255 / 0.05),
-    0 20px 54px rgb(0 0 0 / 0.28);
+@media (hover: hover) and (pointer: fine) {
+  .surface-card-hover:hover {
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 0.075), rgb(255 255 255 / 0.04)),
+      rgb(16 23 34 / 0.78);
+    border-color: rgb(255 255 255 / 0.14);
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 1px 0 rgb(255 255 255 / 0.05),
+      0 20px 54px rgb(0 0 0 / 0.28);
+  }
 }
 
 .media-frame {
@@ -126,26 +267,31 @@ body {
 .action-chip {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.375rem;
   border: 1px solid rgb(255 255 255 / 0.14);
   border-radius: 0.625rem;
   padding: 0.5rem 0.875rem;
+  min-height: 2.75rem;
   color: rgb(203 213 225);
   font-size: 0.875rem;
   font-weight: 600;
   background: linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.03));
   transition: border-color 200ms ease, color 200ms ease, background-color 200ms ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.action-chip:hover {
-  border-color: rgb(123 63 168 / 0.48);
-  color: white;
-  background: linear-gradient(180deg, rgb(123 63 168 / 0.12), rgb(255 255 255 / 0.04));
+@media (hover: hover) and (pointer: fine) {
+  .action-chip:hover {
+    border-color: rgb(123 63 168 / 0.48);
+    color: white;
+    background: linear-gradient(180deg, rgb(123 63 168 / 0.12), rgb(255 255 255 / 0.04));
+  }
 }
 
 .gallery-wall {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
   gap: 2px;
 }
 
@@ -211,9 +357,15 @@ body {
   transition: transform 220ms ease, opacity 220ms ease;
 }
 
-.gallery-tile:hover .gallery-tile-image {
-  transform: scale(1.01);
-  opacity: 0.98;
+@media (hover: hover) and (pointer: fine) {
+  .gallery-tile:hover {
+    transform: translateY(-1px);
+  }
+
+  .gallery-tile:hover .gallery-tile-image {
+    transform: scale(1.01);
+    opacity: 0.98;
+  }
 }
 
 .lightbox-backdrop {
@@ -239,7 +391,7 @@ body {
   align-items: stretch;
   gap: 0;
   width: min(96vw, 1400px);
-  height: min(88vh, calc(100vh - 6rem));
+  height: min(88dvh, calc(100dvh - 6rem));
   border-radius: 1.5rem;
   overflow: hidden;
   background: rgb(9 14 22 / 0.86);
@@ -315,6 +467,7 @@ body {
     linear-gradient(180deg, rgb(255 255 255 / 0.06), rgb(255 255 255 / 0.02)),
     rgb(15 22 34 / 0.92);
   border-right: 1px solid rgb(255 255 255 / 0.08);
+  min-width: 0;
 }
 
 .lightbox-meta-label {
@@ -379,6 +532,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .lightbox-control-button {
@@ -432,13 +586,20 @@ body {
     gap: 1rem;
   }
 
+  .gallery-album-intro p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
   .lightbox-frame {
     grid-template-areas:
       "stage"
       "meta";
     grid-template-columns: minmax(0, 1fr);
     grid-template-rows: 1fr auto;
-    height: 95vh;
+    height: calc(100dvh - 4rem);
+    width: 100vw;
+    border-radius: 0;
   }
 
   .lightbox-stage {
@@ -453,6 +614,72 @@ body {
   .lightbox-meta {
     padding: 0.75rem;
     border-right: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .lightbox-meta-label {
+    display: none;
+  }
+
+  .lightbox-meta-hint {
+    display: none;
+  }
+
+  .lightbox-image-description {
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  .lightbox-meta-title {
+    font-size: 0.95rem;
+    flex: 1;
+    min-width: 8rem;
+  }
+
+  .lightbox-counter {
+    padding: 0.5rem 0.7rem;
+    gap: 0.15rem;
+  }
+
+  .lightbox-counter-value {
+    font-size: 0.92rem;
+  }
+
+  .lightbox-backdrop {
+    align-items: flex-end;
+  }
+
+  .lightbox-close {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .lightbox-nav {
+    top: calc(4rem + 45%);
+  }
+}
+
+@media (max-width: 639px) {
+  .gallery-wall {
+    grid-template-columns: 1fr;
+  }
+
+  .lightbox-nav {
+    width: 2.25rem;
+    height: 2.25rem;
+    font-size: 1.5rem;
+  }
+
+  .lightbox-control-button {
+    min-width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .lightbox-control-readout {
+    min-width: 4.25rem;
   }
 }
 
@@ -486,17 +713,22 @@ body {
   background: rgb(15 23 35 / 0.74);
   color: white;
   backdrop-filter: blur(10px);
-}
-
-.lightbox-nav {
   top: calc(4rem + 50%);
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 9999px;
-  font-size: 2rem;
+  font-size: 1.75rem;
   line-height: 1;
   transform: translateY(-50%);
   transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+}
+
+@media (min-width: 640px) {
+  .lightbox-nav {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
 }
 
 .lightbox-nav:hover {
@@ -505,9 +737,14 @@ body {
 }
 
 .lightbox-nav-left {
-  left: 1.25rem;
+  left: 0.5rem;
 }
 
 .lightbox-nav-right {
-  right: 1.25rem;
+  right: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .lightbox-nav-left { left: 1.25rem; }
+  .lightbox-nav-right { right: 1.25rem; }
 }
