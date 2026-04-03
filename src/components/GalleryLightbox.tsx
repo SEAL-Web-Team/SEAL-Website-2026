@@ -186,7 +186,7 @@ export default function GalleryLightbox({
       const r    = el.getBoundingClientRect();
       const pivX = e.clientX - r.left  - r.width  / 2;
       const pivY = e.clientY - r.top   - r.height / 2;
-      const delta = e.deltaY < 0 ? 0.15 : -0.15;
+      const delta = e.deltaY < 0 ? 0.5 : -0.5;
       commitZoom(zoomRef.current + delta, pivX, pivY);
     };
 
