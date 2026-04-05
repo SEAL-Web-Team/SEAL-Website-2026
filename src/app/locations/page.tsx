@@ -35,7 +35,8 @@ export default function LocationsPage() {
                 <img
                   src={loc.image}
                   alt={loc.name}
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
+                  style={loc.name === "SEAL Avionics" ? { objectPosition: "center 30%" } : undefined}
                 />
               </div>
 

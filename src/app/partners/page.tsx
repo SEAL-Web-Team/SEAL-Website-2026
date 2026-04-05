@@ -23,7 +23,7 @@ export default function PartnersPage() {
                   <img
                     src={p.image}
                     alt={p.name}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               )}
