@@ -1,0 +1,35 @@
+{
+  "overview": [
+    "The Ammonia Project focuses on developing a custom-designed Single-Walled Carbon Nanotube (SWCNT) sensor capable of accurately detecting ammonia concentration.",
+    "These advanced sensors offer approximately ten times the sensitivity and accuracy of leading commercial sensors.",
+    "The project aims to deliver a low-cost, highly accurate, and reliable solution for indoor ammonia monitoring, whether for scientific research or air safety."
+  ],
+  "longTermGoals": [
+    "Test sensors against a variety kinds of hazardous gases to explore other potential applications",
+    "Develop a methodology to calibrate sensor accurately and avoid drifting",
+    "Exploring various applications based on SWCNT sensors, including handheld measuring equipment, wearable sensors, and embedded harmful gas alarms."
+  ],
+  "skills": [
+    "Signal processing and Data analysis",
+    "Embedded system design and programming",
+    "Sensor calibration",
+    "Technical paper and grant writing"
+  ],
+  "quickPoints": [
+    "The SWCNT sensors’s accuracy is precise enough to detect ammonia levels as low as 50 ammonia particles per billion.",
+    "The researcher will explore a variety types of sensor application",
+    "SWCNT sensors are edge-breaking technologies, and we are exploring it’s potential applications in other chemical gases."
+  ],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2023/11/ammonia.png",
+      "alt": "Group of ammonia sensors",
+      "caption": "A group of ammonia sensors. Each sensor is roughly the size of a nickel."
+    },
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2024/11/ammonia_sensor-768x576.jpeg",
+      "alt": "Ammonia sensor with ZIF connector",
+      "caption": "The sensor was thinner than paper, so we can only use the Zero insertion force (ZIF) connector to hold the sensor properly"
+    }
+  ]
+}

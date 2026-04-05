@@ -1,0 +1,37 @@
+{
+  "overview": [
+    "Air quality is a critical factor in human health and well-being, particularly in environments such as hospitals, manufacturing plants, and areas affected by forest fires.",
+    "Our air quality monitoring solution, Aerospec, addresses the limitations of traditional indoor sensors, which typically monitor air quality at a single location.",
+    "Aerospec is a mesh sensor network designed to simultaneously monitor air quality across multiple locations. A dedicated web server will be deployed to remotely manage the sensors and collect real-time data on their status."
+  ],
+  "longTermGoals": [
+    "Design a reliable air quality sensor module",
+    "Build an Aerospec sensor array for monitoring indoor air quality",
+    "Deploy a web server for data collection and analysis, as well as a user-friendly data visualization webpage",
+    "Sensors cross-calibration to avoid detection of drifting",
+    "Startups and commercial products"
+  ],
+  "skills": [
+    "Arduino System Design",
+    "Web server management and website design",
+    "Data collection and analysis",
+    "PCB Design Skill"
+  ],
+  "quickPoints": [
+    "The project aims to design a commercialized Aerospec sensor to deploy to different environments.",
+    "Using WI-FI technology to realize data aggregation and processing from multiple sensors was vital to the project.",
+    "The project will offer opportunities to learn about academic paper writing and the possibility of co-authoring journal and conference papers."
+  ],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2024/11/IMG_5555-768x1024.jpeg",
+      "alt": "The inner design of Aerospec Sensor",
+      "caption": "The inner design of Aerospec Sensor"
+    },
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2024/11/mmexport1729306152349-768x432.jpg",
+      "alt": "The inner design of Aerospec Air quality sensor",
+      "caption": "The Inner design of Aerospec Air quality sensor"
+    }
+  ]
+}

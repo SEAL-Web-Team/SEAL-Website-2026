@@ -1,0 +1,32 @@
+{
+  "overview": [
+    "Learning how to master writing in academia can be difficult for new writers.",
+    "However, it is an important skill for funding, designing, developing, implementing, and reporting on innovative engineering projects, technologies, and research.",
+    "ECoS is a technical writing solution that can be used to help writers with document collaboration and learning complex expectations of professional writing.",
+    "For more information, visit the ECoS website."
+  ],
+  "longTermGoals": [
+    "We want to create new features for both our website and Microsoft Add-in to make ECoS easy and efficient.",
+    "We want to extend our services into Google Docs by creating a Google extension.",
+    "We want to make the use of our backend as efficient as possible.",
+    "We are also looking for business-oriented students to help with expanding the use of ECoS."
+  ],
+  "skills": [
+    "Web development: CSS, JavaScript, React",
+    "Java (Spring Boot)",
+    "Python",
+    "Various APIs"
+  ],
+  "quickPoints": [
+    "ECoS creates a flexible way of maintaining and creating your own comment libraries.",
+    "Our website and add-in are created using React.",
+    "ECoS runs using AWS with Spring Boot."
+  ],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2023/11/Landing.jpg",
+      "alt": "ECoS Microsoft Word add-in interface",
+      "caption": "How the published Microsoft Word add-in looks when opened in a Word Document"
+    }
+  ]
+}

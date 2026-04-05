@@ -1,0 +1,34 @@
+{
+  "overview": [
+    "The Fruit Ripeness Project aims to develop an innovative sensor that detects changes in fruit skin impedance, accurately measuring fruit ripeness.",
+    "This product is designed for integration into fruit processing lines, enabling farmers to assess fruit ripeness swiftly.",
+    "This sensor will allow packing and distribution facilities to implement more effective food handling practices, reducing food waste and cutting operating costs."
+  ],
+  "longTermGoals": [
+    "Design a commercially viable fruit ripeness sensor",
+    "Establish a complete fruit skin impedance and fruit ripeness database",
+    "Optimize ripeness sensor performance and cost"
+  ],
+  "skills": [
+    "Detection and processing of weak signals",
+    "Massive data collection and processing",
+    "Setup of Machine Learning networks",
+    "Embedded System Design, Enclosure design"
+  ],
+  "quickPoints": [
+    "We can track capacitance changes at the uF level",
+    "We intend to build a data processing engine based on ML"
+  ],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2023/12/fruit_ripeness_1-768x1024.jpeg",
+      "alt": "Fruit ripeness sensor constructed from copper foil",
+      "caption": "A fruit ripeness sensor constructed from copper foil, used to measure capacitance"
+    },
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2023/12/fruit_ripeness_2-768x576.jpeg",
+      "alt": "Benchtop impedance analyzer for fruit ripeness testing",
+      "caption": "A benchtop impedance analyzer for measuring the capacitance of a load"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "overview": [
+    "The Sphere Very-Low-Frequency (VLF) Antenna System is designed to create a robust, reliable, and high-performance VLF-embedded antenna system capable of global deployment.",
+    "Its primary objective is to monitor meteors, rocket launches, lightning, and other weather activities.",
+    "The project focuses on processing and analyzing VLF signals, correlating signal signatures with different events, and exploring the underlying principles governing these phenomena."
+  ],
+  "longTermGoals": [
+    "Develop an automatic model for fine-tuning signal processing parameters for different activities’ signatures",
+    "Correlated the VLF signal signatures with different physical activities",
+    "Optimized real-time spectrogram generation and display"
+  ],
+  "skills": [
+    "RF Signal Processing and Analysis",
+    "Signal processing algorithm and workflow optimization",
+    "RF circuit Design",
+    "GUI design and software engineering",
+    "Data Management",
+    "Technical Writing"
+  ],
+  "quickPoints": [
+    "Learn skills in signal processing based on Fast Fourier Transformation(FFT) and Spectrom analysis.",
+    "The project also provides a massive software coding-based position, including data management, GUI design, and signal processing algorithm optimization.",
+    "The project will offer opportunities to learn about academic report and paper writing and the possibility of co-authoring journal and conference papers."
+  ],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2024/11/Web-img-768x478.png",
+      "alt": "Field capturing setup for the Perseids meteor shower",
+      "caption": "The Field capturing setup to capture the Perseids meteor shower in 2024 Real-time FFT monitoring"
+    },
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2024/11/image-768x441.png",
+      "alt": "Real-time FFT spectrogram interface",
+      "caption": "The innovative Real-time FFT spectrogram feature based on a leading signal processing algorithm"
+    }
+  ]
+}

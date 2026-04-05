@@ -1,0 +1,29 @@
+{
+  "overview": [
+    "Leaks in pressurized air and gas systems lead to substantial energy waste, environmental pollution, and operating expenses.",
+    "Traditional methods of detecting leaks are labor-intensive and sensitive to ambient noise.",
+    "This project aims to automate the leak detection process with a network of ultrasonic vibration sensors.",
+    "The sensors will be placed on either side of a suspected leak, allowing its location to be precisely determined."
+  ],
+  "longTermGoals": [
+    "Test sensors against competing models",
+    "Create a sensor network and a GUI for control",
+    "Reduce energy wasted in industrial facilities"
+  ],
+  "skills": [
+    "Signal processing",
+    "Embedded and application programming",
+    "Facilities monitoring and data collection"
+  ],
+  "quickPoints": [
+    "The majority of industrial facilities use compressed air systems in some way.",
+    "Our sensors will help automate the labor-intensive leak-detection process."
+  ],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2023/12/air-leak.png",
+      "alt": "Compressed air line leak sensor setup",
+      "caption": "An example setup of the sensors on a compressed air line"
+    }
+  ]
+}

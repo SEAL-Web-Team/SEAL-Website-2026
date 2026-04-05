@@ -1,0 +1,26 @@
+{
+  "overview": [
+    "Our team develops a Microsoft Office Word ribbon tool specifically designed for technical writing.",
+    "The tool empowers writers to effortlessly insert figures and equations into their Word documents.",
+    "Users also have the flexibility to adjust settings such as text wrapping and cross-referencing for enhanced usability.",
+    "For more information, visit the WEGO website."
+  ],
+  "longTermGoals": [
+    "Our primary objective is to refine our current ribbon tool through testing.",
+    "Additionally, we aim to commercialize this tool, with plans to implement a trial system for users and develop a web application for hosting."
+  ],
+  "skills": [
+    "C++ & C#",
+    "HTML/CSS & JavaScript",
+    "React, REST, & Django",
+    "VSCode & Github"
+  ],
+  "quickPoints": [],
+  "images": [
+    {
+      "src": "https://www.uwseal.org/wp-content/uploads/2023/11/Wego-768x105.jpeg",
+      "alt": "WEGO Word ribbon tool",
+      "caption": "Current ribbon tool"
+    }
+  ]
+}

@@ -1,11 +1,13 @@
-import projects from "@/data/projects.json";
+import Link from "next/link";
+import { getProjects } from "@/data/projects";
 import pageCopy from "@/data/page-copy.json";
 
 export default function ProjectsPage() {
+  const projects = getProjects();
+
   return (
     <div className="page-shell">
       <div className="page-container">
-
         <div className="page-header">
           <h1 className="page-title">{pageCopy.projects.title}</h1>
           <p className="page-subtitle">{pageCopy.projects.subtitle}</p>
@@ -13,14 +15,11 @@ export default function ProjectsPage() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <a
+            <Link
               key={project.name}
               href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
               className="surface-card surface-card-hover group relative overflow-hidden flex flex-col"
             >
-              {/* Image */}
               <div className="media-frame h-44 sm:h-52 overflow-hidden shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -30,10 +29,8 @@ export default function ProjectsPage() {
                 />
               </div>
 
-              {/* Divider */}
               <div className="h-px bg-white/[0.06]" />
 
-              {/* Content */}
               <div className="flex flex-col flex-1 p-5 sm:p-6">
                 <h2 className="text-white font-semibold text-base leading-snug mb-3">
                   {project.name}
@@ -48,10 +45,9 @@ export default function ProjectsPage() {
                   </span>
                 </div>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
-
       </div>
     </div>
   );
