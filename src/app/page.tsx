@@ -100,16 +100,17 @@ export default function HomePage() {
               <div key={b.heading} className="surface-card surface-card-hover flex flex-col p-5 sm:p-7">
                 <h3 className="text-white font-semibold text-lg mb-3 leading-snug">{b.heading}</h3>
                 <p className="text-slate-300 text-base leading-relaxed flex-1 mb-6">{b.description}</p>
-                <Link
-                  href={b.href}
-                  className="action-chip self-start"
-                >
-                  <span>Learn more</span>
-                  <span aria-hidden="true">→</span>
-                </Link>
               </div>
             ))}
           </div>
+            <div className="mt-8 flex justify-center">
+              <Link
+                href="/apply"
+                className="px-7 py-3.5 text-base font-semibold text-white border border-white/20 rounded-lg hover:bg-white/20 transition-all backdrop-blur-sm"
+              >
+                <span>Apply Now</span>
+              </Link>
+            </div>
         </div>
       </section>
 
