@@ -12,21 +12,33 @@ export default function HomePage() {
         </video>
         <div className="absolute inset-0 bg-black/55" />
 
-        <div className="relative text-center px-4 sm:px-6 max-w-4xl w-full pt-14 sm:pt-0">
+        <div className="relative text-center w-[88%] max-w-4xl pt-[3vh]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={home.hero.uwLogoSrc} alt={home.hero.uwLogoAlt} className="h-14 sm:h-20 mx-auto mb-5 sm:mb-6 brightness-0 invert" />
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-[1.05] tracking-tight mb-5 sm:mb-6">
+          <img
+            src={home.hero.uwLogoSrc}
+            alt={home.hero.uwLogoAlt}
+            className="mx-auto brightness-0 invert"
+            style={{ height: "clamp(3rem, 4.5vw, 5.5rem)", marginBottom: "clamp(1rem, 2.5vh, 1.75rem)" }}
+          />
+          <h1
+            className="font-extrabold text-white leading-[1.05] tracking-tight"
+            style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.75rem)", marginBottom: "clamp(1rem, 2.5vh, 1.75rem)" }}
+          >
             {home.hero.titleLines[0]}<br className="hidden sm:block" /> {home.hero.titleLines[1]}
           </h1>
-          <p className="text-slate-200 text-lg sm:text-2xl max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10">
+          <p
+            className="text-slate-200 max-w-2xl mx-auto leading-relaxed"
+            style={{ fontSize: "clamp(1rem, 1.8vw, 1.5rem)", marginBottom: "clamp(1.5rem, 4vh, 3rem)" }}
+          >
             {home.hero.subtitle}
           </p>
-          <div className="flex items-center justify-center gap-3 sm:gap-4 flex-wrap">
+          <div className="flex items-center justify-center gap-[clamp(0.5rem,1.5vw,1rem)] flex-wrap">
             {home.hero.actions.map((action) => (
               <Link
                 key={action.href}
                 href={action.href}
-                className="w-full sm:w-auto px-6 py-3.5 text-base font-semibold text-white bg-white/10 border border-white/20 rounded-lg hover:bg-white/20 transition-all backdrop-blur-sm text-center"
+                className="w-full sm:w-auto font-semibold text-white bg-white/10 border border-white/20 rounded-lg hover:bg-white/20 transition-all backdrop-blur-sm text-center"
+                style={{ padding: "clamp(0.65rem, 1.2vh, 1rem) clamp(1.25rem, 2.5vw, 2rem)", fontSize: "clamp(0.875rem, 1.2vw, 1.1rem)" }}
               >
                 {action.label}
               </Link>
