@@ -1,0 +1,37 @@
+{
+  "overview": [
+    "As organizations across every industry move toward AI-first operations, most struggle with the same core challenges: keeping AI systems running reliably over time, integrating them with real infrastructure, managing computational costs, and retaining knowledge across sessions.",
+    "The Neil AI project addresses these challenges in a working lab environment. Neil is a persistent AI system that operates continuously across SEAL Lab, integrating real-time data from over ten infrastructure sources — GPU compute, network cameras, printers, knowledge bases, and cloud APIs — into a unified monitoring and automation platform.",
+    "Unlike conventional chatbot deployments, Neil manages its own computational resource consumption through a biologically inspired regulation system modeled after pinniped neuroscience. A token metabolism tracks API costs in real time and adjusts system behavior across four operational modes, from exploratory to resource-conserving, based on current workload and budget constraints.",
+    "A cognitive memory architecture with episodic, semantic, and procedural stores enables the system to retain and consolidate knowledge autonomously across sessions, eliminating the cold-start problem that limits most AI deployments."
+  ],
+  "longTermGoals": [
+    "Develop a generalizable framework for persistent, cost-aware AI systems that organizations can adapt to their own infrastructure",
+    "Build autonomous memory consolidation pipelines that reduce knowledge loss between sessions",
+    "Integrate multi-modal sensor fusion for real-time infrastructure monitoring and anomaly detection",
+    "Reduce non-research overhead for lab members through automated documentation, scheduling, and coordination"
+  ],
+  "skills": [
+    "Rust systems programming and real-time terminal UI development",
+    "LLM API integration, prompt engineering, and cost optimization",
+    "Real-time sensor data acquisition and multi-source fusion",
+    "Asynchronous systems design and background task orchestration"
+  ],
+  "quickPoints": [
+    "Neil operates continuously, integrating live data from GPU utilization, network cameras, cloud APIs, and over ten other infrastructure sources.",
+    "A token metabolism with hormonal analogs — adrenaline, cortisol, and allostatic load — regulates computational spending in real time, automatically shifting between exploratory and resource-conserving modes.",
+    "The cognitive memory system uses SQLite with a knowledge graph, supporting episodic storage, fact extraction, and autonomous consolidation — solving the cold-start problem that limits most AI deployments."
+  ],
+  "images": [
+    {
+      "src": "/neil-ai-architecture.png",
+      "alt": "Neil's emotion architecture pipeline diagram",
+      "caption": "The emotion architecture pipeline: system state inputs flow through the mood engine and physics-based processing to drive behavioral output"
+    },
+    {
+      "src": "/neil-ai-dashboard.png",
+      "alt": "Neil Blueprint TUI dashboard showing live system status",
+      "caption": "The Blueprint dashboard displaying real-time vitals, sensor status, identity metrics, and system diagnostics"
+    }
+  ]
+}

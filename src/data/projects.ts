@@ -7,6 +7,7 @@ import wegoDetail from "@/data/project-details/wego.json";
 import ecosDetail from "@/data/project-details/ecos.json";
 import fruitRipenessDetail from "@/data/project-details/fruit-ripeness.json";
 import ammoniaDetail from "@/data/project-details/ammonia.json";
+import neilAiDetail from "@/data/project-details/neil-ai.json";
 
 export type ProjectIndexEntry = (typeof projectsIndex)[number];
 
@@ -65,6 +66,11 @@ const internalProjectModules: Record<string, ProjectDetail> = {
   "ammonia": {
   ...projectsIndex.find((project) => project.slug === "ammonia")!,
   ...ammoniaDetail,
+  },
+
+  "neil-ai": {
+  ...projectsIndex.find((project) => project.slug === "neil-ai")!,
+  ...neilAiDetail,
   },
 };
 

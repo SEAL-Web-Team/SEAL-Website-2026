@@ -1,5 +1,12 @@
 [
   {
+    "name": "Neil AI",
+    "slug": "neil-ai",
+    "description": "A persistent, resource-aware AI system that integrates real-time sensor data across lab infrastructure, manages its own computational costs through biologically inspired regulation, and retains knowledge across sessions.",
+    "image": "/neil-ai-dashboard.png",
+    "url": "/projects/neil-ai"
+  },
+  {
     "name": "Aerospec",
     "slug": "aerospec",
     "description": "A mesh sensor network capable of simultaneously monitoring air quality across multiple locations, offering a solution to air quality control in hospitals, production sites, or fire-affected areas.",
