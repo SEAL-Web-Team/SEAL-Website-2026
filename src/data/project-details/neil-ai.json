@@ -25,8 +25,8 @@
   "images": [
     {
       "src": "/neil-ai-architecture.png",
-      "alt": "Neil's emotion architecture pipeline diagram",
-      "caption": "The emotion architecture pipeline: system state inputs flow through the mood engine and physics-based processing to drive behavioral output"
+      "alt": "Feeling Charge System Architecture diagram",
+      "caption": "The Feeling Charge system architecture: input sensors feed through mapping and physics-based processing to produce behavioral profiles via an emotion bridge"
     },
     {
       "src": "/neil-ai-dashboard.png",
