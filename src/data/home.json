@@ -28,7 +28,7 @@
     "title": "Who we are",
     "paragraphs": [
       "A UW engineering research lab at the crossroads of sensors, energy, and automation. We take on hard problems in medicine, avionics, wearable tech, defense, and sustainability — and see them through to real-world application. Associates have gone on to found startups, publish research, and land roles at top companies.",
-      "The lab runs like a giant RPG: quests, battlestations, squads, a sandbox for newcomers, and mission-critical teams for high performers. We're always open to motivated people — experience is welcome, but never required."
+      "The lab runs like a giant RPG: quests, battlestations, squads, a sandbox for newcomers, and mission-critical teams for high performers. SEAL operates its own AI-first infrastructure — a persistent lab assistant that integrates real-time sensor data, manages computational resources autonomously, and automates research coordination across all teams. We're always open to motivated people — experience is welcome, but never required."
     ]
   },
   "teamsSection": {
@@ -104,6 +104,11 @@
         "heading": "Publish and Win Scholarships",
         "description": "SEAL actively supports students pursuing publications and scholarships — especially valuable for anyone with graduate school in mind.",
         "href": "/publications"
+      },
+      {
+        "heading": "Build With AI",
+        "description": "Gain hands-on experience with AI-first engineering — from LLM integration and agentic systems to real-time sensor fusion and autonomous resource management. The skills every industry is hiring for.",
+        "href": "/projects/neil-ai"
       }
     ]
   }
