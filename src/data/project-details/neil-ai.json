@@ -25,13 +25,13 @@
   "images": [
     {
       "src": "/neil-ai-architecture.png",
-      "alt": "Feeling Charge System Architecture diagram",
-      "caption": "The Feeling Charge system architecture: input sensors feed through mapping and physics-based processing to produce behavioral profiles via an emotion bridge"
+      "alt": "Neil's system architecture node graph from the Blueprint TUI",
+      "caption": "The system architecture plane: a layered node graph showing ground-truth files, infrastructure services, behavioral systems, and expression outputs"
     },
     {
       "src": "/neil-ai-dashboard.png",
-      "alt": "Neil Blueprint TUI dashboard showing live system status",
-      "caption": "The Blueprint dashboard displaying real-time vitals, sensor status, identity metrics, and system diagnostics"
+      "alt": "Neil Blueprint TUI showing the Mind page with identity, mood engine, and personality panels",
+      "caption": "The Blueprint TUI Mind page: living identity traits, mood engine dimensions, personality evolution, ethogram, and inner voice"
     }
   ]
 }
