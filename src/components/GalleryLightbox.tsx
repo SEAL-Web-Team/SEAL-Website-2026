@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
+import { type ReactNode, useEffect, useEffectEvent, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { formatGalleryImageParam, parseGalleryImageParam } from "@/lib/galleryImageParam";
 
-type GalleryImage = {
+export type GalleryImage = {
   title: string;
   description?: string;
   full: string;
@@ -322,8 +323,7 @@ function GalleryLightboxOverlay({
   const counterCurrent = String(currentIndex + 1).padStart(2, "0");
   const counterTotal = String(imageCount).padStart(2, "0");
   const hasSize = baseSize.w > 0;
-
-  return (
+  const overlay = (
     <div
       className="lightbox-backdrop"
       onClick={onClose}
@@ -607,6 +607,48 @@ function GalleryLightboxOverlay({
         </div>
       </div>
     </div>
+  );
+
+  return createPortal(overlay, document.body);
+}
+
+export function SingleImageLightboxTrigger({
+  albumTitle,
+  image,
+  className,
+  children,
+}: {
+  albumTitle: string;
+  image: GalleryImage;
+  className?: string;
+  children: ReactNode;
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <>
+      <button
+        type="button"
+        className={className}
+        onClick={() => setIsOpen(true)}
+        aria-label={`Open image for ${image.title}`}
+      >
+        {children}
+      </button>
+
+      {isOpen ? (
+        <GalleryLightboxOverlay
+          key={image.full}
+          albumTitle={albumTitle}
+          image={image}
+          imageCount={1}
+          currentIndex={0}
+          onClose={() => setIsOpen(false)}
+          onPrev={() => {}}
+          onNext={() => {}}
+        />
+      ) : null}
+    </>
   );
 }
 
