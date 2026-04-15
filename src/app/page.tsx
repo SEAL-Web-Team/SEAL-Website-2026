@@ -107,11 +107,11 @@ export default function HomePage() {
             <h2 className="text-4xl font-bold text-white">{home.benefitsSection.title}</h2>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
             {home.benefitsSection.items.map((b) => (
-              <div key={b.heading} className="surface-card surface-card-hover flex flex-col p-5 sm:p-7">
-                <h3 className="text-white font-semibold text-lg mb-3 leading-snug">{b.heading}</h3>
-                <p className="text-slate-300 text-base leading-relaxed flex-1 mb-6">{b.description}</p>
+              <div key={b.heading} className="surface-card surface-card-hover flex flex-col min-w-0 p-5 lg:p-5 xl:p-6">
+                <h3 className="text-white font-semibold text-base xl:text-lg mb-3 leading-snug">{b.heading}</h3>
+                <p className="text-slate-300 text-sm xl:text-base leading-relaxed flex-1 mb-6">{b.description}</p>
               </div>
             ))}
           </div>
