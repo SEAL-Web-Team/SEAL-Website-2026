@@ -39,6 +39,38 @@
       "image": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story/cache/Newton-Tree-2.png-nggid0279-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.png",
       "count": 3,
       "internal": true
+    },
+    {
+      "slug": "tour-de-lake",
+      "title": "Tour de Lake",
+      "href": "/gallery/tour-de-lake",
+      "image": "/gallery/tour_de_lake/manip_SEAL_TourDeLake-2004_01.jpg",
+      "count": 101,
+      "internal": true
+    },
+    {
+      "slug": "triangle-lake",
+      "title": "Triangle Lake",
+      "href": "/gallery/triangle-lake",
+      "image": "/gallery/triangle_lake/triangle_lake_1.jpg",
+      "count": 16,
+      "internal": true
+    },
+    {
+      "slug": "headshots",
+      "title": "Team Headshots",
+      "href": "/gallery/headshots",
+      "image": "/gallery/headshots/aivy_nguyen.jpg",
+      "count": 22,
+      "internal": true
+    },
+    {
+      "slug": "kosmonaunts",
+      "title": "Kosmonaunts",
+      "href": "/gallery/kosmonaunts",
+      "image": "/gallery/kosmonaunts/Kosmonaunts.JPG",
+      "count": 1,
+      "internal": true
     }
   ]
 }

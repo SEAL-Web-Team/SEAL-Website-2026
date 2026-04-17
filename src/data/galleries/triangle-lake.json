@@ -1,0 +1,87 @@
+{
+  "slug": "triangle-lake",
+  "title": "Triangle Lake",
+  "count": 16,
+  "images": [
+    {
+      "title": "triangle_lake_1",
+      "full": "/gallery/triangle_lake/triangle_lake_1.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_1.jpg"
+    },
+    {
+      "title": "triangle_lake_10",
+      "full": "/gallery/triangle_lake/triangle_lake_10.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_10.jpg"
+    },
+    {
+      "title": "triangle_lake_11",
+      "full": "/gallery/triangle_lake/triangle_lake_11.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_11.jpg"
+    },
+    {
+      "title": "triangle_lake_12",
+      "full": "/gallery/triangle_lake/triangle_lake_12.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_12.jpg"
+    },
+    {
+      "title": "triangle_lake_13",
+      "full": "/gallery/triangle_lake/triangle_lake_13.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_13.jpg"
+    },
+    {
+      "title": "triangle_lake_14",
+      "full": "/gallery/triangle_lake/triangle_lake_14.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_14.jpg"
+    },
+    {
+      "title": "triangle_lake_15",
+      "full": "/gallery/triangle_lake/triangle_lake_15.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_15.jpg"
+    },
+    {
+      "title": "triangle_lake_2",
+      "full": "/gallery/triangle_lake/triangle_lake_2.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_2.jpg"
+    },
+    {
+      "title": "triangle_lake_3",
+      "full": "/gallery/triangle_lake/triangle_lake_3.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_3.jpg"
+    },
+    {
+      "title": "triangle_lake_4",
+      "full": "/gallery/triangle_lake/triangle_lake_4.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_4.jpg"
+    },
+    {
+      "title": "triangle_lake_5",
+      "full": "/gallery/triangle_lake/triangle_lake_5.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_5.jpg"
+    },
+    {
+      "title": "triangle_lake_6",
+      "full": "/gallery/triangle_lake/triangle_lake_6.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_6.jpg"
+    },
+    {
+      "title": "triangle_lake_7",
+      "full": "/gallery/triangle_lake/triangle_lake_7.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_7.jpg"
+    },
+    {
+      "title": "triangle_lake_8",
+      "full": "/gallery/triangle_lake/triangle_lake_8.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_8.jpg"
+    },
+    {
+      "title": "triangle_lake_9",
+      "full": "/gallery/triangle_lake/triangle_lake_9.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake_9.jpg"
+    },
+    {
+      "title": "triangle_lake",
+      "full": "/gallery/triangle_lake/triangle_lake.jpg",
+      "thumb": "/gallery/triangle_lake/triangle_lake.jpg"
+    }
+  ]
+}
