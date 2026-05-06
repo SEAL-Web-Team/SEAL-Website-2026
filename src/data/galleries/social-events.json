@@ -1,0 +1,22 @@
+{
+  "slug": "social-events",
+  "title": "Social Events",
+  "count": 2,
+  "intro": [
+    "SEAL members bond outside the lab — bonfires, water sports, and team gatherings over the years."
+  ],
+  "images": [
+    {
+      "title": "bonfire",
+      "description": "SEAL members gather around a bonfire",
+      "full": "/gallery/social_events/bonfire.jpg",
+      "thumb": "/gallery/social_events/bonfire.jpg"
+    },
+    {
+      "title": "water-skiing",
+      "description": "A SEAL member out on the water",
+      "full": "/gallery/social_events/water_skiing.jpg",
+      "thumb": "/gallery/social_events/water_skiing.jpg"
+    }
+  ]
+}

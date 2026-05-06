@@ -1,0 +1,22 @@
+{
+  "slug": "swat-nationals",
+  "title": "SWAT Nationals",
+  "count": 2,
+  "intro": [
+    "SEAL's outreach robotics team, UW SWAT Team 824, competed in the FIRST Robotics National Championship. The team brought together students passionate about engineering and robotics mentorship."
+  ],
+  "images": [
+    {
+      "title": "swat-nationals-team",
+      "description": "UW SWAT Team 824 at the FIRST Robotics National Championship",
+      "full": "/gallery/swat_nationals/group_nationals.jpg",
+      "thumb": "/gallery/swat_nationals/group_nationals.jpg"
+    },
+    {
+      "title": "swat-workshop",
+      "description": "SWAT Team 824 in their workshop with the UW/RHS S.W.A.T. banner",
+      "full": "/gallery/swat_nationals/swat_workshop.jpg",
+      "thumb": "/gallery/swat_nationals/swat_workshop.jpg"
+    }
+  ]
+}

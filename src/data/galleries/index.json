@@ -33,14 +33,6 @@
       "internal": true
     },
     {
-      "slug": "lucky-seal-story",
-      "title": "Lucky Seal Story",
-      "href": "/gallery/lucky-seal-story",
-      "image": "https://www.uwseal.org/wp-content/gallery/lucky-seal-story/cache/Newton-Tree-2.png-nggid0279-ngg0dyn-240x160x100-00f0w010c010r110f110r010t010.png",
-      "count": 3,
-      "internal": true
-    },
-    {
       "slug": "tour-de-lake",
       "title": "Tour de Lake",
       "href": "/gallery/tour-de-lake",
@@ -61,7 +53,7 @@
       "title": "Team Headshots",
       "href": "/gallery/headshots",
       "image": "/gallery/headshots/aivy_nguyen.jpg",
-      "count": 22,
+      "count": 61,
       "internal": true
     },
     {
@@ -70,6 +62,30 @@
       "href": "/gallery/kosmonaunts",
       "image": "/gallery/kosmonaunts/Kosmonaunts.JPG",
       "count": 1,
+      "internal": true
+    },
+    {
+      "slug": "swat-nationals",
+      "title": "SWAT Nationals",
+      "href": "/gallery/swat-nationals",
+      "image": "/gallery/swat_nationals/group_nationals.jpg",
+      "count": 2,
+      "internal": true
+    },
+    {
+      "slug": "research-hardware",
+      "title": "Research Hardware",
+      "href": "/gallery/research-hardware",
+      "image": "/gallery/research_hardware/efa_cooling_jets.jpg",
+      "count": 7,
+      "internal": true
+    },
+    {
+      "slug": "social-events",
+      "title": "Social Events",
+      "href": "/gallery/social-events",
+      "image": "/gallery/social_events/bonfire.jpg",
+      "count": 2,
       "internal": true
     }
   ]

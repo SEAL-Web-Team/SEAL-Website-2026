@@ -12,6 +12,7 @@ const navLinks = [
   { label: "Lab Locations", href: "/locations" },
   { label: "Contact", href: "/contact" },
   { label: "Gallery", href: "/gallery" },
+  { label: "Lucky Seal", href: "/lucky-seal" },
   { label: "People", href: "/people" },
   { label: "Partner Organizations", href: "/partners" },
   { label: "Apply", href: "/apply" },

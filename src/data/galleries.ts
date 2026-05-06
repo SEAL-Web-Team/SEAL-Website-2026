@@ -5,7 +5,9 @@ import spring17GroupPhoto from "@/data/galleries/spring17-group-photo.json";
 import spring18GroupPhoto from "@/data/galleries/spring18-group-photo.json";
 import spring19GroupPhoto from "@/data/galleries/spring19-group-photo.json";
 import summer21SocialPhoto from "@/data/galleries/summer21-social-photo.json";
-import luckySealStory from "@/data/galleries/lucky-seal-story.json";
+import swatNationals from "@/data/galleries/swat-nationals.json";
+import researchHardware from "@/data/galleries/research-hardware.json";
+import socialEvents from "@/data/galleries/social-events.json";
 
 export type GalleryAlbumIndexEntry = (typeof indexData.albums)[number];
 export type GalleryImage = {
@@ -37,10 +39,20 @@ const internalAlbumModules: Record<string, GalleryAlbumDetail> = {
     ...indexData.albums.find((album) => album.slug === "summer21-social-photo")!,
     images: summer21SocialPhoto.images,
   },
-  "lucky-seal-story": {
-    ...indexData.albums.find((album) => album.slug === "lucky-seal-story")!,
-    intro: luckySealStory.intro,
-    images: luckySealStory.images,
+  "swat-nationals": {
+    ...indexData.albums.find((album) => album.slug === "swat-nationals")!,
+    intro: swatNationals.intro,
+    images: swatNationals.images,
+  },
+  "research-hardware": {
+    ...indexData.albums.find((album) => album.slug === "research-hardware")!,
+    intro: researchHardware.intro,
+    images: researchHardware.images,
+  },
+  "social-events": {
+    ...indexData.albums.find((album) => album.slug === "social-events")!,
+    intro: socialEvents.intro,
+    images: socialEvents.images,
   },
 };
 

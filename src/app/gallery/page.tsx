@@ -27,7 +27,6 @@ export default function GalleryPage() {
                     src={album.image}
                     alt={album.title}
                     className={`h-full w-full object-cover transition-transform duration-500 hover:scale-105`}
-                    style={album.slug === "lucky-seal-story" ? { objectPosition: "center 17%", transform: "scale(1.02)" } : undefined}
                   />
                 </div>
 

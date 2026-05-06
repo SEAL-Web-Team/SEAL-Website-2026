@@ -1,0 +1,53 @@
+{
+  "slug": "research-hardware",
+  "title": "Research Hardware",
+  "count": 7,
+  "intro": [
+    "A look inside the SEAL lab — robots, sensors, and experiments built by the team over the years.",
+    "From autonomous pipe inspection robots to microfabricated sensors and novel solid-state cooling technology, these photos capture some of the hardware that has come out of the lab."
+  ],
+  "images": [
+    {
+      "title": "pipe-inspection-robot-1",
+      "description": "SEAL's autonomous pipe inspection robot traversing a test track",
+      "full": "/gallery/research_hardware/pipe_inspection_robot_1.jpg",
+      "thumb": "/gallery/research_hardware/pipe_inspection_robot_1.jpg"
+    },
+    {
+      "title": "pipe-inspection-robot-2",
+      "description": "Pipe inspection robot gripping a pipe in the lab",
+      "full": "/gallery/research_hardware/pipe_inspection_robot_2.jpg",
+      "thumb": "/gallery/research_hardware/pipe_inspection_robot_2.jpg"
+    },
+    {
+      "title": "cable-specimen",
+      "description": "High-voltage cable test specimen used in power quality research",
+      "full": "/gallery/research_hardware/cable_specimen.jpg",
+      "thumb": "/gallery/research_hardware/cable_specimen.jpg"
+    },
+    {
+      "title": "microsensor-sem",
+      "description": "Scanning electron microscope image of a microfabricated sensor structure",
+      "full": "/gallery/research_hardware/microsensor_sem.jpg",
+      "thumb": "/gallery/research_hardware/microsensor_sem.jpg"
+    },
+    {
+      "title": "efa-cooling-jets",
+      "description": "Electrostatic Fluid Acceleration (EFA) air jets — solid-state cooling technology developed at SEAL",
+      "full": "/gallery/research_hardware/efa_cooling_jets.jpg",
+      "thumb": "/gallery/research_hardware/efa_cooling_jets.jpg"
+    },
+    {
+      "title": "moisture-cookie-test",
+      "description": "A cookie placed on a fringing electric field sensor array — moisture sensing research can measure food freshness non-invasively",
+      "full": "/gallery/research_hardware/moisture_cookie_test.jpg",
+      "thumb": "/gallery/research_hardware/moisture_cookie_test.jpg"
+    },
+    {
+      "title": "handheld-sensor-pear",
+      "description": "Handheld fringing electric field sensor scanning a pear — demonstrating portable non-contact sensing",
+      "full": "/gallery/research_hardware/handheld_sensor_pear.jpg",
+      "thumb": "/gallery/research_hardware/handheld_sensor_pear.jpg"
+    }
+  ]
+}
