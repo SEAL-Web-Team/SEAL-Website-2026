@@ -49,14 +49,6 @@
       "internal": true
     },
     {
-      "slug": "headshots",
-      "title": "Team Headshots",
-      "href": "/gallery/headshots",
-      "image": "/gallery/headshots/aivy_nguyen.jpg",
-      "count": 61,
-      "internal": true
-    },
-    {
       "slug": "kosmonaunts",
       "title": "Kosmonaunts",
       "href": "/gallery/kosmonaunts",
