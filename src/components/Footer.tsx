@@ -3,9 +3,10 @@ import contactData from "@/data/contact.json";
 
 const quickLinks = [
   { label: "News & Awards", href: "/news" },
-  { label: "Projects", href: "/projects" },
+  { label: "Project Showcase", href: "/projects" },
   { label: "Publications", href: "/publications" },
   { label: "People", href: "/people" },
+  { label: "Partner Organizations", href: "/partners" },
   { label: "Gallery", href: "/gallery" },
   { label: "Apply", href: "/apply" },
 ];

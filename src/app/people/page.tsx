@@ -59,6 +59,14 @@ function PersonCard({ person, large = false }: {
       </div>
       <p className={`text-white font-semibold leading-snug mb-1 ${large ? "text-xl" : "text-base"}`}>{person.name}</p>
       <p className={`text-slate-300 leading-snug ${large ? "text-base" : "text-sm"}`}>{titles}</p>
+      {"email" in person && person.email && (
+        <a
+          href={`mailto:${person.email}`}
+          className={`inline-block mt-2 text-purple-300 hover:text-white underline decoration-white/20 hover:decoration-white/50 transition-colors leading-snug ${large ? "text-base" : "text-sm"}`}
+        >
+          {person.email}
+        </a>
+      )}
     </div>
   );
 }
@@ -83,7 +91,7 @@ export default function PeoplePage() {
         </div>
 
         {/* ── Lab Leadership ── */}
-        <div className="mb-16 pb-16 sm:mb-28 sm:pb-28 border-b border-white/[0.06]">
+        <div id="leadership" className="mb-16 sm:mb-24 pb-10 sm:pb-14 border-b border-white/[0.06] scroll-mt-24">
           <div className="flex items-center gap-4 mb-10">
             <div className="w-8 h-px bg-white/20" />
             <h2 className="text-sm font-semibold uppercase tracking-widest text-slate-400">{peoplePage.leadershipTitle}</h2>

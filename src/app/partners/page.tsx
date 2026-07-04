@@ -11,7 +11,7 @@ export default function PartnersPage() {
           <p className="page-subtitle">{pageCopy.partners.subtitle}</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
           {partners.map((p) => (
             <div
               key={p.name}

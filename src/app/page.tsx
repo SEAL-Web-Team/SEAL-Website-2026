@@ -6,8 +6,16 @@ export default function HomePage() {
     <div className="flex flex-col">
 
       {/* ── Hero ── */}
-      <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
-        <video autoPlay muted loop playsInline disablePictureInPicture className="absolute inset-0 w-full h-full object-cover">
+      <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden bg-[#0d1119]">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          disablePictureInPicture
+          aria-hidden="true"
+          className="hero-video absolute inset-0 w-full h-full object-cover"
+        >
           <source src={home.hero.videoSrc} type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/55" />
@@ -87,7 +95,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
             {home.teamsSection.items.map((team) => (
               <div key={team.id} className="surface-card surface-card-hover p-5 sm:p-7 cursor-default">
                 <span className="text-xs font-mono text-slate-600 block mb-5">{team.id}</span>
@@ -107,7 +115,7 @@ export default function HomePage() {
             <h2 className="text-4xl font-bold text-white">{home.benefitsSection.title}</h2>
           </div>
 
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
+          <div className="grid gap-5 sm:gap-6 md:grid-cols-2 lg:grid-cols-5">
             {home.benefitsSection.items.map((b) => (
               <div key={b.heading} className="surface-card surface-card-hover flex flex-col min-w-0 p-5 lg:p-5 xl:p-6">
                 <h3 className="text-white font-semibold text-base xl:text-lg mb-3 leading-snug">{b.heading}</h3>

@@ -10,7 +10,7 @@ export default function ApplyPage() {
           <p className="page-subtitle">{apply.page.subtitle}</p>
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-5 sm:gap-6">
           {apply.resources.map((resource) => (
             <a
               key={resource.href}

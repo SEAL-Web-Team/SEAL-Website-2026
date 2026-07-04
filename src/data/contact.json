@@ -1,14 +1,19 @@
 {
   "page": {
     "title": "Contact",
-    "subtitle": "Reach out to the lab director or send mail to our campus address."
+    "subtitle": "Send us a message below, or reach individual staff directly on the People page."
   },
-  "director": {
-    "eyebrow": "Lab Director",
-    "name": "Alexander Mamishev",
-    "title": "University of Washington Department of Electrical & Computer Engineering",
-    "image": "https://avatars.slack-edge.com/2016-09-13/79321426352_182972ad4e5224cc32ba_512.jpg",
-    "emailImage": "/director-email.svg"
+  "form": {
+    "eyebrow": "Send a Message",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "How can we help?",
+    "submitLabel": "Send message",
+    "helpText": "This opens your email app with your message pre-filled, addressed to the SEAL Lab.",
+    "recipient": "mamishev@uw.edu"
   },
   "address": {
     "eyebrow": "Mailing Address",

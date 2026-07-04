@@ -155,7 +155,7 @@ export default function PublicationsPage() {
         </div>
 
         {/* Global search */}
-        <div className="mb-12">
+        <div className="mb-10 sm:mb-14">
           <input
             type="text"
             placeholder={pageCopy.publications.searchPlaceholder}
@@ -166,7 +166,7 @@ export default function PublicationsPage() {
         </div>
 
         {/* Journal Publications */}
-        <section className="mb-12">
+        <section className="mb-14 sm:mb-16">
           <SectionHeader title={pageCopy.publications.sections.journal} shown={filteredJournal.length} total={journal.length} open={openJournal} onToggle={() => setOpenJournal((v) => !v)} />
           {openJournal && (
             <div className="flex flex-col mb-8">
@@ -179,7 +179,7 @@ export default function PublicationsPage() {
         </section>
 
         {/* Conference Publications */}
-        <section className="mb-12">
+        <section className="mb-14 sm:mb-16">
           <SectionHeader title={pageCopy.publications.sections.conference} shown={filteredConference.length} total={conference.length} open={openConference} onToggle={() => setOpenConference((v) => !v)} />
           {openConference && (
             <div className="flex flex-col mb-8">
@@ -192,7 +192,7 @@ export default function PublicationsPage() {
         </section>
 
         {/* Books */}
-        <section className="mb-12">
+        <section className="mb-14 sm:mb-16">
           <SectionHeader title={pageCopy.publications.sections.completeBooks} shown={filteredCompleteBooks.length} total={completeBooks.length} open={openBooks} onToggle={() => setOpenBooks((v) => !v)} />
           {openBooks && (
             <div className="flex flex-col mb-8">
@@ -205,7 +205,7 @@ export default function PublicationsPage() {
         </section>
 
         {/* Book Chapters */}
-        <section className="mb-12">
+        <section className="mb-14 sm:mb-16">
           <SectionHeader title={pageCopy.publications.sections.bookChapters} shown={filteredChapters.length} total={chapters.length} open={openChapters} onToggle={() => setOpenChapters((v) => !v)} />
           {openChapters && (
             <div className="flex flex-col mb-8">

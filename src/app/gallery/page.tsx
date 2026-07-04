@@ -13,7 +13,7 @@ export default function GalleryPage() {
           <p className="page-subtitle">{pageCopy.gallery.subtitle}</p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {albums.map((album) => (
             album.internal ? (
               <Link

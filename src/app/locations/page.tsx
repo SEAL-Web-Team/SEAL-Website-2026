@@ -12,7 +12,7 @@ export default function LocationsPage() {
         </div>
 
         {/* Campus Map */}
-        <div className="surface-card mb-12 sm:mb-20 overflow-hidden">
+        <div className="surface-card mb-14 sm:mb-20 overflow-hidden">
           <iframe
             title={locationPage.map.title}
             src={locationPage.map.url}
@@ -23,7 +23,7 @@ export default function LocationsPage() {
         </div>
 
         {/* Location grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {data.locations.map((loc) => (
             <div
               key={loc.name}

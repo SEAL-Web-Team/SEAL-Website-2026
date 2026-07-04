@@ -13,7 +13,7 @@ export default function ProjectsPage() {
           <p className="page-subtitle">{pageCopy.projects.subtitle}</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project) => (
             <Link
               key={project.name}

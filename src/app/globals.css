@@ -106,6 +106,31 @@
   color: white;
 }
 
+/* Group heading for condensed sections (Research, People) that have no
+   page of their own — shown as plain text above their sub-links */
+.mobile-nav-heading {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 0.9rem 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgb(148 163 184);
+}
+
+.mobile-nav-group {
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid rgb(255 255 255 / 0.06);
+}
+
+.mobile-nav-sublink {
+  margin-left: 0.75rem;
+  font-size: 0.875rem;
+}
+
 /* Hide the whole thing on desktop */
 @media (min-width: 1024px) {
   .mobile-nav-details {
@@ -141,6 +166,29 @@ body {
 ::selection {
   background: rgba(123, 63, 168, 0.28);
   color: var(--foreground);
+}
+
+/* Visible keyboard-focus indicator across the site. Mouse/touch users
+   don't see it (":focus-visible"), keyboard users always do. */
+:focus-visible {
+  outline: 2px solid var(--seal-purple-light);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hero-video {
+    display: none;
+  }
 }
 
 .page-shell {
