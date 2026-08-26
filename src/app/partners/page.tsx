@@ -1,5 +1,10 @@
-import partners from "@/data/partners.json";
+import { getPartners } from "@/data/intake-content";
 import pageCopy from "@/data/page-copy.json";
+
+// Reads published /intake submissions from SQLite at request time, so this
+// page must not be prerendered — a static build would freeze the list at
+// build time and never show anything members post.
+export const dynamic = "force-dynamic";
 
 export default function PartnersPage() {
   return (
@@ -12,9 +17,9 @@ export default function PartnersPage() {
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
-          {partners.map((p) => (
+          {getPartners().map((p, i) => (
             <div
-              key={p.name}
+              key={`${p.name}-${i}`}
               className="surface-card surface-card-hover group flex flex-col overflow-hidden"
             >
               {p.image && (

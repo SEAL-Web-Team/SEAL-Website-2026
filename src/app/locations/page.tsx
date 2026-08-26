@@ -1,5 +1,10 @@
-import data from "@/data/locations.json";
+import { getLocations } from "@/data/intake-content";
 import locationPage from "@/data/locations-page.json";
+
+// Reads published /intake submissions from SQLite at request time, so this
+// page must not be prerendered — a static build would freeze the list at
+// build time and never show anything members post.
+export const dynamic = "force-dynamic";
 
 export default function LocationsPage() {
   return (
@@ -24,9 +29,9 @@ export default function LocationsPage() {
 
         {/* Location grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {data.locations.map((loc) => (
+          {getLocations().locations.map((loc, i) => (
             <div
-              key={loc.name}
+              key={`${loc.name}-${i}`}
               className="surface-card surface-card-hover overflow-hidden flex flex-col"
             >
               {/* Image */}
