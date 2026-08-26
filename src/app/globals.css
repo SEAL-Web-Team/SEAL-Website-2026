@@ -835,3 +835,96 @@ body {
   .lightbox-nav-left { left: 1.25rem; }
   .lightbox-nav-right { right: 1.25rem; }
 }
+
+/* ── Intake editor / rendered post body ──
+   Tiptap emits plain semantic HTML, so these rules style both the live editor
+   surface and any place a saved post body is rendered back. */
+.intake-prose {
+  color: rgb(205 211 224);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.intake-prose > * + * {
+  margin-top: 1rem;
+}
+
+.intake-prose h1,
+.intake-prose h2,
+.intake-prose h3,
+.intake-prose h4 {
+  color: #f1f3f9;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 2rem;
+}
+
+.intake-prose h1 { font-size: 1.9rem; }
+.intake-prose h2 { font-size: 1.5rem; }
+.intake-prose h3 { font-size: 1.2rem; }
+.intake-prose h4 { font-size: 1.05rem; }
+
+.intake-prose a {
+  color: var(--seal-purple-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.intake-prose strong { color: #f1f3f9; font-weight: 650; }
+
+.intake-prose ul,
+.intake-prose ol {
+  padding-left: 1.5rem;
+}
+.intake-prose ul { list-style: disc; }
+.intake-prose ol { list-style: decimal; }
+.intake-prose li::marker { color: var(--seal-purple-light); }
+.intake-prose li + li { margin-top: 0.35rem; }
+
+.intake-prose blockquote {
+  border-left: 2px solid var(--seal-purple-light);
+  padding-left: 1rem;
+  color: rgb(148 156 179);
+  font-style: italic;
+}
+
+.intake-prose code {
+  background: rgb(255 255 255 / 0.07);
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.35rem;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.9em;
+}
+
+.intake-prose pre {
+  background: rgb(0 0 0 / 0.32);
+  border: 1px solid rgb(255 255 255 / 0.07);
+  border-radius: 0.6rem;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.intake-prose pre code {
+  background: none;
+  padding: 0;
+}
+
+.intake-prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.intake-prose hr {
+  border: 0;
+  border-top: 1px solid rgb(255 255 255 / 0.1);
+}
+
+/* Placeholder for the empty editor body */
+.intake-prose p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  color: rgb(100 116 139);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
