@@ -42,3 +42,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# intake system — local SQLite database and member-uploaded media
+/data/
+/public/uploads/
