@@ -131,8 +131,10 @@
   font-size: 0.875rem;
 }
 
-/* Hide the whole thing on desktop */
-@media (min-width: 1024px) {
+/* Hide the whole thing on desktop — must match the xl: breakpoint the
+   Navbar component uses to show the full-width desktop nav. Keep this in
+   sync, or the hamburger and the full nav both render at once. */
+@media (min-width: 1280px) {
   .mobile-nav-details {
     display: none;
   }
