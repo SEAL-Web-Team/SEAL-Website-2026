@@ -31,9 +31,9 @@ export default function GalleryPage() {
                 </div>
 
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
-                  <h2 className="mb-3 text-xl font-semibold text-white">{album.title}</h2>
-                  <p className="mb-6 text-sm text-slate-400">
-                    <strong className="text-slate-200">{album.count}</strong> photos
+                  <h2 className="mb-3 text-xl font-semibold text-[#f1f3f9]">{album.title}</h2>
+                  <p className="mb-6 text-sm text-slate-500">
+                    <strong className="text-slate-300">{album.count}</strong> photos
                   </p>
                   <span className="action-chip self-start">
                     <span>{pageCopy.gallery.actionLabel}</span>
@@ -59,9 +59,9 @@ export default function GalleryPage() {
                 </div>
 
                 <div className="flex flex-1 flex-col p-5 sm:p-6">
-                  <h2 className="mb-3 text-xl font-semibold text-white">{album.title}</h2>
-                  <p className="mb-6 text-sm text-slate-400">
-                    <strong className="text-slate-200">{album.count}</strong> photos
+                  <h2 className="mb-3 text-xl font-semibold text-[#f1f3f9]">{album.title}</h2>
+                  <p className="mb-6 text-sm text-slate-500">
+                    <strong className="text-slate-300">{album.count}</strong> photos
                   </p>
                   <span className="action-chip self-start">
                     <span>{pageCopy.gallery.actionLabel}</span>

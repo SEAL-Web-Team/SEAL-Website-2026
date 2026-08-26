@@ -24,7 +24,7 @@ export default async function NewsArticlePage({
         <div className="mb-4">
           <Link
             href="/news"
-            className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
+            className="text-sm font-medium text-slate-500 transition-colors hover:text-[#f1f3f9]"
           >
             ← Back to News
           </Link>
@@ -62,7 +62,7 @@ export default async function NewsArticlePage({
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-slate-400 hover:text-white border border-white/10 hover:border-white/30 px-4 py-2 rounded-lg transition-all"
+                    className="text-sm text-slate-400 hover:text-[#f1f3f9] border border-white/10 hover:border-white/30 px-4 py-2 rounded-lg transition-all"
                   >
                     {link.label} →
                   </a>

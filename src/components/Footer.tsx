@@ -15,12 +15,15 @@ export default function Footer() {
   const { address } = contactData;
 
   return (
-    <footer className="border-t border-white/8 bg-black/20 backdrop-blur-[2px]">
+    <footer
+      className="bg-black/20 backdrop-blur-[2px]"
+      style={{ borderTop: "1px solid transparent", borderImage: "linear-gradient(90deg, rgba(139,124,246,0.4), rgba(224,181,99,0.4)) 1" }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-white font-semibold text-sm tracking-widest mb-3">
+            <h3 className="text-[#f1f3f9] font-semibold text-sm tracking-widest mb-3">
               SEAL
             </h3>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -32,7 +35,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold text-sm tracking-widest mb-3">
+            <h3 className="text-[#f1f3f9] font-semibold text-sm tracking-widest mb-3">
               Quick Links
             </h3>
             <ul className="space-y-1.5">
@@ -40,7 +43,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-slate-400 text-sm hover:text-white transition-colors"
+                    className="text-slate-400 text-sm hover:text-[#ab9ffa] transition-colors"
                   >
                     {link.label}
                   </Link>
@@ -51,7 +54,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-semibold text-sm tracking-widest mb-3">
+            <h3 className="text-[#f1f3f9] font-semibold text-sm tracking-widest mb-3">
               Contact
             </h3>
             <address className="not-italic text-slate-400 text-sm leading-relaxed">
@@ -62,7 +65,7 @@ export default function Footer() {
             </address>
             <Link
               href="/contact"
-              className="inline-block mt-3 text-sm text-slate-400 hover:text-white transition-colors"
+              className="inline-block mt-3 text-sm text-slate-400 hover:text-[#e0b563] transition-colors"
             >
               Get in touch &rarr;
             </Link>
@@ -71,7 +74,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-white/5 py-4 px-4 text-center">
+      <div className="border-t border-white/[0.06] py-4 px-4 text-center">
         <p className="text-slate-500 text-sm">
           &copy; 2026 SEAL. All Rights Reserved.
         </p>

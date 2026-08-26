@@ -66,11 +66,11 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-[1fr_2fr] gap-16 items-start">
             <div>
-              <h2 className="text-4xl font-bold text-white leading-tight">{home.about.title}</h2>
+              <h2 className="text-4xl font-bold text-[#f1f3f9] leading-tight">{home.about.title}</h2>
             </div>
             <div className="grid sm:grid-cols-2 gap-x-12 gap-y-6 pt-1">
               {home.about.paragraphs.map((paragraph) => (
-                <p key={paragraph} className="text-slate-300 text-lg leading-relaxed">
+                <p key={paragraph} className="text-slate-400 text-lg leading-relaxed">
                   {paragraph}
                 </p>
               ))}
@@ -84,11 +84,11 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="flex items-baseline justify-between mb-10 sm:mb-16 flex-wrap gap-4">
             <div>
-              <h2 className="text-4xl font-bold text-white">{home.teamsSection.title}</h2>
+              <h2 className="text-4xl font-bold text-[#f1f3f9]">{home.teamsSection.title}</h2>
             </div>
             <div className="flex items-center gap-6">
               {home.teamsSection.links.map((link) => (
-                <Link key={link.href} href={link.href} className="text-base text-slate-400 hover:text-slate-200 transition-colors">
+                <Link key={link.href} href={link.href} className="text-base text-slate-400 hover:text-[#f1f3f9] transition-colors">
                   {link.label} →
                 </Link>
               ))}
@@ -98,10 +98,10 @@ export default function HomePage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
             {home.teamsSection.items.map((team) => (
               <div key={team.id} className="surface-card surface-card-hover p-5 sm:p-7 cursor-default">
-                <span className="text-xs font-mono text-slate-600 block mb-5">{team.id}</span>
-                <p className="text-xs font-semibold uppercase tracking-widest text-slate-500 mb-2">{team.name}</p>
-                <h3 className="text-white font-semibold text-base mb-3 leading-snug">{team.full}</h3>
-                <p className="text-slate-300 text-base leading-relaxed">{team.description}</p>
+                <span className="text-xs font-mono text-slate-500 block mb-5">{team.id}</span>
+                <p className="text-xs font-semibold uppercase tracking-widest text-[#ab9ffa] mb-2">{team.name}</p>
+                <h3 className="text-[#f1f3f9] font-semibold text-base mb-3 leading-snug">{team.full}</h3>
+                <p className="text-slate-400 text-base leading-relaxed">{team.description}</p>
               </div>
             ))}
           </div>
@@ -112,21 +112,21 @@ export default function HomePage() {
       <section className="py-14 px-4 sm:py-24 sm:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
-            <h2 className="text-4xl font-bold text-white">{home.benefitsSection.title}</h2>
+            <h2 className="text-4xl font-bold text-[#f1f3f9]">{home.benefitsSection.title}</h2>
           </div>
 
           <div className="grid gap-5 sm:gap-6 md:grid-cols-2 lg:grid-cols-5">
             {home.benefitsSection.items.map((b) => (
               <div key={b.heading} className="surface-card surface-card-hover flex flex-col min-w-0 p-5 lg:p-5 xl:p-6">
-                <h3 className="text-white font-semibold text-base xl:text-lg mb-3 leading-snug">{b.heading}</h3>
-                <p className="text-slate-300 text-sm xl:text-base leading-relaxed flex-1 mb-6">{b.description}</p>
+                <h3 className="text-[#f1f3f9] font-semibold text-base xl:text-lg mb-3 leading-snug">{b.heading}</h3>
+                <p className="text-slate-400 text-sm xl:text-base leading-relaxed flex-1 mb-6">{b.description}</p>
               </div>
             ))}
           </div>
             <div className="mt-8 flex justify-center">
               <Link
                 href="/apply"
-                className="px-7 py-3.5 text-base font-semibold text-white border border-white/20 rounded-lg hover:bg-white/20 transition-all backdrop-blur-sm"
+                className="px-7 py-3.5 text-base font-semibold text-white bg-[#5b2f86] hover:bg-[#4a2570] rounded-lg transition-all"
               >
                 <span>Apply Now</span>
               </Link>

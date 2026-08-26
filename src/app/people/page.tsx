@@ -57,12 +57,12 @@ function PersonCard({ person, large = false }: {
           />
         </div>
       </div>
-      <p className={`text-white font-semibold leading-snug mb-1 ${large ? "text-xl" : "text-base"}`}>{person.name}</p>
-      <p className={`text-slate-300 leading-snug ${large ? "text-base" : "text-sm"}`}>{titles}</p>
+      <p className={`text-[#f1f3f9] font-semibold leading-snug mb-1 ${large ? "text-xl" : "text-base"}`}>{person.name}</p>
+      <p className={`text-slate-400 leading-snug ${large ? "text-base" : "text-sm"}`}>{titles}</p>
       {"email" in person && person.email && (
         <a
           href={`mailto:${person.email}`}
-          className={`inline-block mt-2 text-purple-300 hover:text-white underline decoration-white/20 hover:decoration-white/50 transition-colors leading-snug ${large ? "text-base" : "text-sm"}`}
+          className={`inline-block mt-2 text-[#ab9ffa] hover:text-[#f1f3f9] underline decoration-[#ab9ffa]/30 hover:decoration-[#ab9ffa]/60 transition-colors leading-snug ${large ? "text-base" : "text-sm"}`}
         >
           {person.email}
         </a>

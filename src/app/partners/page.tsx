@@ -28,8 +28,8 @@ export default function PartnersPage() {
                 </div>
               )}
               <div className="flex flex-col flex-1 p-5 sm:p-8">
-                <h2 className="text-white text-xl font-semibold mb-4">{p.name}</h2>
-                <p className="text-slate-300 text-base leading-relaxed flex-1 mb-8">{p.description}</p>
+                <h2 className="text-[#f1f3f9] text-xl font-semibold mb-4">{p.name}</h2>
+                <p className="text-slate-400 text-base leading-relaxed flex-1 mb-8">{p.description}</p>
                 <a
                   href={p.website}
                   target="_blank"

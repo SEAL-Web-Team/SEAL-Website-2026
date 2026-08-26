@@ -44,10 +44,10 @@ export default function LocationsPage() {
 
               {/* Content */}
               <div className="flex flex-col flex-1 p-5 sm:p-6">
-                <h2 className="text-white font-semibold text-base leading-snug mb-3">
+                <h2 className="text-[#f1f3f9] font-semibold text-base leading-snug mb-3">
                   {loc.name}
                 </h2>
-                <p className="text-slate-300 text-sm leading-relaxed flex-1">
+                <p className="text-slate-400 text-sm leading-relaxed flex-1">
                   {loc.description}
                 </p>
                 {loc.link && (
