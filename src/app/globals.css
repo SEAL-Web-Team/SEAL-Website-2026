@@ -418,6 +418,37 @@ body {
   }
 }
 
+.lucky-seal-photos {
+  display: grid;
+  gap: 2.5rem;
+  width: 60%;
+  margin-inline: auto;
+}
+
+/* Full width on phones — 60% of a narrow viewport is unreadably small */
+@media (max-width: 767px) {
+  .lucky-seal-photos {
+    width: 100%;
+  }
+}
+
+.lucky-seal-photo {
+  margin: 0;
+}
+
+.lucky-seal-photo-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.lucky-seal-photo-caption {
+  margin-top: 0.75rem;
+  color: rgb(148 156 179);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .lightbox-backdrop {
   position: fixed;
   top: 4rem;

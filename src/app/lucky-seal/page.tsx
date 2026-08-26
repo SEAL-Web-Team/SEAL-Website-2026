@@ -1,13 +1,6 @@
 import luckySealData from "@/data/galleries/lucky-seal-story.json";
-import GalleryLightbox from "@/components/GalleryLightbox";
 
-export default async function LuckySealPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ image?: string | string[] }>;
-}) {
-  await searchParams;
-
+export default function LuckySealPage() {
   return (
     <div className="page-shell">
       <div className="page-container">
@@ -20,10 +13,17 @@ export default async function LuckySealPage({
           </div>
         </div>
 
-        <GalleryLightbox
-          albumTitle={luckySealData.title}
-          images={luckySealData.images}
-        />
+        <div className="lucky-seal-photos">
+          {luckySealData.images.map((image) => (
+            <figure key={image.title} className="lucky-seal-photo">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={image.full} alt={image.title} className="lucky-seal-photo-image" />
+              {image.description && (
+                <figcaption className="lucky-seal-photo-caption">{image.description}</figcaption>
+              )}
+            </figure>
+          ))}
+        </div>
       </div>
     </div>
   );
