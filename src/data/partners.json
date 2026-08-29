@@ -10,5 +10,11 @@
     "description": "The Novosselov Research Group (NRG) conducts basic and applied research in fluid dynamics and energy. Their multidisciplinary work spans sampling and analysis of particulate matter, particle surface interaction in the boundary layer, ionized flow near surfaces, combustion aerosol synthesis and deposition, model-based combustion control, and chemical kinetics in supercritical water reactors. NRG's research is united by applying first principles to solve practical problems in aerosol science and energy conversion.",
     "image": "https://www.engr.washington.edu/files/about/bldgs/imgs/nanoresearch_510.jpg",
     "website": "https://depts.washington.edu/nrglab/"
+  },
+  {
+    "name": "ARC Lab — Fusion Flight",
+    "description": "Fusion Flight is a research project at the University of Washington's ARC Lab, based in the Department of Electrical & Computer Engineering. The team builds autonomous aerospace systems that treat GPS waveform distortions — multipath, interference, and noise — as an active sensing modality rather than errors to be filtered out. Using physics-guided machine learning on pre- and post-correlation GPS data, Fusion Flight identifies when a measurement is corrupted and quantifies its effect on the navigation solution, keeping autonomy reliable in urban canyons, mountainous terrain, and other GPS-degraded or contested environments.",
+    "image": "https://static.wixstatic.com/media/148c9e_24b06820d4c84b65a819fccdc3428532~mv2.jpg",
+    "website": "https://www.arcuw.org/fusionflight"
   }
 ]

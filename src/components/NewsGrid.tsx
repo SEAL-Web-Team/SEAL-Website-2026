@@ -67,8 +67,8 @@ export function NewsGrid({
             </div>
 
             <div className="flex flex-col flex-1 p-5 sm:p-6">
-              <p className="text-xs uppercase tracking-widest text-slate-500 mb-2 shrink-0">{item.date}</p>
-              <h2 className="text-white text-sm font-semibold leading-snug mb-3 line-clamp-3 flex-1">
+              <p className="text-xs uppercase tracking-widest text-[#e0b563] mb-2 shrink-0">{item.date}</p>
+              <h2 className="text-[#f1f3f9] text-sm font-semibold leading-snug mb-3 line-clamp-3 flex-1">
                 {item.title}
               </h2>
               {item.people.length > 0 && (
@@ -88,7 +88,7 @@ export function NewsGrid({
           <button
             type="button"
             onClick={() => setExpanded(true)}
-            className="px-6 py-3.5 text-base font-semibold text-white bg-white/10 border border-white/20 rounded-lg hover:bg-white/20 transition-all backdrop-blur-sm"
+            className="px-6 py-3.5 text-base font-semibold text-white bg-[#5b2f86] hover:bg-[#4a2570] rounded-lg transition-all"
           >
             {expandListLabel}
           </button>

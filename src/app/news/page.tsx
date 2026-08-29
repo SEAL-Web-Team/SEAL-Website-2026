@@ -1,6 +1,11 @@
-import news from "@/data/news.json";
+import { getNews } from "@/data/intake-content";
 import pageCopy from "@/data/page-copy.json";
 import { NewsGrid } from "@/components/NewsGrid";
+
+// Reads published /intake submissions from SQLite at request time, so this
+// page must not be prerendered — a static build would freeze the list at
+// build time and never show anything members post.
+export const dynamic = "force-dynamic";
 
 export default function NewsPage() {
   return (
@@ -13,7 +18,7 @@ export default function NewsPage() {
         </div>
 
         <NewsGrid
-          items={news}
+          items={getNews()}
           actionLabel={pageCopy.news.actionLabel}
           expandListLabel={pageCopy.news.expandListLabel}
         />

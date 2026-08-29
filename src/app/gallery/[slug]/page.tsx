@@ -30,7 +30,7 @@ export default async function GalleryAlbumPage({
         <div className="mb-4">
           <Link
             href="/gallery"
-            className="text-sm font-medium text-slate-400 transition-colors hover:text-white"
+            className="text-sm font-medium text-slate-500 transition-colors hover:text-[#f1f3f9]"
           >
             ← Back to Gallery
           </Link>

@@ -20,8 +20,8 @@ export default function ApplyPage() {
               className="surface-card surface-card-hover group flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 sm:gap-6 p-5 sm:p-7"
             >
               <div>
-                <p className="text-white font-semibold text-lg mb-1">{resource.title}</p>
-                <p className="text-slate-300 text-base leading-relaxed">{resource.description}</p>
+                <p className="text-[#f1f3f9] font-semibold text-lg mb-1">{resource.title}</p>
+                <p className="text-slate-400 text-base leading-relaxed">{resource.description}</p>
               </div>
               <span className="action-chip self-start shrink-0 sm:mt-1 text-xs">
                 <span>{apply.actionLabel}</span>

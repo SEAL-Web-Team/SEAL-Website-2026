@@ -1,4 +1,5 @@
 .codex
+.claude
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
@@ -41,3 +42,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# intake system — local SQLite database and member-uploaded media
+/data/
+/public/uploads/

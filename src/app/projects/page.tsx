@@ -1,9 +1,14 @@
 import Link from "next/link";
-import { getProjects } from "@/data/projects";
+import { getProjectsWithIntake } from "@/data/intake-content";
 import pageCopy from "@/data/page-copy.json";
 
+// Reads published /intake submissions from SQLite at request time, so this
+// page must not be prerendered — a static build would freeze the list at
+// build time and never show anything members post.
+export const dynamic = "force-dynamic";
+
 export default function ProjectsPage() {
-  const projects = getProjects();
+  const projects = getProjectsWithIntake();
 
   return (
     <div className="page-shell">
@@ -14,9 +19,9 @@ export default function ProjectsPage() {
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {projects.map((project) => (
+          {projects.map((project, i) => (
             <Link
-              key={project.name}
+              key={`${project.name}-${i}`}
               href={project.url}
               className="surface-card surface-card-hover group relative overflow-hidden flex flex-col"
             >
@@ -32,10 +37,10 @@ export default function ProjectsPage() {
               <div className="h-px bg-white/[0.06]" />
 
               <div className="flex flex-col flex-1 p-5 sm:p-6">
-                <h2 className="text-white font-semibold text-base leading-snug mb-3">
+                <h2 className="text-[#f1f3f9] font-semibold text-base leading-snug mb-3">
                   {project.name}
                 </h2>
-                <p className="text-slate-300 text-sm leading-relaxed flex-1">
+                <p className="text-slate-400 text-sm leading-relaxed flex-1">
                   {project.description}
                 </p>
                 <div className="mt-5">
