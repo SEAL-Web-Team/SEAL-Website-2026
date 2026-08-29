@@ -30,7 +30,7 @@ export default function ProjectsPage() {
                 <img
                   src={project.image}
                   alt={project.name}
-                  className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
+                  className="card-media-image object-contain"
                 />
               </div>
 

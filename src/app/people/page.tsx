@@ -53,7 +53,7 @@ function PersonCard({ person, large = false }: {
           <img
             src={person.image}
             alt={person.name}
-            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+            className="card-media-image object-contain"
           />
         </div>
       </div>

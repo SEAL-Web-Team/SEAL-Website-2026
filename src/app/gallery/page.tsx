@@ -26,7 +26,7 @@ export default function GalleryPage() {
                   <img
                     src={album.image}
                     alt={album.title}
-                    className={`h-full w-full object-cover transition-transform duration-500 hover:scale-105`}
+                    className="card-media-image"
                   />
                 </div>
 
@@ -54,7 +54,7 @@ export default function GalleryPage() {
                   <img
                     src={album.image}
                     alt={album.title}
-                    className="h-full w-full object-cover transition-transform duration-500 hover:scale-105"
+                    className="card-media-image"
                   />
                 </div>
 

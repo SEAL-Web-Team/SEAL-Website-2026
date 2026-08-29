@@ -16,7 +16,7 @@ export default function PartnersPage() {
           <p className="page-subtitle">{pageCopy.partners.subtitle}</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 sm:gap-8">
+        <div className="grid gap-6 sm:gap-8 lg:grid-cols-3">
           {getPartners().map((p, i) => (
             <div
               key={`${p.name}-${i}`}
@@ -28,7 +28,7 @@ export default function PartnersPage() {
                   <img
                     src={p.image}
                     alt={p.name}
-                    className="w-full h-full object-cover"
+                    className="card-media-image"
                   />
                 </div>
               )}
