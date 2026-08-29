@@ -16,7 +16,9 @@ export default function PartnersPage() {
           <h1 className="page-title">{pageCopy.partners.title}</h1>
           <p className="page-subtitle">{pageCopy.partners.subtitle}</p>
         </div>
+      </div>
 
+      <div className="page-container-wide">
         <div className="grid gap-6 sm:gap-8 lg:grid-cols-3">
           {getPartners().map((p, i) => (
             <Link
@@ -47,7 +49,6 @@ export default function PartnersPage() {
             </Link>
           ))}
         </div>
-
       </div>
     </div>
   );
